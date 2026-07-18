@@ -1,34 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <!-- QuizTiti, le ouistiti mascotte — version espiègle, palette orange -->
+  <!-- QuizTiti, le ouistiti mascotte — version espiègle, oreilles rondes cartoon -->
   <defs>
     <clipPath id="mouth">
       <path d="M45 73 Q60 80 75 73 Q74 91 60 91 Q46 91 45 73 Z"/>
     </clipPath>
   </defs>
   <g transform="rotate(-7 60 62)">
-    <!-- touffes d'oreilles -->
-    <g fill="#f0d3a4">
-      <circle cx="18" cy="46" r="9.5"/>
-      <circle cx="12" cy="56" r="8.5"/>
-      <circle cx="16" cy="67" r="8.5"/>
-      <circle cx="24" cy="71" r="7"/>
-      <circle cx="24" cy="54" r="10"/>
-      <circle cx="102" cy="46" r="9.5"/>
-      <circle cx="108" cy="56" r="8.5"/>
-      <circle cx="104" cy="67" r="8.5"/>
-      <circle cx="96" cy="71" r="7"/>
-      <circle cx="96" cy="54" r="10"/>
-    </g>
-    <g fill="#fff4de">
-      <circle cx="20" cy="49" r="7"/>
-      <circle cx="16" cy="58" r="6.5"/>
-      <circle cx="20" cy="66" r="6"/>
-      <circle cx="25" cy="56" r="7.5"/>
-      <circle cx="100" cy="49" r="7"/>
-      <circle cx="104" cy="58" r="6.5"/>
-      <circle cx="100" cy="66" r="6"/>
-      <circle cx="95" cy="56" r="7.5"/>
-    </g>
+    <!-- oreilles rondes -->
+    <circle cx="24" cy="40" r="14" fill="#c05f1d"/>
+    <circle cx="96" cy="40" r="14" fill="#c05f1d"/>
+    <circle cx="24" cy="40" r="8" fill="#ffc490"/>
+    <circle cx="96" cy="40" r="8" fill="#ffc490"/>
     <!-- houppette en bataille -->
     <g fill="#c05f1d">
       <ellipse cx="46" cy="26" rx="6" ry="11" transform="rotate(-32 46 26)"/>
