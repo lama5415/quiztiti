@@ -48,8 +48,10 @@ python3 -m http.server 8000
 
 ## Déploiement sur GitHub Pages
 
-Le dépôt contient un workflow (`.github/workflows/deploy.yml`) qui déploie automatiquement le site à chaque push sur la branche par défaut (`main`, `master` ou `claude/main`). Le workflow active GitHub Pages tout seul au premier déploiement (`enablement: true`) ; il peut aussi être lancé à la main depuis l'onglet **Actions** (bouton « Run workflow »).
+Le dépôt contient un workflow (`.github/workflows/deploy.yml`) qui déploie automatiquement le site à chaque push sur `main`. Il peut aussi être lancé à la main depuis l'onglet **Actions** (bouton « Run workflow »).
+
+Une seule chose à faire une fois, par un admin du dépôt : dans **Settings → Pages**, choisir **Source : GitHub Actions** (la première activation de Pages ne peut pas être faite par le workflow lui-même).
 
 Le site est ensuite disponible sur `https://<votre-utilisateur>.github.io/quiztiti/`.
 
-(Alternative sans workflow : Settings → Pages → « Deploy from a branch » → branche par défaut, dossier `/ (root)` — l'application étant statique, ça fonctionne aussi.)
+(Alternative sans workflow : Settings → Pages → « Deploy from a branch » → branche `main`, dossier `/ (root)` — l'application étant statique, ça fonctionne aussi.)
