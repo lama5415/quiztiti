@@ -1,0 +1,26 @@
+[
+  {
+    "file": "odyssee.json",
+    "name": "L'Odyssée d'Homère",
+    "description": "16 questions sur le voyage d'Ulysse.",
+    "badge": "16 fiches"
+  },
+  {
+    "file": "anglais-debutant.json",
+    "name": "English Riddles — Débutant",
+    "description": "Trouvez le mot anglais : vocabulaire de base, indices simples.",
+    "badge": "15 énigmes"
+  },
+  {
+    "file": "anglais-intermediaire.json",
+    "name": "English Riddles — Intermédiaire",
+    "description": "Vocabulaire du quotidien, indices plus subtils.",
+    "badge": "15 énigmes"
+  },
+  {
+    "file": "anglais-fluent.json",
+    "name": "English Riddles — Fluent",
+    "description": "Mots subtils et idiomatiques pour niveau avancé.",
+    "badge": "15 énigmes"
+  }
+]

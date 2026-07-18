@@ -13,6 +13,8 @@
 
   var decks = load();
   var session = null; // session d'étude ou d'énigmes en cours
+  var view = "home"; // vue affichée, pour savoir si on peut rafraîchir l'accueil
+  var examples = null; // manifeste des paquets d'exemple, chargé en arrière-plan
 
   /* ---------------- Persistance ---------------- */
 
@@ -244,6 +246,7 @@
 
   function renderHome() {
     session = null;
+    view = "home";
     var html = '<div class="row spread">' +
       '<div><h1>Mes paquets</h1><p class="subtitle">Créez des fiches, révisez-les, résolvez des énigmes.</p></div>' +
       '<div class="row">' +
@@ -271,13 +274,40 @@
       });
       html += '</div>';
     }
+
+    if (examples && examples.length) {
+      html += '<h2 style="margin-top:40px">📚 Paquets d&#39;exemple</h2>' +
+        '<p class="subtitle">Cliquez pour les ajouter à votre collection, puis modifiez-les à votre guise.</p>' +
+        '<div class="deck-grid">';
+      examples.forEach(function (ex, i) {
+        html += '<div class="deck-card" onclick="App.importExample(' + i + ')">' +
+          '<h3>' + esc(ex.name) + '</h3>' +
+          '<p class="desc">' + esc(ex.description || "") + '</p>' +
+          '<div class="row">' +
+          '<span class="badge riddle">' + esc(ex.badge || "exemple") + '</span>' +
+          '<span class="badge classic">➕ Ajouter</span>' +
+          '</div></div>';
+      });
+      html += '</div>';
+    }
+
     appEl.innerHTML = html;
     window.scrollTo(0, 0);
+  }
+
+  function importExample(idx) {
+    var ex = examples && examples[idx];
+    if (!ex) return;
+    fetch("exemples/" + ex.file)
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(importData)
+      .catch(function () { toast("Impossible de charger ce paquet d'exemple."); });
   }
 
   /* ---------------- Vue : formulaire de paquet ---------------- */
 
   function renderDeckForm(deckId) {
+    view = "deck-form";
     var deck = deckId ? findDeck(deckId) : null;
     appEl.innerHTML =
       '<h1>' + (deck ? "Modifier le paquet" : "Nouveau paquet") + '</h1>' +
@@ -327,6 +357,7 @@
     var deck = findDeck(deckId);
     if (!deck) { renderHome(); return; }
     session = null;
+    view = "deck";
 
     var classics = cardsOfType(deck, "classic");
     var riddles = cardsOfType(deck, "riddle");
@@ -378,6 +409,7 @@
   /* ---------------- Vue : formulaire de fiche ---------------- */
 
   function renderCardForm(deckId, cardId) {
+    view = "card-form";
     var deck = findDeck(deckId);
     if (!deck) { renderHome(); return; }
     var card = cardId ? findCard(deck, cardId) : null;
@@ -491,6 +523,7 @@
   }
 
   function renderStudy() {
+    view = "study";
     var s = session;
     var deck = findDeck(s.deckId);
     if (s.index >= s.cards.length) { renderStudySummary(); return; }
@@ -597,6 +630,7 @@
   }
 
   function renderRiddle(feedback) {
+    view = "riddle";
     var s = session;
     var deck = findDeck(s.deckId);
     if (s.index >= s.cards.length) { renderRiddleSummary(); return; }
@@ -751,6 +785,7 @@
     exportDeck: exportDeck,
     exportAll: exportAll,
     askImport: askImport,
+    importExample: importExample,
     startStudy: function (deckId) { startStudy(deckId); },
     revealAnswer: revealAnswer,
     gradeCard: gradeCard,
@@ -764,4 +799,19 @@
   };
 
   renderHome();
+
+  // Charge la liste des paquets d'exemple embarqués avec le site.
+  // Nécessite un serveur HTTP (GitHub Pages, python -m http.server…) ;
+  // en ouverture directe du fichier (file://), la section est simplement absente.
+  if (window.fetch && location.protocol !== "file:") {
+    fetch("exemples/index.json")
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (manifest) {
+        if (Array.isArray(manifest) && manifest.length) {
+          examples = manifest;
+          if (view === "home") renderHome();
+        }
+      })
+      .catch(function () { /* pas d'exemples : tant pis */ });
+  }
 })();

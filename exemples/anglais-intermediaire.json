@@ -1,0 +1,177 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "English Riddles — Intermédiaire",
+      "description": "15 énigmes : du vocabulaire anglais du quotidien, avec des indices un peu plus subtils.",
+      "cards": [
+        {
+          "type": "riddle",
+          "answer": "Umbrella",
+          "clues": [
+            "People forget me everywhere.",
+            "I open and close.",
+            "You need me on a grey day.",
+            "I keep you dry.",
+            "You hold me over your head when it rains."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Library",
+          "clues": [
+            "I am a very quiet place.",
+            "You must whisper inside me.",
+            "You can borrow things from me for free.",
+            "I am full of shelves.",
+            "I am a building full of books."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Luggage",
+          "clues": [
+            "You take me on holiday.",
+            "You pack me before a trip.",
+            "Airlines sometimes lose me.",
+            "I roll on little wheels through airports.",
+            "I am the bags and suitcases you travel with."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Whisper",
+          "clues": [
+            "I am a way of speaking.",
+            "You do it in a library or at the cinema.",
+            "You do it when you tell a secret.",
+            "I am the opposite of shouting.",
+            "I mean to speak very, very quietly."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Neighbor",
+          "clues": [
+            "You see this person almost every day.",
+            "You might share a wall or a fence with them.",
+            "A good one lends you sugar or waters your plants.",
+            "They live next door.",
+            "This person lives in the house or flat beside yours."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Bridge",
+          "clues": [
+            "I connect two places.",
+            "Thanks to me, you cross without getting wet.",
+            "Cars, trains or people can use me.",
+            "I go over rivers and valleys.",
+            "A famous London one \"is falling down\", says the song."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Wallet",
+          "clues": [
+            "You probably have me in your pocket or bag right now.",
+            "Losing me is a nightmare.",
+            "I am often made of leather.",
+            "I hold your cards and your ID.",
+            "You keep your money in me."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Blanket",
+          "clues": [
+            "I am soft and warm.",
+            "You use me mostly at night.",
+            "Small children sometimes drag me everywhere.",
+            "You hide under me during scary films.",
+            "You put me on your bed to stay warm."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Thunder",
+          "clues": [
+            "You hear me during a storm.",
+            "I can wake you up at night.",
+            "Dogs are often afraid of me.",
+            "You see my partner before you hear me.",
+            "I am the loud noise that follows lightning."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Scissors",
+          "clues": [
+            "I am a tool.",
+            "In English, my name is always plural.",
+            "Be careful, I am sharp.",
+            "In a famous hand game, I beat paper but lose to rock.",
+            "You use me to cut paper, hair or fabric."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Schedule",
+          "clues": [
+            "I organize your life.",
+            "Trains and buses are supposed to follow me.",
+            "When you are busy, people say I am \"full\".",
+            "I tell you what happens, and when.",
+            "I am the plan of your day — your timetable."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Receipt",
+          "clues": [
+            "You get me after paying.",
+            "Many people throw me away immediately.",
+            "You need me to return something to a shop.",
+            "The cashier prints me.",
+            "I am the small piece of paper that proves you bought something."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Curtain",
+          "clues": [
+            "You find me in almost every home.",
+            "You open me in the morning and close me at night.",
+            "At the theatre, when I fall, the show is over.",
+            "I hang in front of your window.",
+            "I am the fabric that blocks the light from outside."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Harvest",
+          "clues": [
+            "I happen mostly at the end of summer.",
+            "Farmers wait for me all year.",
+            "Big machines called combines help with me.",
+            "I am the moment when crops are collected.",
+            "I mean gathering wheat, corn or grapes from the fields."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Puddle",
+          "clues": [
+            "I appear after the rain.",
+            "Children love to jump in me.",
+            "I disappear when the sun comes back.",
+            "Cars splash you when they drive through me.",
+            "I am a small pool of water on the ground."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "English Riddles — Fluent",
+      "description": "15 énigmes : des mots anglais subtils et idiomatiques, pour un niveau avancé.",
+      "cards": [
+        {
+          "type": "riddle",
+          "answer": "Serendipity",
+          "clues": [
+            "I am a long noun that many people call their favourite English word.",
+            "I describe finding something you were not looking for.",
+            "Penicillin was discovered thanks to me.",
+            "I mean a happy accident, a fortunate discovery made by chance.",
+            "I have five syllables and I start with \"seren-\"."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Procrastinate",
+          "clues": [
+            "I am a verb you probably practise more than you admit.",
+            "Students know me very well the night before an exam.",
+            "\"I'll do it tomorrow\" is my motto.",
+            "Deadline approaching and you are still scrolling? You are doing me.",
+            "I mean to keep postponing what you should do now."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Eavesdrop",
+          "clues": [
+            "I am a verb whose strange origin involves the edge of a roof.",
+            "Spies are professionals at me.",
+            "You might do me while standing behind a door.",
+            "It is rude to do me during private conversations.",
+            "I mean to secretly listen to what other people are saying."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Nostalgia",
+          "clues": [
+            "I am a bittersweet feeling.",
+            "Old songs and photo albums often trigger me.",
+            "I come from Greek words meaning \"return\" and \"pain\".",
+            "I make you miss \"the good old days\".",
+            "I am the longing for the past."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Threshold",
+          "clues": [
+            "I am both a physical place and an abstract limit.",
+            "Newlyweds are traditionally carried over me.",
+            "Scientists measure your \"pain\" version of me.",
+            "Cross me and you are inside the house.",
+            "I am the strip at the bottom of a doorway, or the point where something begins."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Grudge",
+          "clues": [
+            "I am a negative thing that people \"hold\".",
+            "I can last for years after a tiny argument.",
+            "Forgiveness is my worst enemy.",
+            "If you still resent your friend for something from 2010, you hold me.",
+            "I am a persistent feeling of resentment against someone."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Hindsight",
+          "clues": [
+            "People say I am always \"20/20\".",
+            "I only work after things have happened.",
+            "With me, everyone is a genius.",
+            "I am the opposite of foresight.",
+            "I mean understanding a situation clearly, but only once it is over."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Loophole",
+          "clues": [
+            "Lawyers love to find me.",
+            "I am a gap that nobody intended to leave.",
+            "Clever people slip through me to escape the rules.",
+            "Tax specialists hunt for me in the law.",
+            "I am a small flaw in a rule that lets you avoid it legally."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Wanderlust",
+          "clues": [
+            "I am a German loanword commonly used in English.",
+            "Travel blogs and Instagram captions overuse me.",
+            "I am an itch you cannot scratch at home.",
+            "I make you buy plane tickets on a whim.",
+            "I am a strong desire to travel and explore the world."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Epiphany",
+          "clues": [
+            "I am also the name of a Christian holiday in January.",
+            "Scientists and artists hope for me.",
+            "I often strike in the shower.",
+            "Archimedes shouted \"Eureka!\" when he had me.",
+            "I am a sudden moment of insight or revelation."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Resilience",
+          "clues": [
+            "Psychologists and coaches talk about me constantly.",
+            "Bamboo has me; glass does not.",
+            "Life's setbacks put me to the test.",
+            "I am the art of bouncing back.",
+            "I am the capacity to recover quickly from difficulties."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Mundane",
+          "clues": [
+            "I am an adjective, and not a flattering one.",
+            "Washing dishes and commuting are good examples of me.",
+            "My Latin root means \"world\".",
+            "I describe the dull routine of everyday life.",
+            "I am a synonym of \"ordinary\" and \"unexciting\"."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Dwindle",
+          "clues": [
+            "I am a verb, and my direction is downward.",
+            "Savings, crowds and hopes can all do me.",
+            "I happen gradually, never suddenly.",
+            "I am the opposite of \"grow\", little by little.",
+            "I mean to shrink slowly until almost nothing is left."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Quirk",
+          "clues": [
+            "Everyone has at least one of me.",
+            "I make sitcom characters memorable.",
+            "I am small, odd and usually harmless.",
+            "Collecting rubber ducks might be yours.",
+            "I am a peculiar habit or an unusual trait of personality."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Hunch",
+          "clues": [
+            "I am both a feeling and a way of bending your back.",
+            "Detectives follow me even without evidence.",
+            "I live in your gut, not in your head.",
+            "\"I have a ... that something is wrong.\"",
+            "I am an intuition, a guess based on feeling rather than facts."
+          ]
+        }
+      ]
+    }
+  ]
+}

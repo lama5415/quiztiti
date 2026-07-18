@@ -1,0 +1,28 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "L'Odyssée d'Homère",
+      "description": "16 questions sur le voyage d'Ulysse, ses compagnons et son retour à Ithaque.",
+      "cards": [
+        { "type": "classic", "question": "Qui est l'auteur présumé de l'Odyssée ?", "answer": "Homère" },
+        { "type": "classic", "question": "Quel est le héros de l'Odyssée ?", "answer": "Ulysse (Odysseus en grec)" },
+        { "type": "classic", "question": "De quelle île Ulysse est-il le roi ?", "answer": "Ithaque" },
+        { "type": "classic", "question": "Comment s'appelle l'épouse d'Ulysse, qui l'attend fidèlement pendant vingt ans ?", "answer": "Pénélope" },
+        { "type": "classic", "question": "Comment s'appelle le fils d'Ulysse, qui part à sa recherche ?", "answer": "Télémaque" },
+        { "type": "classic", "question": "Combien d'années dure le voyage de retour d'Ulysse après la chute de Troie ?", "answer": "Dix ans (après dix ans de guerre)" },
+        { "type": "classic", "question": "Quel cyclope Ulysse rend-il aveugle pour s'échapper de sa caverne ?", "answer": "Polyphème" },
+        { "type": "classic", "question": "Quel nom Ulysse donne-t-il au cyclope pour le tromper ?", "answer": "« Personne »" },
+        { "type": "classic", "question": "Quel dieu de la mer poursuit Ulysse de sa colère pendant tout le voyage, et pourquoi ?", "answer": "Poséidon, pour venger son fils Polyphème aveuglé par Ulysse" },
+        { "type": "classic", "question": "Quelle magicienne transforme les compagnons d'Ulysse en porcs ?", "answer": "Circé" },
+        { "type": "classic", "question": "Comment Ulysse parvient-il à écouter le chant des sirènes sans succomber ?", "answer": "Il se fait attacher au mât du navire, et ses marins se bouchent les oreilles avec de la cire" },
+        { "type": "classic", "question": "Entre quels deux monstres marins Ulysse doit-il faire passer son navire ?", "answer": "Charybde et Scylla" },
+        { "type": "classic", "question": "Quelle nymphe retient Ulysse pendant sept ans sur son île ?", "answer": "Calypso" },
+        { "type": "classic", "question": "Quelle ruse Pénélope utilise-t-elle pour faire patienter les prétendants ?", "answer": "Elle tisse le jour un linceul qu'elle défait chaque nuit" },
+        { "type": "classic", "question": "Quelle épreuve permet à Ulysse de se révéler face aux prétendants ?", "answer": "L'épreuve de l'arc : tendre son arc et tirer une flèche à travers douze haches" },
+        { "type": "classic", "question": "Quel animal reconnaît Ulysse en premier à son retour à Ithaque ?", "answer": "Son vieux chien Argos" }
+      ]
+    }
+  ]
+}

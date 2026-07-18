@@ -10,6 +10,7 @@ Une petite application web pour apprendre à partir de fiches question/réponse 
 - **Mode révision** : les fiches défilent dans un ordre aléatoire ; on voit la question, on révèle la réponse, on indique « je savais » ou « je ne savais pas ». En fin de session, un score et la possibilité de revoir uniquement les fiches ratées.
 - **Mode énigmes** : chaque énigme est un mot (ou une expression) à deviner. Le 1ᵉʳ indice s'affiche ; une mauvaise réponse (ou un clic sur « Indice suivant ») révèle l'indice suivant, jusqu'à épuisement des indices, puis la réponse. Plus on trouve tôt, plus on marque de points (trouvé au 1ᵉʳ indice sur 5 = 5 points, au 5ᵉ = 1 point, réponse révélée = 0).
 - **Export / import JSON** : un paquet seul ou tous les paquets d'un coup. Les réponses aux énigmes sont comparées sans tenir compte de la casse, des accents ni des tirets.
+- **Paquets d'exemple** : depuis l'accueil, ajoutez en un clic des paquets prêts à l'emploi (questions sur l'Odyssée, énigmes en anglais sur trois niveaux — débutant, intermédiaire, fluent). Les fichiers sont dans le dossier [`exemples/`](exemples/).
 
 ## Format d'export
 
@@ -47,8 +48,8 @@ python3 -m http.server 8000
 
 ## Déploiement sur GitHub Pages
 
-Le dépôt contient un workflow (`.github/workflows/deploy.yml`) qui déploie automatiquement le site à chaque push sur `main`.
+Le dépôt contient un workflow (`.github/workflows/deploy.yml`) qui déploie automatiquement le site à chaque push sur la branche par défaut (`main`, `master` ou `claude/main`). Le workflow active GitHub Pages tout seul au premier déploiement (`enablement: true`) ; il peut aussi être lancé à la main depuis l'onglet **Actions** (bouton « Run workflow »).
 
-Une seule chose à faire une fois : dans le dépôt GitHub, aller dans **Settings → Pages** et choisir **Source : GitHub Actions**. Le site sera ensuite disponible sur `https://<votre-utilisateur>.github.io/quiztiti/`.
+Le site est ensuite disponible sur `https://<votre-utilisateur>.github.io/quiztiti/`.
 
-(Alternative sans workflow : Settings → Pages → « Deploy from a branch » → branche `main`, dossier `/ (root)` — l'application étant statique, ça fonctionne aussi.)
+(Alternative sans workflow : Settings → Pages → « Deploy from a branch » → branche par défaut, dossier `/ (root)` — l'application étant statique, ça fonctionne aussi.)
