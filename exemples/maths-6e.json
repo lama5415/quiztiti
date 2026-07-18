@@ -1,0 +1,85 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Maths 6e · Nombres et calculs",
+      "description": "Numération, opérations, division euclidienne, divisibilité.",
+      "cards": [
+        { "type": "classic", "question": "Dans le nombre 3 456,78 — quel est le chiffre des dixièmes ? Et celui des centaines ?", "answer": "Dixièmes : 7 (juste après la virgule). Centaines : 4." },
+        { "type": "classic", "question": "Écris en chiffres : « trois mille quarante-deux »", "answer": "3 042" },
+        { "type": "classic", "question": "Comment s'appellent les résultats d'une addition, d'une soustraction, d'une multiplication et d'une division ?", "answer": "La somme, la différence, le produit et le quotient." },
+        { "type": "classic", "question": "Que calcule-t-on en premier dans : 5 + 3 × 2 ? Quel est le résultat ?", "answer": "La multiplication d'abord : 5 + 6 = 11. (Priorité aux × et ÷ sur les + et −, sauf parenthèses.)" },
+        { "type": "classic", "question": "Dans la division euclidienne de 47 par 5, quels sont le quotient et le reste ?", "answer": "47 = 5 × 9 + 2 : quotient 9, reste 2. (Le reste est toujours plus petit que le diviseur.)" },
+        { "type": "classic", "question": "Comment reconnaître qu'un nombre est divisible par 2 ? par 5 ? par 10 ?", "answer": "Par 2 : il finit par 0, 2, 4, 6 ou 8. Par 5 : il finit par 0 ou 5. Par 10 : il finit par 0." },
+        { "type": "classic", "question": "Comment reconnaître qu'un nombre est divisible par 3 ? par 9 ?", "answer": "On additionne ses chiffres : si la somme est divisible par 3 (ou par 9), le nombre l'est aussi. Ex. : 741 → 7+4+1 = 12, divisible par 3." },
+        { "type": "classic", "question": "12 est-il un multiple de 4 ? 4 est-il un diviseur de 12 ?", "answer": "Oui aux deux : 12 = 4 × 3. « Multiple » et « diviseur » décrivent la même relation dans les deux sens." },
+        { "type": "classic", "question": "Compare 3,15 et 3,7. Laquelle est la plus grande ?", "answer": "3,7 (= 3,70) est plus grand que 3,15. On compare chiffre par chiffre après la virgule : 7 dixièmes > 1 dixième." },
+        { "type": "classic", "question": "Arrondis 3,678 au dixième près.", "answer": "3,7 (le chiffre suivant est 7, donc ≥ 5 : on arrondit au-dessus)." },
+        { "type": "classic", "question": "Calcule de tête : 4,5 × 10 ; 3,2 × 100 ; 45 ÷ 10", "answer": "45 ; 320 ; 4,5. Multiplier par 10, 100… décale la virgule vers la droite ; diviser, vers la gauche." },
+        { "type": "classic", "question": "Comment s'appellent le nombre du haut et le nombre du bas d'une fraction ?", "answer": "En haut : le numérateur. En bas : le dénominateur." },
+        { "type": "classic", "question": "Écris 0,35 sous forme de fraction décimale.", "answer": "35/100 (ou 7/20 en simplifiant)." },
+        { "type": "classic", "question": "Combien vaut la moitié de 30 ? le tiers de 30 ? le quart de 30 ?", "answer": "15 ; 10 ; 7,5." },
+        { "type": "classic", "question": "Pose l'ordre de grandeur : 42 × 98, c'est environ… ?", "answer": "Environ 4 000 (42 × 98 ≈ 40 × 100). Utile pour vérifier un calcul !" }
+      ]
+    },
+    {
+      "name": "Maths 6e · Fractions et proportionnalité",
+      "description": "Fractions égales, fraction d'une quantité, situations de proportionnalité, pourcentages simples.",
+      "cards": [
+        { "type": "classic", "question": "Pourquoi 2/3 et 4/6 sont-elles égales ?", "answer": "On obtient 4/6 en multipliant le numérateur ET le dénominateur de 2/3 par 2. Multiplier (ou diviser) les deux par un même nombre ne change pas la fraction." },
+        { "type": "classic", "question": "Comment comparer 3/7 et 5/7 ?", "answer": "Même dénominateur : la plus grande est celle qui a le plus grand numérateur, donc 5/7." },
+        { "type": "classic", "question": "Calcule les 3/4 de 20.", "answer": "20 ÷ 4 = 5, puis 5 × 3 = 15. (On divise par le dénominateur, on multiplie par le numérateur.)" },
+        { "type": "classic", "question": "Donne l'écriture décimale de 1/2, 1/4, 3/4 et 1/10.", "answer": "0,5 ; 0,25 ; 0,75 ; 0,1." },
+        { "type": "classic", "question": "1/3 a-t-elle une écriture décimale exacte ?", "answer": "Non : 1/3 = 0,333… avec des 3 à l'infini. On garde la fraction, c'est plus précis !" },
+        { "type": "classic", "question": "Comment reconnaître un tableau de proportionnalité ?", "answer": "On passe d'une ligne à l'autre en multipliant toujours par le même nombre (le coefficient de proportionnalité)." },
+        { "type": "classic", "question": "3 croissants coûtent 3,60 €. Combien coûtent 5 croissants ?", "answer": "1 croissant : 3,60 ÷ 3 = 1,20 €. Donc 5 × 1,20 = 6 €. (Méthode du retour à l'unité.)" },
+        { "type": "classic", "question": "Que signifient 50 %, 25 % et 100 % d'une quantité ?", "answer": "50 % = la moitié ; 25 % = le quart ; 100 % = la totalité." },
+        { "type": "classic", "question": "Calcule 10 % de 250.", "answer": "25 (10 % = un dixième, on divise par 10)." },
+        { "type": "classic", "question": "Sur un plan à l'échelle 1/100, que représente 1 cm ?", "answer": "1 cm sur le plan = 100 cm en vrai, soit 1 m." },
+        { "type": "classic", "question": "Une recette pour 4 personnes demande 200 g de farine. Pour 6 personnes ?", "answer": "300 g. (Pour 2 personnes : 100 g ; 6 = 4 + 2 → 200 + 100.)" },
+        { "type": "classic", "question": "Range de la plus petite à la plus grande : 1/2 ; 1/3 ; 1/4", "answer": "1/4 < 1/3 < 1/2. Plus on partage en parts nombreuses, plus chaque part est petite !" },
+        { "type": "classic", "question": "Simplifie la fraction 15/20.", "answer": "3/4 (on divise le haut et le bas par 5)." }
+      ]
+    },
+    {
+      "name": "Maths 6e · Géométrie",
+      "description": "Droites, cercles, triangles, quadrilatères, angles et symétrie axiale.",
+      "cards": [
+        { "type": "classic", "question": "Quelle différence entre la droite (AB), le segment [AB] et la demi-droite [AB) ?", "answer": "(AB) : illimitée des deux côtés. [AB] : limitée par A et B. [AB) : part de A, passe par B et continue à l'infini." },
+        { "type": "classic", "question": "Quand dit-on que deux droites sont perpendiculaires ? parallèles ?", "answer": "Perpendiculaires : elles se coupent en formant un angle droit. Parallèles : elles ne se coupent jamais." },
+        { "type": "classic", "question": "Qu'est-ce que la médiatrice d'un segment ?", "answer": "La droite perpendiculaire au segment qui passe par son milieu. Tous ses points sont à égale distance des deux extrémités." },
+        { "type": "classic", "question": "Dans un cercle, quelle différence entre rayon, diamètre et corde ?", "answer": "Rayon : du centre à un point du cercle. Diamètre : corde qui passe par le centre (d = 2 × r). Corde : segment entre deux points du cercle." },
+        { "type": "classic", "question": "Qu'est-ce qu'un triangle isocèle ? équilatéral ? rectangle ?", "answer": "Isocèle : deux côtés égaux. Équilatéral : trois côtés égaux. Rectangle : un angle droit." },
+        { "type": "classic", "question": "Quelles sont les propriétés des côtés et des angles d'un rectangle ?", "answer": "Côtés opposés égaux et parallèles, quatre angles droits, diagonales de même longueur." },
+        { "type": "classic", "question": "Qu'est-ce qu'un losange ?", "answer": "Un quadrilatère dont les quatre côtés ont la même longueur. Ses diagonales se coupent en leur milieu et sont perpendiculaires." },
+        { "type": "classic", "question": "Un angle aigu, droit, obtus, plat : quelles mesures ?", "answer": "Aigu : entre 0° et 90°. Droit : exactement 90°. Obtus : entre 90° et 180°. Plat : 180°." },
+        { "type": "classic", "question": "Avec quel instrument mesure-t-on un angle, et en quelle unité ?", "answer": "Avec un rapporteur, en degrés (°)." },
+        { "type": "classic", "question": "Que conserve une symétrie axiale ?", "answer": "Les longueurs, les angles, les aires et les alignements : la figure symétrique est identique, juste « retournée » comme dans un miroir." },
+        { "type": "classic", "question": "Combien d'axes de symétrie possèdent un carré, un rectangle et un cercle ?", "answer": "Carré : 4. Rectangle : 2 (les médiatrices des côtés, pas les diagonales !). Cercle : une infinité." },
+        { "type": "classic", "question": "Comment calcule-t-on la longueur d'un cercle (son périmètre) ?", "answer": "P = 2 × π × r (ou π × d), avec π ≈ 3,14." },
+        { "type": "classic", "question": "Que peut-on dire des points d'un cercle de centre O et de rayon 3 cm ?", "answer": "Ils sont tous exactement à 3 cm du point O — c'est la définition du cercle." },
+        { "type": "classic", "question": "Comment nomme-t-on un angle avec trois lettres, par exemple le sommet en B ?", "answer": "L'angle ABC (chapeau sur les trois lettres) : la lettre du sommet se place toujours au milieu." }
+      ]
+    },
+    {
+      "name": "Maths 6e · Grandeurs et mesures",
+      "description": "Conversions, durées, périmètres, aires et volumes.",
+      "cards": [
+        { "type": "classic", "question": "Convertis : 2,5 km en mètres, et 34 mm en centimètres.", "answer": "2,5 km = 2 500 m ; 34 mm = 3,4 cm." },
+        { "type": "classic", "question": "Convertis : 3 500 g en kilogrammes, et 0,75 kg en grammes.", "answer": "3 500 g = 3,5 kg ; 0,75 kg = 750 g." },
+        { "type": "classic", "question": "Combien de minutes dans 1 h 45 min ? Et 130 min en heures et minutes ?", "answer": "1 h 45 = 105 min. 130 min = 2 h 10 min. (Attention : une heure = 60 min, pas 100 !)" },
+        { "type": "classic", "question": "Un film commence à 20 h 35 et dure 1 h 50. À quelle heure finit-il ?", "answer": "22 h 25. (20 h 35 + 1 h = 21 h 35 ; + 25 min = 22 h ; + 25 min restantes = 22 h 25.)" },
+        { "type": "classic", "question": "Formules du périmètre d'un rectangle et d'un carré ?", "answer": "Rectangle : P = 2 × (L + l). Carré : P = 4 × c." },
+        { "type": "classic", "question": "Formules de l'aire d'un rectangle et d'un carré ?", "answer": "Rectangle : A = L × l. Carré : A = c × c." },
+        { "type": "classic", "question": "Comment calcule-t-on l'aire d'un triangle rectangle ?", "answer": "C'est la moitié d'un rectangle : A = (côté × côté de l'angle droit) ÷ 2." },
+        { "type": "classic", "question": "Quelle est la différence entre le périmètre et l'aire d'une figure ?", "answer": "Le périmètre est la longueur du tour (en cm, m…). L'aire est la mesure de la surface (en cm², m²…)." },
+        { "type": "classic", "question": "1 m² = combien de dm² ? (Attention au piège !)", "answer": "100 dm² : pour les aires, chaque unité vaut 100 fois la suivante (pas 10 !)." },
+        { "type": "classic", "question": "Comment calcule-t-on le volume d'un pavé droit ?", "answer": "V = Longueur × largeur × hauteur (en cm³, m³…)." },
+        { "type": "classic", "question": "1 litre correspond à quel volume ?", "answer": "1 L = 1 dm³ (un cube de 10 cm de côté). Et 1 000 L = 1 m³." },
+        { "type": "classic", "question": "Convertis 2,5 L en centilitres.", "answer": "250 cL (1 L = 100 cL)." },
+        { "type": "classic", "question": "Un rectangle a un périmètre de 20 cm et une largeur de 4 cm. Quelle est sa longueur ?", "answer": "L + l = 10, donc L = 10 − 4 = 6 cm." }
+      ]
+    }
+  ]
+}

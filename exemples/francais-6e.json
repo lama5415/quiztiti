@@ -1,0 +1,84 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Français 6e · Grammaire",
+      "description": "Classes de mots, fonctions dans la phrase, types de phrases.",
+      "cards": [
+        { "type": "classic", "question": "Quelles sont les principales classes de mots variables ?", "answer": "Le nom, le déterminant, l'adjectif, le pronom et le verbe (ils changent selon le genre, le nombre ou la personne)." },
+        { "type": "classic", "question": "Quelles sont les principales classes de mots invariables ?", "answer": "L'adverbe, la préposition, la conjonction et l'interjection (ils s'écrivent toujours pareil)." },
+        { "type": "classic", "question": "Quelle question pose-t-on pour trouver le sujet d'un verbe ?", "answer": "« Qui est-ce qui… ? » (ou « Qu'est-ce qui… ? »). Ex. : « Le chat dort. » Qui est-ce qui dort ? → le chat." },
+        { "type": "classic", "question": "Qu'est-ce qu'un COD ? Donne un exemple.", "answer": "Le complément d'objet direct complète le verbe sans préposition : « Je mange une pomme. » (je mange quoi ? → une pomme)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un COI ? Donne un exemple.", "answer": "Le complément d'objet indirect est relié au verbe par une préposition (à, de…) : « Je parle à mon frère. » (je parle à qui ?)." },
+        { "type": "classic", "question": "Que précisent les compléments circonstanciels ? Donne trois sortes.", "answer": "Les circonstances de l'action : le temps (quand ?), le lieu (où ?), la manière (comment ?). On peut souvent les déplacer ou les supprimer." },
+        { "type": "classic", "question": "Qu'est-ce qu'un attribut du sujet ?", "answer": "Un mot qui donne une qualité au sujet par l'intermédiaire d'un verbe d'état : « Ce gâteau semble délicieux. »" },
+        { "type": "classic", "question": "Cite les principaux verbes d'état.", "answer": "Être, paraître, sembler, devenir, demeurer, rester, avoir l'air." },
+        { "type": "classic", "question": "Quelle est la différence entre un article défini et un article indéfini ?", "answer": "Défini (le, la, les, l') : chose connue ou précise. Indéfini (un, une, des) : chose non précisée." },
+        { "type": "classic", "question": "L'adjectif peut être épithète ou attribut : quelle différence ?", "answer": "Épithète : collé au nom (« un chat noir »). Attribut : relié au sujet par un verbe d'état (« le chat est noir »)." },
+        { "type": "classic", "question": "Quels sont les quatre types de phrases ?", "answer": "Déclarative (.), interrogative (?), exclamative (!) et injonctive (ordre ou conseil : « Range ta chambre ! »)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une phrase simple ?", "answer": "Une phrase qui contient un seul verbe conjugué : « Le soleil brille. »" },
+        { "type": "classic", "question": "Dans « Marie lui offre des fleurs », que remplace le pronom « lui » et quelle est sa fonction ?", "answer": "Il remplace une personne (à Marie, à son ami…) : c'est un pronom personnel, COI du verbe offrir." },
+        { "type": "classic", "question": "Comment met-on une phrase à la forme négative ?", "answer": "Avec deux mots qui encadrent le verbe : ne… pas, ne… plus, ne… jamais, ne… rien. « Il ne dort pas. »" }
+      ]
+    },
+    {
+      "name": "Français 6e · Conjugaison",
+      "description": "Présent, imparfait, futur, passé composé et impératif des verbes courants.",
+      "cards": [
+        { "type": "classic", "question": "Quels sont les trois groupes de verbes ?", "answer": "1er groupe : infinitif en -er (chanter). 2e groupe : -ir avec « -issons » (finir → nous finissons). 3e groupe : tous les autres (prendre, venir, aller…)." },
+        { "type": "classic", "question": "Conjugue « chanter » au présent (je, tu, il, nous, vous, ils).", "answer": "Je chante, tu chantes, il chante, nous chantons, vous chantez, ils chantent." },
+        { "type": "classic", "question": "Conjugue « finir » au présent aux personnes du pluriel.", "answer": "Nous finissons, vous finissez, ils finissent (le fameux -iss- du 2e groupe)." },
+        { "type": "classic", "question": "Pourquoi écrit-on « nous lançons » et « nous mangeons » ?", "answer": "Pour garder le son doux : ç devant o (lançons), et un e après le g (mangeons)." },
+        { "type": "classic", "question": "Quelles sont les terminaisons de l'imparfait ?", "answer": "-ais, -ais, -ait, -ions, -iez, -aient. Ex. : je chantais, nous chantions." },
+        { "type": "classic", "question": "Quelles sont les terminaisons du futur simple ?", "answer": "-rai, -ras, -ra, -rons, -rez, -ront. Ex. : je chanterai, ils finiront." },
+        { "type": "classic", "question": "Comment forme-t-on le passé composé ?", "answer": "Auxiliaire être ou avoir au présent + participe passé : « j'ai mangé », « elle est partie »." },
+        { "type": "classic", "question": "Quels verbes se conjuguent avec l'auxiliaire être au passé composé ?", "answer": "Les verbes de mouvement ou de changement d'état (aller, venir, partir, arriver, naître, devenir…) et les verbes pronominaux (se laver)." },
+        { "type": "classic", "question": "Conjugue « être » et « avoir » au présent.", "answer": "Être : je suis, tu es, il est, nous sommes, vous êtes, ils sont. Avoir : j'ai, tu as, il a, nous avons, vous avez, ils ont." },
+        { "type": "classic", "question": "À quelles personnes conjugue-t-on l'impératif présent ?", "answer": "Trois seulement : tu, nous, vous — sans sujet exprimé. « Mange ! Mangeons ! Mangez ! »" },
+        { "type": "classic", "question": "« Mange » ou « manges » à l'impératif ?", "answer": "« Mange ! » : à l'impératif, les verbes en -er ne prennent pas de s à la 2e personne (sauf devant en/y : « manges-en »)." },
+        { "type": "classic", "question": "Donne la 3e personne du singulier du passé simple de : chanter, finir, venir.", "answer": "Il chanta, il finit, il vint." },
+        { "type": "classic", "question": "« J'ai mangé » ou « j'ai manger » ? Quelle astuce pour choisir ?", "answer": "« J'ai mangé » (participe passé). Astuce : remplacer par un verbe du 3e groupe — on dit « j'ai pris », pas « j'ai prendre »." },
+        { "type": "classic", "question": "Quel est le participe passé de : prendre, faire, dire, mettre ?", "answer": "Pris, fait, dit, mis." }
+      ]
+    },
+    {
+      "name": "Français 6e · Orthographe",
+      "description": "Homophones, accords, pluriels particuliers : les pièges classiques.",
+      "cards": [
+        { "type": "classic", "question": "« a » ou « à » : quelle astuce ?", "answer": "Si on peut remplacer par « avait », c'est « a » (verbe avoir). Sinon « à ». « Il a mangé à midi. »" },
+        { "type": "classic", "question": "« et » ou « est » : quelle astuce ?", "answer": "Si on peut remplacer par « était », c'est « est » (verbe être). Sinon « et » (= et puis). « Il est grand et fort. »" },
+        { "type": "classic", "question": "« son » ou « sont » : quelle astuce ?", "answer": "Si on peut remplacer par « étaient », c'est « sont ». Sinon « son » (= le sien). « Ses amis sont venus avec son frère. »" },
+        { "type": "classic", "question": "« on » ou « ont » : quelle astuce ?", "answer": "Si on peut remplacer par « avaient », c'est « ont ». Sinon « on » (= quelqu'un). « On dit qu'ils ont gagné. »" },
+        { "type": "classic", "question": "« ou » ou « où » : quelle astuce ?", "answer": "Si on peut remplacer par « ou bien », c'est « ou ». « Où » avec accent indique le lieu. « Où vas-tu : à la mer ou à la montagne ? »" },
+        { "type": "classic", "question": "« ce » ou « se » : quelle astuce ?", "answer": "« Se » accompagne un verbe pronominal (il se lave). « Ce » désigne quelque chose (ce chien) ou = cela (ce que je veux)." },
+        { "type": "classic", "question": "« ces » ou « ses » : quelle astuce ?", "answer": "« Ses » = les siens (on peut dire « ses affaires à lui »). « Ces » = ceux qu'on montre (« ces montagnes, là-bas »)." },
+        { "type": "classic", "question": "Comment accorde-t-on le verbe quand il y a plusieurs sujets ?", "answer": "Au pluriel : « Paul et Léa jouent. » (Attention aussi au sujet inversé : « Où vont les enfants ? »)" },
+        { "type": "classic", "question": "Comment se fait l'accord dans le groupe nominal ?", "answer": "Le déterminant et l'adjectif s'accordent en genre et en nombre avec le nom : « les grandes maisons blanches »." },
+        { "type": "classic", "question": "Quel est le pluriel des noms en -al ? Cite deux exceptions.", "answer": "-aux : un cheval, des chevaux. Exceptions : des bals, des carnavals, des festivals, des régals…" },
+        { "type": "classic", "question": "Quels noms en -ou prennent un x au pluriel ?", "answer": "Les sept fameux : bijoux, cailloux, choux, genoux, hiboux, joujoux, poux. (Les autres prennent un s : des trous, des clous.)" },
+        { "type": "classic", "question": "Quelle est la règle du « m devant m, b, p » ?", "answer": "Devant m, b et p, le n devient m : emmener, tomber, camper. Exceptions célèbres : bonbon, néanmoins, embonpoint." },
+        { "type": "classic", "question": "Comment deviner la lettre muette à la fin d'un mot comme « grand » ou « chat » ?", "answer": "En cherchant un mot de la même famille ou le féminin : grande → d ; chatte → t." },
+        { "type": "classic", "question": "« Leur » devant un verbe prend-il un s ?", "answer": "Jamais : « je leur parle » (pronom invariable). Devant un nom, il s'accorde : « leurs cahiers »." }
+      ]
+    },
+    {
+      "name": "Français 6e · Vocabulaire",
+      "description": "Synonymes, familles de mots, préfixes, sens propre et figuré, niveaux de langue.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un synonyme ? un antonyme ?", "answer": "Synonyme : mot de sens proche (content/heureux). Antonyme : mot de sens contraire (grand/petit)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une famille de mots ?", "answer": "Des mots formés sur le même radical : terre, terrain, terrestre, atterrir, enterrer…" },
+        { "type": "classic", "question": "Qu'est-ce qu'un préfixe ? Donne des exemples avec leur sens.", "answer": "Un élément placé avant le radical : re- (répétition : refaire), dé- (contraire : défaire), in-/im- (contraire : impossible), para- (protection : parapluie)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un suffixe ?", "answer": "Un élément placé après le radical, qui change souvent la classe du mot : chant → chanteur, chanson ; lent → lentement." },
+        { "type": "classic", "question": "Quelle est la différence entre le sens propre et le sens figuré ?", "answer": "Sens propre : sens premier, concret (« un loup dévore un mouton »). Sens figuré : sens imagé (« il a dévoré son livre »)." },
+        { "type": "classic", "question": "Quels sont les trois niveaux (registres) de langue ?", "answer": "Familier (« bouquin »), courant (« livre »), soutenu (« ouvrage »). On choisit selon la personne à qui l'on parle et la situation." },
+        { "type": "classic", "question": "Qu'est-ce qu'un champ lexical ?", "answer": "L'ensemble des mots qui se rapportent à un même thème. Champ lexical de la mer : vague, sel, marin, plage, navire…" },
+        { "type": "classic", "question": "Qu'est-ce qu'une comparaison ? Donne un exemple.", "answer": "Une image qui rapproche deux éléments avec un mot outil (comme, tel, pareil à) : « Il est rusé comme un renard. »" },
+        { "type": "classic", "question": "Quelle différence entre un mot générique et un mot spécifique ?", "answer": "Le mot générique englobe (fleur) ; les mots spécifiques précisent (rose, tulipe, iris)." },
+        { "type": "classic", "question": "Dans le dictionnaire, que signifient les abréviations n.f., n.m., adj. et v. ?", "answer": "Nom féminin, nom masculin, adjectif, verbe." },
+        { "type": "classic", "question": "Que signifie l'expression « donner sa langue au chat » ?", "answer": "Renoncer à deviner, demander la réponse. (Une expression imagée ne se comprend pas mot à mot !)" },
+        { "type": "classic", "question": "Trouve un synonyme soutenu du verbe « voir ».", "answer": "Apercevoir, contempler, observer, distinguer… selon la nuance voulue." }
+      ]
+    }
+  ]
+}
