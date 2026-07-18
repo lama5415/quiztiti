@@ -58,5 +58,29 @@
     "name": "Git — Confirmé",
     "description": "Rebase, reflog, bisect, worktree et autres armes secrètes.",
     "badge": "22 fiches"
+  },
+  {
+    "file": "maths-6e.json",
+    "name": "Carnet Maths 6e",
+    "description": "4 paquets par thème : nombres, fractions et proportionnalité, géométrie, grandeurs et mesures.",
+    "badge": "4 paquets · 55 fiches"
+  },
+  {
+    "file": "maths-4e.json",
+    "name": "Carnet Maths 4e",
+    "description": "4 paquets par thème : relatifs et puissances, calcul littéral, Pythagore, proportionnalité et probas.",
+    "badge": "4 paquets · 56 fiches"
+  },
+  {
+    "file": "francais-6e.json",
+    "name": "Carnet Français 6e",
+    "description": "4 paquets par thème : grammaire, conjugaison, orthographe, vocabulaire.",
+    "badge": "4 paquets · 54 fiches"
+  },
+  {
+    "file": "francais-4e.json",
+    "name": "Carnet Français 4e",
+    "description": "4 paquets par thème : grammaire, conjugaison, orthographe et accords, figures de style.",
+    "badge": "4 paquets · 54 fiches"
   }
 ]

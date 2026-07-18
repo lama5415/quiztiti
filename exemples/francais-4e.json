@@ -1,0 +1,84 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Français 4e · Grammaire",
+      "description": "Phrase complexe, subordonnées, voix passive, discours direct et indirect.",
+      "cards": [
+        { "type": "classic", "question": "Quelle différence entre une phrase simple et une phrase complexe ?", "answer": "Simple : un seul verbe conjugué. Complexe : plusieurs verbes conjugués, donc plusieurs propositions." },
+        { "type": "classic", "question": "Quelles sont les trois façons de relier des propositions dans une phrase complexe ?", "answer": "Juxtaposition (virgule, deux-points), coordination (mais, ou, et, donc, or, ni, car), subordination (avec une conjonction ou un pronom relatif)." },
+        { "type": "classic", "question": "Cite les conjonctions de coordination.", "answer": "Mais, ou, et, donc, or, ni, car (le fameux « Mais où est donc Ornicar ? »)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une proposition subordonnée relative ? Par quoi est-elle introduite ?", "answer": "Elle complète un nom (son antécédent) et est introduite par un pronom relatif : qui, que, quoi, dont, où, lequel… « Le livre que je lis est passionnant. »" },
+        { "type": "classic", "question": "Dans « La ville dont je parle est ancienne », quel est l'antécédent du pronom relatif ?", "answer": "« La ville » : c'est le nom que la subordonnée relative complète." },
+        { "type": "classic", "question": "Qu'est-ce qu'une subordonnée conjonctive complétive ?", "answer": "Une proposition introduite par « que », qui sert le plus souvent de COD au verbe principal : « Je pense qu'il viendra. »" },
+        { "type": "classic", "question": "À quoi sert une subordonnée circonstancielle ? Donne un exemple.", "answer": "À préciser les circonstances (temps, cause, but, condition…) : « Quand la nuit tombe, les lampadaires s'allument. »" },
+        { "type": "classic", "question": "Transforme à la voix passive : « Le chat mange la souris. »", "answer": "« La souris est mangée par le chat. » Le COD devient sujet ; « par le chat » est le complément d'agent." },
+        { "type": "classic", "question": "Comment reconnaît-on la voix passive ?", "answer": "Le sujet subit l'action : auxiliaire être + participe passé (+ éventuellement un complément d'agent introduit par « par »)." },
+        { "type": "classic", "question": "Transforme au discours indirect : Il déclare : « Je suis fatigué. »", "answer": "Il déclare qu'il est fatigué. (Les guillemets disparaissent, les pronoms changent.)" },
+        { "type": "classic", "question": "Quels changements le passage au discours indirect entraîne-t-il quand le verbe introducteur est au passé ?", "answer": "La concordance des temps : « Il a dit : “je viendrai” » → « Il a dit qu'il viendrait. » (présent → imparfait, futur → conditionnel)." },
+        { "type": "classic", "question": "Dans « Elle paraît sérieuse », quelle est la fonction de « sérieuse » ?", "answer": "Attribut du sujet « elle » (paraître est un verbe d'état)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un verbe transitif ? intransitif ?", "answer": "Transitif : il admet un COD ou un COI (manger quelque chose). Intransitif : il se construit sans complément d'objet (dormir, courir)." },
+        { "type": "classic", "question": "Repère les propositions : « Je pense que tu réussiras si tu travailles. »", "answer": "Principale : « Je pense » ; complétive : « que tu réussiras » ; circonstancielle de condition : « si tu travailles »." }
+      ]
+    },
+    {
+      "name": "Français 4e · Conjugaison",
+      "description": "Passé simple, temps composés, conditionnel, subjonctif et valeurs des temps.",
+      "cards": [
+        { "type": "classic", "question": "Conjugue « chanter » au passé simple.", "answer": "Je chantai, tu chantas, il chanta, nous chantâmes, vous chantâtes, ils chantèrent." },
+        { "type": "classic", "question": "Donne le passé simple (3e pers. sing. et plur.) de : venir, faire, être, avoir.", "answer": "Il vint / ils vinrent ; il fit / ils firent ; il fut / ils furent ; il eut / ils eurent." },
+        { "type": "classic", "question": "Comment forme-t-on le plus-que-parfait ? Donne un exemple.", "answer": "Auxiliaire à l'imparfait + participe passé : « j'avais mangé », « elle était partie »." },
+        { "type": "classic", "question": "Comment forme-t-on le futur antérieur ? Donne un exemple.", "answer": "Auxiliaire au futur + participe passé : « quand tu auras fini, tu sortiras »." },
+        { "type": "classic", "question": "Comment forme-t-on le conditionnel présent ?", "answer": "Radical du futur + terminaisons de l'imparfait : je chanter-ais, nous voudr-ions." },
+        { "type": "classic", "question": "Conjugue « être » et « avoir » au subjonctif présent (je, il, nous).", "answer": "Être : que je sois, qu'il soit, que nous soyons. Avoir : que j'aie, qu'il ait, que nous ayons." },
+        { "type": "classic", "question": "Après quelles expressions emploie-t-on le subjonctif ?", "answer": "Après les verbes de volonté, de doute ou de sentiment + que : « il faut que », « je veux que », « je crains que »… « Il faut que tu viennes. »" },
+        { "type": "classic", "question": "« Si j'avais le temps, je … (voyager) » : quel temps pour la suite ?", "answer": "Le conditionnel présent : « je voyagerais ». (Règle : si + imparfait → conditionnel ; jamais de conditionnel juste après « si ».)" },
+        { "type": "classic", "question": "Quelle est la valeur de l'imparfait par rapport au passé simple dans un récit ?", "answer": "L'imparfait décrit l'arrière-plan, les habitudes (décor) ; le passé simple raconte les actions soudaines de premier plan." },
+        { "type": "classic", "question": "Cite trois valeurs du présent de l'indicatif.", "answer": "Présent d'énonciation (ce qui se passe maintenant), vérité générale (« l'eau bout à 100 °C »), présent de narration (rendre un récit vivant)." },
+        { "type": "classic", "question": "« Je chanterai » ou « je chanterais » : comment choisir ?", "answer": "-rai = futur (certitude) ; -rais = conditionnel (hypothèse, politesse). Astuce : au pluriel, « nous chanterons » (futur) vs « nous chanterions » (conditionnel)." },
+        { "type": "classic", "question": "Comment forme-t-on le subjonctif présent des verbes réguliers ?", "answer": "Radical de « ils » au présent + -e, -es, -e, -ions, -iez, -ent : ils finissent → que je finisse." },
+        { "type": "classic", "question": "Quels sont les temps composés de l'indicatif et leur auxiliaire ?", "answer": "Passé composé (présent), plus-que-parfait (imparfait), passé antérieur (passé simple), futur antérieur (futur) : auxiliaire + participe passé." }
+      ]
+    },
+    {
+      "name": "Français 4e · Orthographe et accords",
+      "description": "Participes passés, homophones avancés, tout/tous, leur/leurs et autres pièges.",
+      "cards": [
+        { "type": "classic", "question": "Comment s'accorde le participe passé employé avec « être » ?", "answer": "Avec le sujet, en genre et en nombre : « Elles sont parties. »" },
+        { "type": "classic", "question": "Comment s'accorde le participe passé employé avec « avoir » ?", "answer": "Jamais avec le sujet ; seulement avec le COD s'il est placé AVANT le verbe : « les fleurs qu'il a offertes » mais « il a offert des fleurs »." },
+        { "type": "classic", "question": "Pourquoi écrit-on « les fleurs qu'il a offertes » avec -es ?", "answer": "Le COD « que » (= les fleurs) est placé avant « a offert » : le participe s'accorde avec lui (féminin pluriel)." },
+        { "type": "classic", "question": "« quand », « quant » ou « qu'en » ?", "answer": "Quand = à quel moment. Quant à = en ce qui concerne. Qu'en = que + en (« qu'en penses-tu ? » = que penses-tu de cela ?)." },
+        { "type": "classic", "question": "« tout » ou « tous » dans : « Ils sont … venus » et « … les jours » ?", "answer": "« Ils sont tous venus » (= chacun d'eux, pronom). « Tous les jours » (déterminant + nom pluriel)." },
+        { "type": "classic", "question": "Quand « tout » est-il invariable ?", "answer": "Quand c'est un adverbe (= entièrement) : « elle est tout étonnée »… sauf devant un adjectif féminin commençant par une consonne : « toute surprise »." },
+        { "type": "classic", "question": "« leur » ou « leurs » ?", "answer": "Devant un verbe, toujours invariable (« je leur donne »). Devant un nom, il s'accorde (« leurs idées »)." },
+        { "type": "classic", "question": "« ça », « sa » ou « çà » ?", "answer": "Ça = cela ; sa = la sienne (sa maison) ; çà = dans l'expression « çà et là »." },
+        { "type": "classic", "question": "« peu », « peux » ou « peut » ?", "answer": "Peux/peut = verbe pouvoir (je peux, il peut). Peu = pas beaucoup. « Il peut venir dans peu de temps. »" },
+        { "type": "classic", "question": "« plus tôt » ou « plutôt » ?", "answer": "Plus tôt = contraire de plus tard. Plutôt = de préférence. « Viens plus tôt, plutôt que d'arriver en retard ! »" },
+        { "type": "classic", "question": "« quelque » ou « quelques » ?", "answer": "Devant un nom, il s'accorde : « quelques amis ». Devant un nombre, adverbe invariable (= environ) : « les quelque cent invités »." },
+        { "type": "classic", "question": "« même » ou « mêmes » ?", "answer": "Adjectif, il s'accorde : « les mêmes histoires ». Adverbe (= aussi, y compris), invariable : « même les adultes rient »." },
+        { "type": "classic", "question": "Terminaison en -é, -er ou -ait ? Quelle méthode ?", "answer": "Remplacer par un verbe du 3e groupe : « prendre » → -er (infinitif) ; « pris » → -é (participe) ; « prenait » → -ait (imparfait)." },
+        { "type": "classic", "question": "Comment s'accorde le participe passé d'un verbe pronominal comme « elles se sont lavées » / « elles se sont lavé les mains » ?", "answer": "« Elles se sont lavées » : accord (se = COD avant). « Elles se sont lavé les mains » : pas d'accord (le COD « les mains » est après)." }
+      ]
+    },
+    {
+      "name": "Français 4e · Vocabulaire et figures de style",
+      "description": "Métaphore, hyperbole, litote… et les registres littéraires.",
+      "cards": [
+        { "type": "classic", "question": "Quelle différence entre une comparaison et une métaphore ?", "answer": "La comparaison utilise un mot outil (« il est rusé comme un renard ») ; la métaphore s'en passe (« ce renard m'a encore piégé »)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une personnification ?", "answer": "Attribuer des caractéristiques humaines à une chose ou un animal : « le vent hurlait sa colère »." },
+        { "type": "classic", "question": "Qu'est-ce qu'une hyperbole ?", "answer": "Une exagération volontaire : « je meurs de faim », « un déluge de larmes »." },
+        { "type": "classic", "question": "Qu'est-ce qu'une litote ?", "answer": "Dire moins pour suggérer plus : « ce n'est pas mauvais » pour « c'est très bon » ; le célèbre « Va, je ne te hais point » de Corneille." },
+        { "type": "classic", "question": "Qu'est-ce qu'un euphémisme ?", "answer": "Adoucir une réalité brutale : « il nous a quittés » pour « il est mort »." },
+        { "type": "classic", "question": "Qu'est-ce qu'une antithèse ?", "answer": "Rapprocher deux idées opposées : « Paris est tout petit, c'est là sa vraie grandeur »." },
+        { "type": "classic", "question": "Qu'est-ce qu'un oxymore ?", "answer": "Deux mots contradictoires côte à côte : « une obscure clarté », « un silence assourdissant »." },
+        { "type": "classic", "question": "Quelle différence entre une énumération et une gradation ?", "answer": "L'énumération liste ; la gradation ordonne avec une intensité croissante : « Va, cours, vole et nous venge ! »" },
+        { "type": "classic", "question": "Qu'est-ce qu'une anaphore ?", "answer": "La répétition d'un même mot en tête de phrases ou de vers successifs : « Rome, l'unique objet de mon ressentiment ! Rome… »" },
+        { "type": "classic", "question": "Qu'est-ce qu'une périphrase ?", "answer": "Remplacer un mot par une expression qui le décrit : « le roi des animaux » pour le lion, « la Ville lumière » pour Paris." },
+        { "type": "classic", "question": "Quelle différence entre dénotation et connotation ?", "answer": "Dénotation : le sens objectif du dictionnaire. Connotation : les idées associées (le rouge dénote une couleur, connote la passion ou le danger)." },
+        { "type": "classic", "question": "Cite quatre registres littéraires avec leur effet.", "answer": "Comique (faire rire), tragique (destin inéluctable), lyrique (exprimer les sentiments), fantastique (hésitation entre réel et surnaturel)." },
+        { "type": "classic", "question": "« Boire un verre » : quelle figure de style ?", "answer": "Une métonymie : on désigne le contenu par le contenant (on boit le liquide, pas le verre !)." }
+      ]
+    }
+  ]
+}

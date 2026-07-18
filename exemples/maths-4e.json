@@ -1,0 +1,86 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Maths 4e · Relatifs et puissances",
+      "description": "Opérations sur les nombres relatifs, règle des signes, puissances et écriture scientifique.",
+      "cards": [
+        { "type": "classic", "question": "Calcule : (−5) + (−3), puis (−5) + 3.", "answer": "(−5) + (−3) = −8 (mêmes signes : on additionne). (−5) + 3 = −2 (signes différents : on soustrait, signe du « plus fort »)." },
+        { "type": "classic", "question": "Comment transforme-t-on une soustraction de relatifs ?", "answer": "Soustraire un nombre, c'est ajouter son opposé : 4 − (−6) = 4 + 6 = 10." },
+        { "type": "classic", "question": "Quelle est la règle des signes pour la multiplication et la division ?", "answer": "Deux signes identiques → résultat positif. Deux signes différents → résultat négatif. Ex. : (−4) × (−5) = 20 ; (−12) ÷ 3 = −4." },
+        { "type": "classic", "question": "Quel est le signe d'un produit de plusieurs relatifs ? Calcule (−2) × (−3) × (−1).", "answer": "Nombre pair de facteurs négatifs → positif ; impair → négatif. Ici 3 facteurs négatifs : (−2)(−3)(−1) = −6." },
+        { "type": "classic", "question": "Que signifie aⁿ (a exposant n) ?", "answer": "a multiplié par lui-même n fois : 2⁴ = 2 × 2 × 2 × 2 = 16." },
+        { "type": "classic", "question": "Quelle différence entre (−3)² et −3² ?", "answer": "(−3)² = 9 (le carré porte sur −3). −3² = −9 (le carré ne porte que sur 3, le signe reste devant)." },
+        { "type": "classic", "question": "Que valent 10⁵ et 10⁻³ ?", "answer": "10⁵ = 100 000 (1 suivi de 5 zéros). 10⁻³ = 0,001 = 1/1000." },
+        { "type": "classic", "question": "Écris 4 500 000 en écriture scientifique.", "answer": "4,5 × 10⁶ (un nombre entre 1 et 10, multiplié par une puissance de 10)." },
+        { "type": "classic", "question": "Écris 0,000 72 en écriture scientifique.", "answer": "7,2 × 10⁻⁴." },
+        { "type": "classic", "question": "Simplifie 10⁴ × 10³, puis 10⁷ ÷ 10².", "answer": "10⁴ × 10³ = 10⁷ (on additionne les exposants). 10⁷ ÷ 10² = 10⁵ (on les soustrait)." },
+        { "type": "classic", "question": "Range dans l'ordre croissant : −3 ; 2 ; −7 ; 0 ; −0,5", "answer": "−7 < −3 < −0,5 < 0 < 2. (Plus un négatif est « loin » de zéro, plus il est petit.)" },
+        { "type": "classic", "question": "Calcule : 3 − 7 + 2 − (−4)", "answer": "3 − 7 + 2 + 4 = 2." },
+        { "type": "classic", "question": "Quel est l'opposé de −8 ? Et l'inverse de 4 ?", "answer": "L'opposé de −8 est 8 (somme nulle). L'inverse de 4 est 1/4 = 0,25 (produit égal à 1)." },
+        { "type": "classic", "question": "Calcule 2/3 + 1/6.", "answer": "2/3 = 4/6, donc 4/6 + 1/6 = 5/6. (On met au même dénominateur avant d'additionner.)" },
+        { "type": "classic", "question": "Calcule 2/5 × 3/4.", "answer": "6/20 = 3/10. (On multiplie les numérateurs entre eux et les dénominateurs entre eux, en simplifiant si possible.)" }
+      ]
+    },
+    {
+      "name": "Maths 4e · Calcul littéral et équations",
+      "description": "Réduire, développer, tester une égalité et résoudre des équations du premier degré.",
+      "cards": [
+        { "type": "classic", "question": "Réduis l'expression : 3x + 5x − 2x", "answer": "6x. (On additionne les coefficients des termes « en x ».)" },
+        { "type": "classic", "question": "Réduis : 4x + 3 + 2x − 7", "answer": "6x − 4. (On regroupe les x ensemble, les nombres ensemble.)" },
+        { "type": "classic", "question": "Développe : 3(x + 2)", "answer": "3x + 6. (Distributivité : k(a + b) = ka + kb.)" },
+        { "type": "classic", "question": "Développe : −2(3x − 5)", "answer": "−6x + 10. (Attention aux signes : −2 × (−5) = +10.)" },
+        { "type": "classic", "question": "Supprime les parenthèses : x − (2x − 3)", "answer": "x − 2x + 3 = −x + 3. (Un « moins » devant une parenthèse change tous les signes à l'intérieur.)" },
+        { "type": "classic", "question": "Factorise : 6x + 9", "answer": "3(2x + 3). (On repère le facteur commun 3.)" },
+        { "type": "classic", "question": "L'égalité 2x + 1 = 7 est-elle vraie pour x = 3 ?", "answer": "Oui : 2 × 3 + 1 = 7. On dit que 3 est solution de l'équation." },
+        { "type": "classic", "question": "Résous : x + 5 = 12", "answer": "x = 12 − 5 = 7. (On enlève 5 des deux côtés.)" },
+        { "type": "classic", "question": "Résous : 3x = 21", "answer": "x = 21 ÷ 3 = 7. (On divise les deux côtés par 3.)" },
+        { "type": "classic", "question": "Résous : 2x + 3 = 11", "answer": "2x = 8 puis x = 4. (D'abord enlever 3, ensuite diviser par 2.)" },
+        { "type": "classic", "question": "Résous : 5x − 2 = 3x + 8", "answer": "5x − 3x = 8 + 2 → 2x = 10 → x = 5. (On regroupe les x d'un côté, les nombres de l'autre.)" },
+        { "type": "classic", "question": "Que signifient les mots « équation », « inconnue » et « solution » ?", "answer": "Équation : égalité contenant un nombre inconnu. Inconnue : le nombre cherché (souvent x). Solution : valeur de x qui rend l'égalité vraie." },
+        { "type": "classic", "question": "Traduis en équation : « Je pense à un nombre, je le double, j'ajoute 7 et je trouve 19. »", "answer": "2x + 7 = 19 (et x = 6)." },
+        { "type": "classic", "question": "Calcule l'expression 3a² pour a = 2.", "answer": "3 × 2² = 3 × 4 = 12. (On calcule le carré avant de multiplier.)" }
+      ]
+    },
+    {
+      "name": "Maths 4e · Géométrie : Pythagore et transformations",
+      "description": "Théorème de Pythagore (direct et réciproque), cosinus, translations, rotations et volumes.",
+      "cards": [
+        { "type": "classic", "question": "Énonce le théorème de Pythagore.", "answer": "Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés : BC² = AB² + AC² (angle droit en A)." },
+        { "type": "classic", "question": "Qu'est-ce que l'hypoténuse ?", "answer": "Le côté opposé à l'angle droit — c'est le plus long côté du triangle rectangle." },
+        { "type": "classic", "question": "Un triangle rectangle a des côtés de 3 cm et 4 cm autour de l'angle droit. Que vaut l'hypoténuse ?", "answer": "√(3² + 4²) = √25 = 5 cm." },
+        { "type": "classic", "question": "À quoi sert la réciproque du théorème de Pythagore ?", "answer": "À prouver qu'un triangle est rectangle : si BC² = AB² + AC², alors le triangle est rectangle en A." },
+        { "type": "classic", "question": "Un triangle a des côtés de 6, 8 et 10. Est-il rectangle ?", "answer": "10² = 100 et 6² + 8² = 36 + 64 = 100. Oui, rectangle (l'angle droit est opposé au côté de 10)." },
+        { "type": "classic", "question": "Un triangle a des côtés de 4, 5 et 7. Est-il rectangle ?", "answer": "7² = 49 mais 4² + 5² = 41 ≠ 49 : non, il n'est pas rectangle." },
+        { "type": "classic", "question": "Dans un triangle rectangle, comment définit-on le cosinus d'un angle aigu ?", "answer": "cos(angle) = côté adjacent ÷ hypoténuse. (Il est toujours compris entre 0 et 1.)" },
+        { "type": "classic", "question": "Qu'est-ce qu'une translation ?", "answer": "Un glissement : tous les points se déplacent de la même distance, dans la même direction et le même sens (sans tourner)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une rotation ?", "answer": "Un pivotement autour d'un point (le centre), d'un certain angle, dans un sens donné." },
+        { "type": "classic", "question": "Que conservent les translations et les rotations ?", "answer": "Tout : longueurs, angles, aires, alignements. Les figures restent superposables." },
+        { "type": "classic", "question": "Comment mesure-t-on la distance d'un point à une droite ?", "answer": "C'est la longueur du segment perpendiculaire mené du point à la droite — le plus court chemin." },
+        { "type": "classic", "question": "Formule du volume d'une pyramide ou d'un cône ?", "answer": "V = (aire de la base × hauteur) ÷ 3." },
+        { "type": "classic", "question": "Formule du volume d'un cylindre ?", "answer": "V = π × r² × h (aire du disque de base × hauteur)." },
+        { "type": "classic", "question": "Qu'est-ce que la hauteur d'un triangle ?", "answer": "La droite qui passe par un sommet et qui est perpendiculaire au côté opposé." }
+      ]
+    },
+    {
+      "name": "Maths 4e · Proportionnalité, stats et probabilités",
+      "description": "Vitesse, pourcentages, produit en croix, moyenne, médiane et premières probabilités.",
+      "cards": [
+        { "type": "classic", "question": "Formule de la vitesse moyenne ? Une voiture parcourt 150 km en 2 h : quelle vitesse ?", "answer": "v = d ÷ t. Ici 150 ÷ 2 = 75 km/h." },
+        { "type": "classic", "question": "À 90 km/h, quelle distance parcourt-on en 20 minutes ?", "answer": "20 min = 1/3 d'heure, donc 90 ÷ 3 = 30 km." },
+        { "type": "classic", "question": "Dans un tableau de proportionnalité, comment retrouver une quatrième valeur ?", "answer": "Avec le produit en croix : si a/b = c/x, alors x = (b × c) ÷ a." },
+        { "type": "classic", "question": "Calcule 30 % de 150.", "answer": "45. (30 % = 30/100 ; 150 × 0,3 = 45.)" },
+        { "type": "classic", "question": "Augmenter un prix de 20 %, c'est le multiplier par combien ?", "answer": "Par 1,20. (Et diminuer de 20 % : multiplier par 0,80.)" },
+        { "type": "classic", "question": "Sur une carte à l'échelle 1/25 000, que représentent 4 cm ?", "answer": "4 × 25 000 = 100 000 cm = 1 km." },
+        { "type": "classic", "question": "Comment calcule-t-on la moyenne d'une série de valeurs ?", "answer": "On additionne toutes les valeurs et on divise par leur nombre. Ex. : (8 + 12 + 16) ÷ 3 = 12." },
+        { "type": "classic", "question": "Notes : 10 (coefficient 1) et 16 (coefficient 2). Quelle moyenne pondérée ?", "answer": "(10 × 1 + 16 × 2) ÷ 3 = 42 ÷ 3 = 14." },
+        { "type": "classic", "question": "Qu'est-ce que la médiane d'une série ordonnée ?", "answer": "La valeur qui partage la série en deux moitiés : autant de valeurs en dessous qu'au-dessus." },
+        { "type": "classic", "question": "Entre quelles valeurs est comprise une probabilité ? Que signifient 0 et 1 ?", "answer": "Entre 0 et 1. 0 : événement impossible ; 1 : événement certain." },
+        { "type": "classic", "question": "On lance un dé équilibré. Quelle est la probabilité d'obtenir 6 ? Un nombre pair ?", "answer": "P(6) = 1/6. P(pair) = 3/6 = 1/2 (les issues 2, 4, 6)." },
+        { "type": "classic", "question": "La probabilité qu'il pleuve est 0,3. Quelle est la probabilité qu'il ne pleuve pas ?", "answer": "1 − 0,3 = 0,7 (probabilité de l'événement contraire)." },
+        { "type": "classic", "question": "Convertir 90 km/h en m/s ?", "answer": "90 000 m en 3 600 s → 25 m/s. (Astuce : on divise les km/h par 3,6.)" }
+      ]
+    }
+  ]
+}

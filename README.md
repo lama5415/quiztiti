@@ -10,7 +10,7 @@ Une petite application web pour apprendre à partir de fiches question/réponse 
 - **Mode révision** : les fiches défilent dans un ordre aléatoire ; on voit la question, on révèle la réponse, on indique « je savais » ou « je ne savais pas ». En fin de session, un score et la possibilité de revoir uniquement les fiches ratées.
 - **Mode énigmes** : chaque énigme est un mot (ou une expression) à deviner. Le 1ᵉʳ indice s'affiche ; une mauvaise réponse (ou un clic sur « Indice suivant ») révèle l'indice suivant, jusqu'à épuisement des indices, puis la réponse. Plus on trouve tôt, plus on marque de points (trouvé au 1ᵉʳ indice sur 5 = 5 points, au 5ᵉ = 1 point, réponse révélée = 0).
 - **Export / import JSON** : un paquet seul ou tous les paquets d'un coup. Les réponses aux énigmes sont comparées sans tenir compte de la casse, des accents ni des tirets.
-- **Paquets d'exemple** : depuis l'accueil, ajoutez en un clic des paquets prêts à l'emploi — l'Odyssée, des énigmes en anglais (3 niveaux), la thermodynamique, une cheatsheet vi/vim complète, les commandes Linux (débutant et avancé) et Git (débutant et confirmé). Les fichiers sont dans le dossier [`exemples/`](exemples/).
+- **Paquets d'exemple** : depuis l'accueil, ajoutez en un clic des paquets prêts à l'emploi — l'Odyssée, des énigmes en anglais (3 niveaux), la thermodynamique, une cheatsheet vi/vim complète, les commandes Linux (débutant et avancé), Git (débutant et confirmé), et des carnets de révision collège (maths et français, 6e et 4e, découpés en paquets par thème). Les fichiers sont dans le dossier [`exemples/`](exemples/).
 
 ## Format d'export
 
