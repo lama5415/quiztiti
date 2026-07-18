@@ -1,0 +1,68 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Histoire-Géo 5e · L'Islam et la Méditerranée médiévale",
+      "description": "Naissance de l'Islam, échanges et contacts entre les mondes médiévaux.",
+      "cards": [
+        { "type": "classic", "question": "Où et quand naît l'Islam ?", "answer": "Dans la péninsule Arabique, au VIIe siècle, à partir de la prédication de Mahomet." },
+        { "type": "classic", "question": "Quel est le livre sacré des musulmans ?", "answer": "Le Coran." },
+        { "type": "classic", "question": "L'Islam est-il monothéiste ou polythéiste ?", "answer": "Monothéiste : les musulmans croient en un Dieu unique, Allah." },
+        { "type": "classic", "question": "Cite deux grandes villes du monde musulman médiéval, brillantes par leur culture.", "answer": "Bagdad, Cordoue, Le Caire, Damas… De grands centres de savoir (mathématiques, médecine, astronomie)." },
+        { "type": "classic", "question": "Comment appelle-t-on le chef politique et religieux du monde musulman à cette époque ?", "answer": "Le calife." },
+        { "type": "classic", "question": "Quels grands empires se partageaient la Méditerranée au Moyen Âge ?", "answer": "L'Empire byzantin (chrétien d'Orient), le monde musulman, et l'Occident chrétien." },
+        { "type": "classic", "question": "Qu'est-ce que l'Empire byzantin ?", "answer": "L'héritier de l'Empire romain d'Orient, chrétien, dont la capitale était Constantinople." },
+        { "type": "classic", "question": "Qu'étaient les croisades ?", "answer": "Des expéditions militaires des chrétiens d'Occident vers Jérusalem et la Terre sainte, entre le XIe et le XIIIe siècle." },
+        { "type": "classic", "question": "Comment les savoirs grecs antiques sont-ils parvenus jusqu'à l'Europe médiévale ?", "answer": "En grande partie grâce aux savants du monde musulman, qui les ont traduits, conservés et enrichis." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 5e · L'Occident féodal",
+      "description": "Seigneurs, paysans, Église et pouvoir royal du Moyen Âge.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que la féodalité ?", "answer": "Le système d'organisation du Moyen Âge où un seigneur donne une terre (un fief) à un vassal, qui lui doit en échange fidélité et aide militaire." },
+        { "type": "classic", "question": "Qu'est-ce qu'une seigneurie ?", "answer": "Le domaine d'un seigneur : son château, ses terres et les paysans qui y vivent et travaillent." },
+        { "type": "classic", "question": "Quelle différence entre un vilain et un serf ?", "answer": "Le vilain est un paysan libre ; le serf est attaché à la terre du seigneur et ne peut pas la quitter librement." },
+        { "type": "classic", "question": "Qu'est-ce que l'adoubement ?", "answer": "La cérémonie par laquelle un jeune homme devient chevalier." },
+        { "type": "classic", "question": "Quel rôle l'Église catholique joue-t-elle au Moyen Âge ?", "answer": "Un rôle central : elle encadre la vie des gens de la naissance à la mort, possède des terres, et diffuse le savoir dans les monastères." },
+        { "type": "classic", "question": "Qu'est-ce qu'un monastère ?", "answer": "Un lieu où vivent des moines, à l'écart du monde, qui prient, travaillent et copient des manuscrits." },
+        { "type": "classic", "question": "Pourquoi construit-on d'immenses cathédrales à partir du XIIe siècle ?", "answer": "Pour manifester la foi et la puissance de l'Église et des villes ; c'est l'essor de l'art gothique (grandes hauteurs, vitraux)." },
+        { "type": "classic", "question": "Comment le pouvoir du roi de France évolue-t-il du XIe au XVe siècle ?", "answer": "Il se renforce peu à peu : le roi agrandit son domaine, crée une administration et affirme son autorité sur les seigneurs." },
+        { "type": "classic", "question": "Qu'est-ce qui provoque le renouveau des villes à partir du XIe siècle ?", "answer": "L'essor du commerce et de l'artisanat : les villes grandissent, les marchands s'enrichissent et obtiennent des libertés." },
+        { "type": "classic", "question": "Qu'est-ce que la Grande Peste de 1347-1352 ?", "answer": "Une épidémie qui a tué environ un tiers de la population européenne." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 5e · Renaissance, Réformes et Nouveau Monde",
+      "description": "Grandes découvertes, humanisme, Renaissance et guerres de religion.",
+      "cards": [
+        { "type": "classic", "question": "En quelle année Christophe Colomb atteint-il l'Amérique ?", "answer": "En 1492." },
+        { "type": "classic", "question": "Pourquoi parle-t-on de « grandes découvertes » aux XVe-XVIe siècles ?", "answer": "Les Européens (Portugais, Espagnols) explorent de nouvelles routes maritimes et « découvrent » des terres inconnues d'eux, comme l'Amérique." },
+        { "type": "classic", "question": "Quelles conséquences la conquête de l'Amérique a-t-elle eues pour les peuples amérindiens ?", "answer": "Des conséquences dramatiques : guerres, travail forcé et surtout des maladies venues d'Europe ont décimé les populations (Aztèques, Incas)." },
+        { "type": "classic", "question": "Qu'est-ce que l'humanisme ?", "answer": "Un mouvement de pensée de la Renaissance qui place l'être humain et le savoir au centre, en redécouvrant les textes de l'Antiquité." },
+        { "type": "classic", "question": "Qu'est-ce que la Renaissance artistique ?", "answer": "Un renouveau des arts (XVe-XVIe siècles), né en Italie, inspiré de l'Antiquité (ex. : Léonard de Vinci, Michel-Ange)." },
+        { "type": "classic", "question": "Quelle invention diffuse largement les idées à la Renaissance ?", "answer": "L'imprimerie, mise au point par Gutenberg vers 1450." },
+        { "type": "classic", "question": "Qu'est-ce que la Réforme protestante ?", "answer": "Un mouvement religieux, lancé par Luther puis Calvin au XVIe siècle, qui critique l'Église catholique et fonde de nouvelles Églises chrétiennes." },
+        { "type": "classic", "question": "Qu'appelle-t-on les guerres de Religion en France ?", "answer": "Les conflits du XVIe siècle entre catholiques et protestants, marqués par des violences comme le massacre de la Saint-Barthélemy (1572)." },
+        { "type": "classic", "question": "Qu'est-ce que la traite atlantique commence à cette époque ?", "answer": "Le commerce d'esclaves africains déportés vers l'Amérique pour travailler dans les plantations." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 5e · Géographie : un monde à ménager",
+      "description": "Développement durable, inégalités, ressources et changement climatique.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que le développement durable ?", "answer": "Un développement qui répond aux besoins d'aujourd'hui sans empêcher les générations futures de satisfaire les leurs. Il concilie économie, société et environnement." },
+        { "type": "classic", "question": "Quels sont les trois piliers du développement durable ?", "answer": "L'économie, le social (l'humain) et l'environnement." },
+        { "type": "classic", "question": "Qu'est-ce qu'un pays développé ? un pays en développement ?", "answer": "Un pays développé a un niveau de vie élevé (santé, éducation, richesse) ; un pays en développement connaît encore une grande pauvreté et cherche à progresser." },
+        { "type": "classic", "question": "Qu'est-ce qu'une ressource renouvelable ? non renouvelable ?", "answer": "Renouvelable : qui se reconstitue (soleil, vent, eau, forêt bien gérée). Non renouvelable : en quantité limitée (pétrole, charbon, gaz)." },
+        { "type": "classic", "question": "Pourquoi l'accès à l'eau potable est-il un enjeu mondial ?", "answer": "Parce qu'elle est inégalement répartie et que des millions de personnes en manquent, alors que la demande augmente." },
+        { "type": "classic", "question": "Qu'est-ce que le réchauffement climatique ?", "answer": "L'augmentation de la température moyenne de la Terre, causée surtout par les gaz à effet de serre rejetés par les activités humaines." },
+        { "type": "classic", "question": "Cite deux conséquences du changement climatique.", "answer": "La montée du niveau des mers, la fonte des glaces, des sécheresses, des tempêtes plus violentes, des espèces menacées…" },
+        { "type": "classic", "question": "Qu'est-ce que la déforestation, et quel espace est particulièrement menacé ?", "answer": "La destruction des forêts (pour l'agriculture, le bois). La forêt amazonienne, « poumon vert », est particulièrement touchée." },
+        { "type": "classic", "question": "Que peut-on faire, à son échelle, pour préserver l'environnement ?", "answer": "Réduire, réutiliser, recycler ; économiser l'eau et l'énergie ; limiter les déplacements polluants (plusieurs réponses possibles)." },
+        { "type": "classic", "question": "Qu'est-ce que la biodiversité ?", "answer": "L'ensemble des êtres vivants (animaux, végétaux…) et de leur variété. La protéger est un enjeu majeur du développement durable." }
+      ]
+    }
+  ]
+}

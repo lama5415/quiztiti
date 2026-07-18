@@ -1,0 +1,69 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Histoire-Géo 4e · Le XVIIIe siècle : Lumières et commerce",
+      "description": "L'esprit des Lumières, le commerce mondial et les traites négrières.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que le mouvement des Lumières ?", "answer": "Un mouvement d'idées du XVIIIe siècle qui défend la raison, la liberté, l'égalité et la tolérance, et critique l'absolutisme et les privilèges." },
+        { "type": "classic", "question": "Cite deux philosophes des Lumières.", "answer": "Voltaire, Rousseau, Montesquieu, Diderot… (plusieurs réponses possibles)." },
+        { "type": "classic", "question": "Quelle grande œuvre collective résume le savoir des Lumières ?", "answer": "L'Encyclopédie, dirigée par Diderot et d'Alembert." },
+        { "type": "classic", "question": "Qu'est-ce que la monarchie absolue ?", "answer": "Un régime où le roi détient tous les pouvoirs, qu'il tient de Dieu (ex. : Louis XIV, « le Roi-Soleil »)." },
+        { "type": "classic", "question": "Qu'est-ce que le commerce triangulaire ?", "answer": "Un commerce entre trois continents : produits d'Europe échangés en Afrique contre des esclaves, déportés en Amérique, d'où revenaient sucre, café et coton." },
+        { "type": "classic", "question": "Qu'est-ce que la traite négrière ?", "answer": "Le commerce d'êtres humains : des millions d'Africains furent capturés, vendus et déportés comme esclaves vers l'Amérique." },
+        { "type": "classic", "question": "Comment vivaient les esclaves dans les plantations d'Amérique ?", "answer": "Dans des conditions terribles : travail forcé, violences, absence de liberté et de droits." },
+        { "type": "classic", "question": "Quels ports français se sont enrichis grâce au commerce colonial ?", "answer": "Nantes, Bordeaux, La Rochelle, Le Havre… (les grands ports atlantiques)." },
+        { "type": "classic", "question": "Comment appelle-t-on l'enrichissement de l'Europe grâce au commerce mondial au XVIIIe siècle ?", "answer": "L'essor du grand commerce maritime et du capitalisme marchand." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 4e · La Révolution française et l'Empire",
+      "description": "1789, la fin de la monarchie, la République et Napoléon.",
+      "cards": [
+        { "type": "classic", "question": "En quelle année commence la Révolution française ?", "answer": "En 1789." },
+        { "type": "classic", "question": "Quels étaient les trois ordres de la société sous l'Ancien Régime ?", "answer": "Le clergé, la noblesse (deux ordres privilégiés) et le tiers état (la grande majorité, qui payait les impôts)." },
+        { "type": "classic", "question": "Que s'est-il passé le 14 juillet 1789 ?", "answer": "La prise de la Bastille à Paris, symbole de la révolte du peuple contre le pouvoir royal." },
+        { "type": "classic", "question": "Quel texte fondamental est adopté en août 1789 ?", "answer": "La Déclaration des droits de l'homme et du citoyen, qui proclame la liberté et l'égalité des droits." },
+        { "type": "classic", "question": "Qu'est-ce que la Ire République, et quand est-elle proclamée ?", "answer": "Le régime sans roi proclamé en 1792 ; le roi Louis XVI est jugé puis exécuté en 1793." },
+        { "type": "classic", "question": "Qu'est-ce que la Terreur ?", "answer": "Une période (1793-1794) de la Révolution marquée par de nombreuses exécutions d'opposants, notamment sous Robespierre." },
+        { "type": "classic", "question": "Qui prend le pouvoir en France en 1799 puis devient empereur en 1804 ?", "answer": "Napoléon Bonaparte, qui fonde le Premier Empire." },
+        { "type": "classic", "question": "Cite un héritage durable de Napoléon encore visible aujourd'hui.", "answer": "Le Code civil, les préfets, les lycées, la Banque de France, la Légion d'honneur… (plusieurs réponses possibles)." },
+        { "type": "classic", "question": "Comment se termine l'aventure napoléonienne ?", "answer": "Par la défaite de Waterloo en 1815 et l'exil de Napoléon." },
+        { "type": "classic", "question": "Quelle est la devise née de la Révolution française ?", "answer": "« Liberté, Égalité, Fraternité »." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 4e · Le XIXe siècle : industrie et colonies",
+      "description": "Révolution industrielle, société nouvelle et expansion coloniale.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que la révolution industrielle ?", "answer": "La transformation profonde de l'économie au XIXe siècle grâce aux machines, aux usines et à de nouvelles énergies (charbon, vapeur)." },
+        { "type": "classic", "question": "Quelle invention symbolise la première révolution industrielle ?", "answer": "La machine à vapeur, qui fait fonctionner usines, trains et bateaux." },
+        { "type": "classic", "question": "Quelles deux nouvelles classes sociales apparaissent avec l'industrie ?", "answer": "La bourgeoisie (patrons, propriétaires des usines) et le prolétariat ouvrier (les ouvriers)." },
+        { "type": "classic", "question": "Comment vivaient les ouvriers au XIXe siècle ?", "answer": "Dans des conditions très dures : longues journées, bas salaires, travail des enfants, logements insalubres." },
+        { "type": "classic", "question": "Qu'est-ce que le mouvement ouvrier ?", "answer": "L'organisation des ouvriers (syndicats, grèves) pour défendre leurs droits et améliorer leurs conditions de travail." },
+        { "type": "classic", "question": "Qu'est-ce que la colonisation au XIXe siècle ?", "answer": "La conquête et la domination par les puissances européennes de vastes territoires en Afrique et en Asie." },
+        { "type": "classic", "question": "Quelles étaient les principales puissances coloniales ?", "answer": "Surtout le Royaume-Uni et la France, qui possédaient d'immenses empires." },
+        { "type": "classic", "question": "Comment les colonisateurs justifiaient-ils la colonisation ? Quelle était la réalité ?", "answer": "Ils prétendaient « apporter la civilisation », mais la réalité était l'exploitation des territoires et la domination des peuples colonisés." },
+        { "type": "classic", "question": "Quels progrès transforment le quotidien à la fin du XIXe siècle ?", "answer": "L'électricité, le chemin de fer, le télégraphe, l'automobile naissante, la médecine (Pasteur)…" },
+        { "type": "classic", "question": "Quel régime la France adopte-t-elle durablement à partir de 1870 ?", "answer": "La IIIe République, qui rend notamment l'école gratuite, laïque et obligatoire (lois de Jules Ferry)." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 4e · Géographie : urbanisation et mondialisation",
+      "description": "Villes, migrations, mondialisation et espaces maritimes.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que la mondialisation ?", "answer": "La mise en relation des différentes parties du monde par les échanges de marchandises, d'argent, d'informations et de personnes." },
+        { "type": "classic", "question": "Qu'est-ce qu'une firme transnationale (FTN) ?", "answer": "Une grande entreprise qui possède des activités dans plusieurs pays (ex. : Apple, Toyota, Nestlé)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une mégapole ?", "answer": "Une très grande agglomération de plus de 10 millions d'habitants (ex. : Tokyo, New York, Delhi)." },
+        { "type": "classic", "question": "Qu'est-ce que l'étalement urbain ?", "answer": "L'extension des villes en périphérie (banlieues, zones commerciales), qui consomme de l'espace autour des centres." },
+        { "type": "classic", "question": "Pourquoi les gens migrent-ils d'un pays à un autre ?", "answer": "Pour le travail, pour fuir la guerre ou la pauvreté, pour étudier, pour rejoindre leur famille… (migrations économiques, réfugiés)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un migrant ? un réfugié ?", "answer": "Un migrant quitte son pays pour vivre ailleurs ; un réfugié fuit son pays à cause de dangers (guerre, persécutions)." },
+        { "type": "classic", "question": "Pourquoi les mers et océans sont-ils essentiels au commerce mondial ?", "answer": "Parce que l'essentiel des marchandises voyage par bateau (porte-conteneurs), via de grandes routes maritimes et des ports géants." },
+        { "type": "classic", "question": "Qu'est-ce qu'un conteneur, et pourquoi a-t-il révolutionné le commerce ?", "answer": "Une grande boîte métallique standardisée : il permet de transporter facilement des marchandises d'un bateau à un train ou un camion." },
+        { "type": "classic", "question": "Qu'est-ce que le tourisme de masse ?", "answer": "Le déplacement d'un très grand nombre de touristes vers les mêmes lieux, favorisé par les transports rapides et bon marché." },
+        { "type": "classic", "question": "Qu'appelle-t-on les « façades maritimes » ?", "answer": "Les littoraux qui concentrent de grands ports et des activités tournées vers le commerce mondial (ex. : la façade de l'Asie de l'Est)." }
+      ]
+    }
+  ]
+}
