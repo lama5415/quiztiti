@@ -1,0 +1,177 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "English Riddles — Débutant",
+      "description": "15 énigmes : trouvez le mot anglais grâce à des indices simples, en anglais.",
+      "cards": [
+        {
+          "type": "riddle",
+          "answer": "Dog",
+          "clues": [
+            "I am an animal.",
+            "I live with people.",
+            "I love to play and run.",
+            "I wag my tail when I am happy.",
+            "I say \"woof woof\"."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Cat",
+          "clues": [
+            "I am a small animal.",
+            "I sleep a lot during the day.",
+            "I like to catch mice.",
+            "I purr when you pet me.",
+            "I say \"meow\"."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Apple",
+          "clues": [
+            "I am a fruit.",
+            "I grow on a tree.",
+            "I can be red, green or yellow.",
+            "Children sometimes give me to their teacher.",
+            "One of me a day keeps the doctor away."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Sun",
+          "clues": [
+            "You can see me in the sky.",
+            "I am very, very hot.",
+            "I give light to the Earth.",
+            "I rise in the morning and set in the evening.",
+            "I am the yellow star at the center of our solar system."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Water",
+          "clues": [
+            "You drink me every day.",
+            "I have no color and no taste.",
+            "Fish live in me.",
+            "I fall from the sky as rain.",
+            "I fill the seas, lakes and rivers."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "House",
+          "clues": [
+            "People live in me.",
+            "I can be big or small, made of wood or brick.",
+            "I have a roof, a door and windows.",
+            "You sleep, eat and cook inside me.",
+            "You open my front door when you come home."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Book",
+          "clues": [
+            "You can hold me in your hands.",
+            "I am full of pages.",
+            "I tell stories or teach you things.",
+            "You can borrow me from a library.",
+            "You read me."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Bread",
+          "clues": [
+            "You can eat me.",
+            "I am made from flour.",
+            "The baker makes me every morning.",
+            "The French baguette is a famous kind of me.",
+            "You use two slices of me to make a sandwich."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Rain",
+          "clues": [
+            "I come from the clouds.",
+            "I make everything wet.",
+            "Plants love me.",
+            "You need an umbrella when I fall.",
+            "I am water falling from the sky."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Shoe",
+          "clues": [
+            "You wear me every day.",
+            "I always come in pairs.",
+            "You put me on before going outside.",
+            "I protect your feet.",
+            "You tie my laces."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Milk",
+          "clues": [
+            "I am a drink.",
+            "I am white.",
+            "Babies love me.",
+            "I come from a cow.",
+            "You pour me on your breakfast cereal."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Tree",
+          "clues": [
+            "I am tall and I live a long time.",
+            "Birds make their nests in me.",
+            "I have leaves and branches.",
+            "I lose my leaves in autumn.",
+            "I am made of wood and I grow in the forest."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Moon",
+          "clues": [
+            "You see me at night.",
+            "I change shape during the month.",
+            "I go around the Earth.",
+            "Astronauts walked on me in 1969.",
+            "I shine in the dark sky, next to the stars."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Egg",
+          "clues": [
+            "I am oval.",
+            "I am white or brown outside, yellow inside.",
+            "The hen makes me.",
+            "You can boil me or fry me.",
+            "You eat me for breakfast, sometimes with bacon."
+          ]
+        },
+        {
+          "type": "riddle",
+          "answer": "Chair",
+          "clues": [
+            "I am a piece of furniture.",
+            "I have four legs but I cannot walk.",
+            "You find me around a table.",
+            "I have a back but no head.",
+            "You sit on me."
+          ]
+        }
+      ]
+    }
+  ]
+}
