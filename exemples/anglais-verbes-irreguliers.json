@@ -1,0 +1,390 @@
+{
+ "format": "quiztiti-deck",
+ "version": 1,
+ "decks": [
+  {
+   "name": "Anglais · Verbes irréguliers — Les essentiels",
+   "description": "Les 20 verbes les plus fréquents : prétérit et participe passé.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "to be (être) — prétérit et participe passé ?",
+     "answer": "was/were / been"
+    },
+    {
+     "type": "classic",
+     "question": "to have (avoir) — prétérit et participe passé ?",
+     "answer": "had / had"
+    },
+    {
+     "type": "classic",
+     "question": "to do (faire) — prétérit et participe passé ?",
+     "answer": "did / done"
+    },
+    {
+     "type": "classic",
+     "question": "to go (aller) — prétérit et participe passé ?",
+     "answer": "went / gone"
+    },
+    {
+     "type": "classic",
+     "question": "to come (venir) — prétérit et participe passé ?",
+     "answer": "came / come"
+    },
+    {
+     "type": "classic",
+     "question": "to see (voir) — prétérit et participe passé ?",
+     "answer": "saw / seen"
+    },
+    {
+     "type": "classic",
+     "question": "to say (dire) — prétérit et participe passé ?",
+     "answer": "said / said"
+    },
+    {
+     "type": "classic",
+     "question": "to get (obtenir, devenir) — prétérit et participe passé ?",
+     "answer": "got / got (gotten en anglais américain)"
+    },
+    {
+     "type": "classic",
+     "question": "to make (faire, fabriquer) — prétérit et participe passé ?",
+     "answer": "made / made"
+    },
+    {
+     "type": "classic",
+     "question": "to take (prendre) — prétérit et participe passé ?",
+     "answer": "took / taken"
+    },
+    {
+     "type": "classic",
+     "question": "to know (savoir, connaître) — prétérit et participe passé ?",
+     "answer": "knew / known"
+    },
+    {
+     "type": "classic",
+     "question": "to think (penser) — prétérit et participe passé ?",
+     "answer": "thought / thought"
+    },
+    {
+     "type": "classic",
+     "question": "to give (donner) — prétérit et participe passé ?",
+     "answer": "gave / given"
+    },
+    {
+     "type": "classic",
+     "question": "to find (trouver) — prétérit et participe passé ?",
+     "answer": "found / found"
+    },
+    {
+     "type": "classic",
+     "question": "to tell (dire, raconter) — prétérit et participe passé ?",
+     "answer": "told / told"
+    },
+    {
+     "type": "classic",
+     "question": "to eat (manger) — prétérit et participe passé ?",
+     "answer": "ate / eaten"
+    },
+    {
+     "type": "classic",
+     "question": "to drink (boire) — prétérit et participe passé ?",
+     "answer": "drank / drunk"
+    },
+    {
+     "type": "classic",
+     "question": "to sleep (dormir) — prétérit et participe passé ?",
+     "answer": "slept / slept"
+    },
+    {
+     "type": "classic",
+     "question": "to read (lire) — prétérit et participe passé ?",
+     "answer": "read / read — même orthographe, mais prononcés « red »"
+    },
+    {
+     "type": "classic",
+     "question": "to write (écrire) — prétérit et participe passé ?",
+     "answer": "wrote / written"
+    }
+   ]
+  },
+  {
+   "name": "Anglais · Verbes irréguliers — Courants",
+   "description": "20 verbes du quotidien : prétérit et participe passé.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "to buy (acheter) — prétérit et participe passé ?",
+     "answer": "bought / bought"
+    },
+    {
+     "type": "classic",
+     "question": "to bring (apporter) — prétérit et participe passé ?",
+     "answer": "brought / brought"
+    },
+    {
+     "type": "classic",
+     "question": "to catch (attraper) — prétérit et participe passé ?",
+     "answer": "caught / caught"
+    },
+    {
+     "type": "classic",
+     "question": "to choose (choisir) — prétérit et participe passé ?",
+     "answer": "chose / chosen"
+    },
+    {
+     "type": "classic",
+     "question": "to drive (conduire) — prétérit et participe passé ?",
+     "answer": "drove / driven"
+    },
+    {
+     "type": "classic",
+     "question": "to fall (tomber) — prétérit et participe passé ?",
+     "answer": "fell / fallen"
+    },
+    {
+     "type": "classic",
+     "question": "to feel (ressentir) — prétérit et participe passé ?",
+     "answer": "felt / felt"
+    },
+    {
+     "type": "classic",
+     "question": "to fly (voler) — prétérit et participe passé ?",
+     "answer": "flew / flown"
+    },
+    {
+     "type": "classic",
+     "question": "to forget (oublier) — prétérit et participe passé ?",
+     "answer": "forgot / forgotten"
+    },
+    {
+     "type": "classic",
+     "question": "to hear (entendre) — prétérit et participe passé ?",
+     "answer": "heard / heard"
+    },
+    {
+     "type": "classic",
+     "question": "to keep (garder) — prétérit et participe passé ?",
+     "answer": "kept / kept"
+    },
+    {
+     "type": "classic",
+     "question": "to leave (partir, laisser) — prétérit et participe passé ?",
+     "answer": "left / left"
+    },
+    {
+     "type": "classic",
+     "question": "to lose (perdre) — prétérit et participe passé ?",
+     "answer": "lost / lost"
+    },
+    {
+     "type": "classic",
+     "question": "to meet (rencontrer) — prétérit et participe passé ?",
+     "answer": "met / met"
+    },
+    {
+     "type": "classic",
+     "question": "to pay (payer) — prétérit et participe passé ?",
+     "answer": "paid / paid"
+    },
+    {
+     "type": "classic",
+     "question": "to put (mettre) — prétérit et participe passé ?",
+     "answer": "put / put — invariable !"
+    },
+    {
+     "type": "classic",
+     "question": "to run (courir) — prétérit et participe passé ?",
+     "answer": "ran / run"
+    },
+    {
+     "type": "classic",
+     "question": "to sing (chanter) — prétérit et participe passé ?",
+     "answer": "sang / sung"
+    },
+    {
+     "type": "classic",
+     "question": "to speak (parler) — prétérit et participe passé ?",
+     "answer": "spoke / spoken"
+    },
+    {
+     "type": "classic",
+     "question": "to win (gagner) — prétérit et participe passé ?",
+     "answer": "won / won"
+    }
+   ]
+  },
+  {
+   "name": "Anglais · Verbes irréguliers — Avancés",
+   "description": "20 verbes de niveau collège/lycée : prétérit et participe passé.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "to begin (commencer) — prétérit et participe passé ?",
+     "answer": "began / begun"
+    },
+    {
+     "type": "classic",
+     "question": "to break (casser) — prétérit et participe passé ?",
+     "answer": "broke / broken"
+    },
+    {
+     "type": "classic",
+     "question": "to build (construire) — prétérit et participe passé ?",
+     "answer": "built / built"
+    },
+    {
+     "type": "classic",
+     "question": "to draw (dessiner) — prétérit et participe passé ?",
+     "answer": "drew / drawn"
+    },
+    {
+     "type": "classic",
+     "question": "to forgive (pardonner) — prétérit et participe passé ?",
+     "answer": "forgave / forgiven"
+    },
+    {
+     "type": "classic",
+     "question": "to hide (cacher) — prétérit et participe passé ?",
+     "answer": "hid / hidden"
+    },
+    {
+     "type": "classic",
+     "question": "to hold (tenir) — prétérit et participe passé ?",
+     "answer": "held / held"
+    },
+    {
+     "type": "classic",
+     "question": "to lend (prêter) — prétérit et participe passé ?",
+     "answer": "lent / lent"
+    },
+    {
+     "type": "classic",
+     "question": "to mean (signifier) — prétérit et participe passé ?",
+     "answer": "meant / meant"
+    },
+    {
+     "type": "classic",
+     "question": "to ride (monter à vélo, à cheval) — prétérit et participe passé ?",
+     "answer": "rode / ridden"
+    },
+    {
+     "type": "classic",
+     "question": "to ring (sonner) — prétérit et participe passé ?",
+     "answer": "rang / rung"
+    },
+    {
+     "type": "classic",
+     "question": "to rise (se lever, monter) — prétérit et participe passé ?",
+     "answer": "rose / risen"
+    },
+    {
+     "type": "classic",
+     "question": "to send (envoyer) — prétérit et participe passé ?",
+     "answer": "sent / sent"
+    },
+    {
+     "type": "classic",
+     "question": "to shake (secouer) — prétérit et participe passé ?",
+     "answer": "shook / shaken"
+    },
+    {
+     "type": "classic",
+     "question": "to steal (voler, dérober) — prétérit et participe passé ?",
+     "answer": "stole / stolen"
+    },
+    {
+     "type": "classic",
+     "question": "to teach (enseigner) — prétérit et participe passé ?",
+     "answer": "taught / taught"
+    },
+    {
+     "type": "classic",
+     "question": "to throw (lancer) — prétérit et participe passé ?",
+     "answer": "threw / thrown"
+    },
+    {
+     "type": "classic",
+     "question": "to understand (comprendre) — prétérit et participe passé ?",
+     "answer": "understood / understood"
+    },
+    {
+     "type": "classic",
+     "question": "to wear (porter un vêtement) — prétérit et participe passé ?",
+     "answer": "wore / worn"
+    },
+    {
+     "type": "classic",
+     "question": "to wake (se réveiller) — prétérit et participe passé ?",
+     "answer": "woke / woken"
+    }
+   ]
+  },
+  {
+   "name": "Anglais · Verbes irréguliers — Pièges et astuces",
+   "description": "Confusions classiques, familles de verbes et moyens mnémotechniques.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "Cite 5 verbes invariables (les 3 formes identiques).",
+     "answer": "put, cut, cost, hit, hurt (aussi : let, shut, set)"
+    },
+    {
+     "type": "classic",
+     "question": "Comment se prononcent le prétérit et le participe passé de « to read » ?",
+     "answer": "Ils s'écrivent « read » mais se prononcent « red », comme la couleur. Seul l'infinitif se prononce « riid »."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle différence entre « to lie » et « to lay » ?",
+     "answer": "to lie (être allongé) : lie / lay / lain — sans complément. to lay (poser) : lay / laid / laid — avec un complément. Piège : « lay » est aussi le prétérit de « lie » ! (Et « to lie » = mentir est régulier : lied / lied.)"
+    },
+    {
+     "type": "classic",
+     "question": "« fell » et « felt » : de quels verbes viennent-ils ?",
+     "answer": "fell = prétérit de to fall (tomber) : fell / fallen. felt = prétérit de to feel (ressentir) : felt / felt."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle différence entre « to rise » et « to raise » ?",
+     "answer": "to rise (se lever, monter tout seul) : rose / risen — sans complément. to raise (lever quelque chose) : régulier, raised / raised — avec un complément."
+    },
+    {
+     "type": "classic",
+     "question": "to hang : « hung » ou « hanged » ?",
+     "answer": "hung / hung pour suspendre un objet. hanged / hanged (forme régulière) uniquement pour « pendre quelqu'un »."
+    },
+    {
+     "type": "classic",
+     "question": "« She has gone to London » ou « She has been to London » : quelle nuance ?",
+     "answer": "has gone : elle y est partie (elle y est encore). has been : elle y est allée (et elle est revenue)."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle famille suivent drink, sing, swim, ring, begin ?",
+     "answer": "La famille i / a / u : drink-drank-drunk, sing-sang-sung, swim-swam-swum, ring-rang-rung, begin-began-begun."
+    },
+    {
+     "type": "classic",
+     "question": "Quels verbes finissent en « -ought » ou « -aught » au prétérit ?",
+     "answer": "think → thought, buy → bought, bring → brought, fight → fought ; teach → taught, catch → caught. Les 3 formes sont identiques (prétérit = participe passé)."
+    },
+    {
+     "type": "classic",
+     "question": "to beat (battre) — prétérit et participe passé ?",
+     "answer": "beat / beaten — le prétérit ne change pas, mais le participe passé si !"
+    },
+    {
+     "type": "classic",
+     "question": "learn, dream, burn : réguliers ou irréguliers ?",
+     "answer": "Les deux ! learned ou learnt, dreamed ou dreamt, burned ou burnt. Les formes en -t sont plus britanniques."
+    },
+    {
+     "type": "classic",
+     "question": "Participe passé de « to get » : got ou gotten ?",
+     "answer": "got en anglais britannique, gotten en anglais américain (sauf « have got » = avoir, posséder)."
+    }
+   ]
+  }
+ ]
+}

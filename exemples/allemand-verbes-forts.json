@@ -1,0 +1,370 @@
+{
+ "format": "quiztiti-deck",
+ "version": 1,
+ "decks": [
+  {
+   "name": "Allemand · Verbes forts — Les essentiels",
+   "description": "Les 18 verbes indispensables : Präteritum, Partizip II et auxiliaire.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "sein (être) — Präteritum et Partizip II ?",
+     "answer": "war / ist gewesen — présent : er ist"
+    },
+    {
+     "type": "classic",
+     "question": "haben (avoir) — Präteritum et Partizip II ?",
+     "answer": "hatte / hat gehabt — présent : er hat"
+    },
+    {
+     "type": "classic",
+     "question": "werden (devenir) — Präteritum et Partizip II ?",
+     "answer": "wurde / ist geworden — présent : er wird"
+    },
+    {
+     "type": "classic",
+     "question": "gehen (aller à pied) — Präteritum et Partizip II ?",
+     "answer": "ging / ist gegangen"
+    },
+    {
+     "type": "classic",
+     "question": "kommen (venir) — Präteritum et Partizip II ?",
+     "answer": "kam / ist gekommen"
+    },
+    {
+     "type": "classic",
+     "question": "fahren (aller en véhicule, conduire) — Präteritum et Partizip II ?",
+     "answer": "fuhr / ist gefahren — présent : er fährt"
+    },
+    {
+     "type": "classic",
+     "question": "sehen (voir) — Präteritum et Partizip II ?",
+     "answer": "sah / hat gesehen — présent : er sieht"
+    },
+    {
+     "type": "classic",
+     "question": "geben (donner) — Präteritum et Partizip II ?",
+     "answer": "gab / hat gegeben — présent : er gibt"
+    },
+    {
+     "type": "classic",
+     "question": "nehmen (prendre) — Präteritum et Partizip II ?",
+     "answer": "nahm / hat genommen — présent : er nimmt"
+    },
+    {
+     "type": "classic",
+     "question": "finden (trouver) — Präteritum et Partizip II ?",
+     "answer": "fand / hat gefunden"
+    },
+    {
+     "type": "classic",
+     "question": "essen (manger) — Präteritum et Partizip II ?",
+     "answer": "aß / hat gegessen — présent : er isst"
+    },
+    {
+     "type": "classic",
+     "question": "trinken (boire) — Präteritum et Partizip II ?",
+     "answer": "trank / hat getrunken"
+    },
+    {
+     "type": "classic",
+     "question": "schlafen (dormir) — Präteritum et Partizip II ?",
+     "answer": "schlief / hat geschlafen — présent : er schläft"
+    },
+    {
+     "type": "classic",
+     "question": "sprechen (parler) — Präteritum et Partizip II ?",
+     "answer": "sprach / hat gesprochen — présent : er spricht"
+    },
+    {
+     "type": "classic",
+     "question": "lesen (lire) — Präteritum et Partizip II ?",
+     "answer": "las / hat gelesen — présent : er liest"
+    },
+    {
+     "type": "classic",
+     "question": "schreiben (écrire) — Präteritum et Partizip II ?",
+     "answer": "schrieb / hat geschrieben"
+    },
+    {
+     "type": "classic",
+     "question": "helfen (aider) — Präteritum et Partizip II ?",
+     "answer": "half / hat geholfen — présent : er hilft"
+    },
+    {
+     "type": "classic",
+     "question": "laufen (courir) — Präteritum et Partizip II ?",
+     "answer": "lief / ist gelaufen — présent : er läuft"
+    }
+   ]
+  },
+  {
+   "name": "Allemand · Verbes forts — Courants",
+   "description": "18 verbes du quotidien : Präteritum, Partizip II et auxiliaire.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "beginnen (commencer) — Präteritum et Partizip II ?",
+     "answer": "begann / hat begonnen"
+    },
+    {
+     "type": "classic",
+     "question": "bleiben (rester) — Präteritum et Partizip II ?",
+     "answer": "blieb / ist geblieben"
+    },
+    {
+     "type": "classic",
+     "question": "fliegen (voler, prendre l'avion) — Präteritum et Partizip II ?",
+     "answer": "flog / ist geflogen"
+    },
+    {
+     "type": "classic",
+     "question": "heißen (s'appeler) — Präteritum et Partizip II ?",
+     "answer": "hieß / hat geheißen"
+    },
+    {
+     "type": "classic",
+     "question": "liegen (être couché, être situé) — Präteritum et Partizip II ?",
+     "answer": "lag / hat gelegen"
+    },
+    {
+     "type": "classic",
+     "question": "rufen (appeler, crier) — Präteritum et Partizip II ?",
+     "answer": "rief / hat gerufen"
+    },
+    {
+     "type": "classic",
+     "question": "schwimmen (nager) — Präteritum et Partizip II ?",
+     "answer": "schwamm / ist geschwommen"
+    },
+    {
+     "type": "classic",
+     "question": "singen (chanter) — Präteritum et Partizip II ?",
+     "answer": "sang / hat gesungen"
+    },
+    {
+     "type": "classic",
+     "question": "sitzen (être assis) — Präteritum et Partizip II ?",
+     "answer": "saß / hat gesessen"
+    },
+    {
+     "type": "classic",
+     "question": "stehen (être debout) — Präteritum et Partizip II ?",
+     "answer": "stand / hat gestanden"
+    },
+    {
+     "type": "classic",
+     "question": "sterben (mourir) — Präteritum et Partizip II ?",
+     "answer": "starb / ist gestorben — présent : er stirbt"
+    },
+    {
+     "type": "classic",
+     "question": "tragen (porter) — Präteritum et Partizip II ?",
+     "answer": "trug / hat getragen — présent : er trägt"
+    },
+    {
+     "type": "classic",
+     "question": "treffen (rencontrer) — Präteritum et Partizip II ?",
+     "answer": "traf / hat getroffen — présent : er trifft"
+    },
+    {
+     "type": "classic",
+     "question": "tun (faire) — Präteritum et Partizip II ?",
+     "answer": "tat / hat getan"
+    },
+    {
+     "type": "classic",
+     "question": "vergessen (oublier) — Präteritum et Partizip II ?",
+     "answer": "vergaß / hat vergessen — présent : er vergisst"
+    },
+    {
+     "type": "classic",
+     "question": "verlieren (perdre) — Präteritum et Partizip II ?",
+     "answer": "verlor / hat verloren"
+    },
+    {
+     "type": "classic",
+     "question": "waschen (laver) — Präteritum et Partizip II ?",
+     "answer": "wusch / hat gewaschen — présent : er wäscht"
+    },
+    {
+     "type": "classic",
+     "question": "werfen (lancer) — Präteritum et Partizip II ?",
+     "answer": "warf / hat geworfen — présent : er wirft"
+    }
+   ]
+  },
+  {
+   "name": "Allemand · Verbes forts — Avancés",
+   "description": "18 verbes de niveau lycée : Präteritum, Partizip II et auxiliaire.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "bieten (offrir, proposer) — Präteritum et Partizip II ?",
+     "answer": "bot / hat geboten"
+    },
+    {
+     "type": "classic",
+     "question": "bitten (demander, prier) — Präteritum et Partizip II ?",
+     "answer": "bat / hat gebeten"
+    },
+    {
+     "type": "classic",
+     "question": "brechen (casser) — Präteritum et Partizip II ?",
+     "answer": "brach / hat gebrochen — présent : er bricht"
+    },
+    {
+     "type": "classic",
+     "question": "empfehlen (recommander) — Präteritum et Partizip II ?",
+     "answer": "empfahl / hat empfohlen — présent : er empfiehlt"
+    },
+    {
+     "type": "classic",
+     "question": "entscheiden (décider) — Präteritum et Partizip II ?",
+     "answer": "entschied / hat entschieden"
+    },
+    {
+     "type": "classic",
+     "question": "fallen (tomber) — Präteritum et Partizip II ?",
+     "answer": "fiel / ist gefallen — présent : er fällt"
+    },
+    {
+     "type": "classic",
+     "question": "fangen (attraper) — Präteritum et Partizip II ?",
+     "answer": "fing / hat gefangen — présent : er fängt"
+    },
+    {
+     "type": "classic",
+     "question": "gelingen (réussir — es gelingt mir) — Präteritum et Partizip II ?",
+     "answer": "gelang / ist gelungen"
+    },
+    {
+     "type": "classic",
+     "question": "genießen (savourer, profiter de) — Präteritum et Partizip II ?",
+     "answer": "genoss / hat genossen"
+    },
+    {
+     "type": "classic",
+     "question": "geschehen (se produire) — Präteritum et Partizip II ?",
+     "answer": "geschah / ist geschehen — présent : es geschieht"
+    },
+    {
+     "type": "classic",
+     "question": "gewinnen (gagner) — Präteritum et Partizip II ?",
+     "answer": "gewann / hat gewonnen"
+    },
+    {
+     "type": "classic",
+     "question": "halten (tenir, s'arrêter) — Präteritum et Partizip II ?",
+     "answer": "hielt / hat gehalten — présent : er hält"
+    },
+    {
+     "type": "classic",
+     "question": "lassen (laisser, faire faire) — Präteritum et Partizip II ?",
+     "answer": "ließ / hat gelassen — présent : er lässt"
+    },
+    {
+     "type": "classic",
+     "question": "schließen (fermer) — Präteritum et Partizip II ?",
+     "answer": "schloss / hat geschlossen"
+    },
+    {
+     "type": "classic",
+     "question": "steigen (monter) — Präteritum et Partizip II ?",
+     "answer": "stieg / ist gestiegen"
+    },
+    {
+     "type": "classic",
+     "question": "verschwinden (disparaître) — Präteritum et Partizip II ?",
+     "answer": "verschwand / ist verschwunden"
+    },
+    {
+     "type": "classic",
+     "question": "wachsen (grandir, pousser) — Präteritum et Partizip II ?",
+     "answer": "wuchs / ist gewachsen — présent : er wächst"
+    },
+    {
+     "type": "classic",
+     "question": "ziehen (tirer ; déménager) — Präteritum et Partizip II ?",
+     "answer": "zog / hat gezogen (ist gezogen au sens de déménager)"
+    }
+   ]
+  },
+  {
+   "name": "Allemand · Verbes forts — Pièges et familles",
+   "description": "Auxiliaire haben ou sein, familles d'ablaut, verbes mixtes et confusions classiques.",
+   "cards": [
+    {
+     "type": "classic",
+     "question": "Parfait : quand utilise-t-on l'auxiliaire « sein » plutôt que « haben » ?",
+     "answer": "Avec les verbes de déplacement (gehen, kommen, fahren, fliegen…) et de changement d'état (sterben, wachsen, einschlafen…), plus sein, bleiben et werden. Tous les autres prennent haben."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle famille suivent bleiben, schreiben, steigen, entscheiden ?",
+     "answer": "La famille ei / ie / ie : bleiben-blieb-geblieben, schreiben-schrieb-geschrieben, steigen-stieg-gestiegen, entscheiden-entschied-entschieden."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle famille suivent trinken, singen, finden, springen ?",
+     "answer": "La famille i / a / u : trinken-trank-getrunken, singen-sang-gesungen, finden-fand-gefunden, springen-sprang-gesprungen."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle famille suivent sprechen, helfen, treffen, werfen ?",
+     "answer": "La famille e / a / o : sprechen-sprach-gesprochen, helfen-half-geholfen, treffen-traf-getroffen, werfen-warf-geworfen."
+    },
+    {
+     "type": "classic",
+     "question": "Quels changements de voyelle au présent (du/er) chez les verbes forts ?",
+     "answer": "a → ä : fahren → du fährst ; e → i : geben → du gibst ; e → ie : lesen → du liest. Uniquement aux 2e et 3e personnes du singulier."
+    },
+    {
+     "type": "classic",
+     "question": "Qu'est-ce qu'un verbe « mixte » ? Donne 4 exemples.",
+     "answer": "Un verbe qui change de voyelle (comme un fort) mais prend les terminaisons faibles -te / -t : bringen-brachte-gebracht, denken-dachte-gedacht, kennen-kannte-gekannt, wissen-wusste-gewusst."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle différence entre liegen et legen ?",
+     "answer": "liegen (être couché, fort) : lag / hat gelegen — position. legen (poser à plat, faible) : legte / hat gelegt — action."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle différence entre sitzen et setzen ?",
+     "answer": "sitzen (être assis, fort) : saß / hat gesessen — position. sich setzen (s'asseoir, faible) : setzte / hat gesetzt — action."
+    },
+    {
+     "type": "classic",
+     "question": "Quelle différence entre stehen et stellen ?",
+     "answer": "stehen (être debout, fort) : stand / hat gestanden — position. stellen (poser debout, faible) : stellte / hat gestellt — action."
+    },
+    {
+     "type": "classic",
+     "question": "hängen : fort ou faible ?",
+     "answer": "Les deux ! Être suspendu (position) : fort, hing / hat gehangen. Suspendre quelque chose (action) : faible, hängte / hat gehängt."
+    },
+    {
+     "type": "classic",
+     "question": "Quels verbes forment leur Partizip II sans « ge- » ?",
+     "answer": "Les verbes à préfixe inséparable (be-, ver-, er-, ent-, emp-, ge-, zer-) et les verbes en -ieren : besuchen → besucht, verlieren → verloren, studieren → studiert."
+    },
+    {
+     "type": "classic",
+     "question": "Où se place le « ge- » dans le Partizip II d'un verbe à particule séparable ?",
+     "answer": "Entre la particule et le radical : aufstehen → ist aufgestanden, ankommen → ist angekommen, einladen → hat eingeladen."
+    },
+    {
+     "type": "classic",
+     "question": "Quels sont les 3 emplois de « werden » ?",
+     "answer": "1) Devenir : er wird Arzt. 2) Futur : er wird kommen. 3) Passif : das Haus wird gebaut. Au parfait passif, geworden devient worden : es ist gebaut worden."
+    },
+    {
+     "type": "classic",
+     "question": "schwimmen au parfait : haben ou sein ?",
+     "answer": "sein quand il y a déplacement (ich bin ans Ufer geschwommen) ; haben est possible pour l'activité en soi, mais « ist geschwommen » est aujourd'hui la forme la plus courante."
+    }
+   ]
+  }
+ ]
+}

@@ -106,5 +106,17 @@
     "name": "Carnet Français 3e",
     "description": "4 paquets par thème : analyse, conjugaison, accords difficiles, figures et argumentation.",
     "badge": "4 paquets · 55 fiches"
+  },
+  {
+    "file": "anglais-verbes-irreguliers.json",
+    "name": "Carnet Anglais — Verbes irréguliers",
+    "description": "4 paquets : essentiels, courants, avancés, plus les pièges et astuces (lie/lay, familles i-a-u…).",
+    "badge": "4 paquets · 72 fiches"
+  },
+  {
+    "file": "allemand-verbes-forts.json",
+    "name": "Carnet Allemand — Verbes forts",
+    "description": "4 paquets : essentiels, courants, avancés, plus les pièges (haben/sein, familles d'ablaut, verbes mixtes).",
+    "badge": "4 paquets · 68 fiches"
   }
 ]
