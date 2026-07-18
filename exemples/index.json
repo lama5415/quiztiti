@@ -130,5 +130,23 @@
     "name": "Carnet Histoire-Géo 3e",
     "description": "4 paquets : guerres mondiales, totalitarismes et guerre froide, la France depuis 1945, France et Europe.",
     "badge": "4 paquets · 39 fiches"
+  },
+  {
+    "file": "physique-chimie-5e.json",
+    "name": "Carnet Physique-Chimie 5e",
+    "description": "4 paquets : états de la matière, eau et mélanges, électricité et circuits, lumière et sources.",
+    "badge": "4 paquets · 46 fiches"
+  },
+  {
+    "file": "physique-chimie-4e.json",
+    "name": "Carnet Physique-Chimie 4e",
+    "description": "4 paquets : atomes et transformations, mouvements et forces, intensité et tension, lumière et couleurs.",
+    "badge": "4 paquets · 47 fiches"
+  },
+  {
+    "file": "physique-chimie-3e.json",
+    "name": "Carnet Physique-Chimie 3e",
+    "description": "4 paquets : atomes, ions et pH, réactions et conservation, énergie et puissance, signaux et gravitation.",
+    "badge": "4 paquets · 44 fiches"
   }
 ]
