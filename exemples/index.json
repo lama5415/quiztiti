@@ -66,10 +66,22 @@
     "badge": "4 paquets · 55 fiches"
   },
   {
+    "file": "maths-5e.json",
+    "name": "Carnet Maths 5e",
+    "description": "4 paquets par thème : nombres relatifs, proportionnalité, géométrie, aires/volumes et probas.",
+    "badge": "4 paquets · 55 fiches"
+  },
+  {
     "file": "maths-4e.json",
     "name": "Carnet Maths 4e",
     "description": "4 paquets par thème : relatifs et puissances, calcul littéral, Pythagore, proportionnalité et probas.",
     "badge": "4 paquets · 56 fiches"
+  },
+  {
+    "file": "maths-3e.json",
+    "name": "Carnet Maths 3e",
+    "description": "4 paquets par thème : arithmétique et racines, fonctions, Thalès et trigo, stats et évolutions.",
+    "badge": "4 paquets · 54 fiches"
   },
   {
     "file": "francais-6e.json",
@@ -78,9 +90,21 @@
     "badge": "4 paquets · 54 fiches"
   },
   {
+    "file": "francais-5e.json",
+    "name": "Carnet Français 5e",
+    "description": "4 paquets par thème : grammaire, conjugaison, orthographe, vocabulaire et étymologie.",
+    "badge": "4 paquets · 53 fiches"
+  },
+  {
     "file": "francais-4e.json",
     "name": "Carnet Français 4e",
     "description": "4 paquets par thème : grammaire, conjugaison, orthographe et accords, figures de style.",
     "badge": "4 paquets · 54 fiches"
+  },
+  {
+    "file": "francais-3e.json",
+    "name": "Carnet Français 3e",
+    "description": "4 paquets par thème : analyse, conjugaison, accords difficiles, figures et argumentation.",
+    "badge": "4 paquets · 55 fiches"
   }
 ]

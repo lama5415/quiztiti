@@ -1,0 +1,85 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Français 3e · Grammaire et analyse",
+      "description": "Subordonnées circonstancielles, discours rapporté, modalisation : l'analyse niveau brevet.",
+      "cards": [
+        { "type": "classic", "question": "Quelle subordonnée exprime la cause ? la conséquence ? Donne les conjonctions.", "answer": "Cause : parce que, puisque, comme. Conséquence : si bien que, de sorte que, au point que." },
+        { "type": "classic", "question": "Comment exprime-t-on le but ? Quel mode impose-t-il ?", "answer": "Pour que, afin que, de peur que… + subjonctif : « Je répète pour que tu comprennes. »" },
+        { "type": "classic", "question": "Comment exprime-t-on la concession (l'opposition) ?", "answer": "Bien que, quoique + subjonctif ; alors que, tandis que + indicatif : « Bien qu'il pleuve, il sort. »" },
+        { "type": "classic", "question": "Quelles subordonnées expriment la condition ?", "answer": "Si, à condition que, pourvu que, à moins que : « Si tu viens, nous irons au cinéma. »" },
+        { "type": "classic", "question": "Quels sont les trois types de discours rapporté ?", "answer": "Direct (paroles entre guillemets), indirect (subordonnée : il dit qu'il part), indirect libre (sans guillemets ni « que », mêlé au récit — fréquent chez Flaubert ou Zola)." },
+        { "type": "classic", "question": "Comment reconnaît-on le discours indirect libre ?", "answer": "Les paroles ou pensées sont rapportées sans verbe introducteur ni guillemets, mais avec les temps et pronoms du récit : « Elle hésitait. Que dirait sa mère ? »" },
+        { "type": "classic", "question": "Qu'est-ce que la modalisation ?", "answer": "Les marques du jugement de celui qui parle : adverbes (peut-être, certainement), verbes (sembler, prétendre), conditionnel, vocabulaire mélioratif ou péjoratif." },
+        { "type": "classic", "question": "Comment met-on un élément en relief (emphase) ?", "answer": "Avec un présentatif « c'est… qui/que » (« C'est lui qui a gagné ») ou un détachement repris par un pronom (« Ce livre, je l'adore »)." },
+        { "type": "classic", "question": "Quelle différence entre la nature et la fonction d'un mot ?", "answer": "La nature (classe grammaticale) est sa carte d'identité, fixe (nom, verbe, adjectif…). La fonction est son rôle dans la phrase, variable (sujet, COD, épithète…)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une interrogative indirecte ?", "answer": "Une question intégrée dans une phrase, sans point d'interrogation : « Je me demande s'il viendra. »" },
+        { "type": "classic", "question": "Qu'est-ce qu'une reprise anaphorique ?", "answer": "La reprise d'un élément déjà cité pour éviter la répétition : pronom (« il »), GN (« le jeune homme », « ce dernier »)." },
+        { "type": "classic", "question": "Classe ces connecteurs : d'abord, en effet, néanmoins, par conséquent.", "answer": "D'abord : organisation. En effet : cause/justification. Néanmoins : opposition. Par conséquent : conséquence." },
+        { "type": "classic", "question": "À la voix passive, qui fait l'action ?", "answer": "Le complément d'agent (introduit par « par ») ; le sujet la subit. S'il est absent, l'auteur de l'action reste inconnu — effet souvent recherché." },
+        { "type": "classic", "question": "Analyse : « Puisque tu insistes, je resterai, mais je partirai tôt. »", "answer": "Subordonnée de cause (« puisque tu insistes »), principale (« je resterai »), coordonnée par « mais » (« je partirai tôt »)." }
+      ]
+    },
+    {
+      "name": "Français 3e · Conjugaison",
+      "description": "Subjonctif, conditionnel, concordance des temps et formes en -ant.",
+      "cards": [
+        { "type": "classic", "question": "Comment forme-t-on le subjonctif passé ?", "answer": "Subjonctif présent de l'auxiliaire + participe passé : « bien qu'il ait fini », « avant qu'elle soit partie »." },
+        { "type": "classic", "question": "« J'espère qu'il … (venir) » et « Je veux qu'il … (venir) » : quels modes ?", "answer": "« J'espère qu'il viendra » (indicatif !) mais « je veux qu'il vienne » (subjonctif). Espérer se construit avec l'indicatif." },
+        { "type": "classic", "question": "Cite quatre valeurs du conditionnel.", "answer": "Hypothèse (« je viendrais si… »), politesse (« je voudrais »), information non confirmée (« il y aurait trois blessés »), futur dans le passé (« il a dit qu'il viendrait »)." },
+        { "type": "classic", "question": "Concordance : complète « Si tu viens… », « Si tu venais… », « Si tu étais venu… »", "answer": "Si + présent → futur (tu verras) ; si + imparfait → conditionnel présent (tu verrais) ; si + plus-que-parfait → conditionnel passé (tu aurais vu)." },
+        { "type": "classic", "question": "Comment forme-t-on le conditionnel passé ?", "answer": "Conditionnel présent de l'auxiliaire + participe passé : « j'aurais aimé », « elle serait venue »." },
+        { "type": "classic", "question": "Qu'est-ce que le gérondif et qu'exprime-t-il ?", "answer": "« En » + participe présent : « il siffle en travaillant » (simultanéité, manière, moyen). Son sujet est celui du verbe principal." },
+        { "type": "classic", "question": "« Un discours provocant » ou « provoquant » ?", "answer": "Provocant : adjectif verbal (s'accorde). Provoquant : participe présent (invariable, souvent suivi d'un complément : « provoquant la foule, il sortit »). Même piège : fatigant/fatiguant." },
+        { "type": "classic", "question": "Passé simple des verbes forts : naître, vivre, tenir (3e pers. sing. et plur.) ?", "answer": "Il naquit / ils naquirent ; il vécut / ils vécurent ; il tint / ils tinrent." },
+        { "type": "classic", "question": "Mets à la voix passive en gardant le temps : « Le jury remettra les prix. »", "answer": "« Les prix seront remis par le jury. » (L'auxiliaire être prend le temps du verbe actif.)" },
+        { "type": "classic", "question": "Ordre des pronoms à l'impératif : dis-le à moi → ? Ne dis pas cela à moi → ?", "answer": "« Dis-le-moi » (pronoms après, traits d'union) ; « Ne me le dis pas » (pronoms avant à la forme négative)." },
+        { "type": "classic", "question": "Quel est l'intérêt du présent de narration dans un récit au passé ?", "answer": "Rendre la scène plus vivante, comme si elle se déroulait sous nos yeux : « Soudain, il ouvre la porte… »" },
+        { "type": "classic", "question": "Qu'exprime le futur antérieur ?", "answer": "Une action future antérieure à une autre action future : « Quand tu auras terminé, tu me rendras ta copie. »" },
+        { "type": "classic", "question": "Subjonctif présent de « faire », « pouvoir » et « savoir » (qu'il…) ?", "answer": "Qu'il fasse, qu'il puisse, qu'il sache." }
+      ]
+    },
+    {
+      "name": "Français 3e · Orthographe et accords",
+      "description": "Participes passés difficiles, quoique/quoi que, accords des nombres : les pièges du brevet.",
+      "cards": [
+        { "type": "classic", "question": "« Des efforts, il en a fait » : pourquoi pas d'accord ?", "answer": "Le COD repris par « en » ne commande jamais l'accord : « il en a fait » (invariable)." },
+        { "type": "classic", "question": "« Les chaleurs qu'il a fait » : pourquoi « fait » est-il invariable ?", "answer": "Avec un verbe impersonnel (il a fait chaud, il a fallu), le participe reste invariable." },
+        { "type": "classic", "question": "« Elles se sont succédé » ou « succédées » ?", "answer": "« Succédé » invariable : se = COI (succéder À quelqu'un), et le participe des pronominaux ne s'accorde qu'avec un COD placé avant." },
+        { "type": "classic", "question": "« Elles se sont lavées » vs « elles se sont lavé les mains » : explique.", "answer": "1er cas : se = COD avant → accord. 2e cas : le COD « les mains » est après → pas d'accord." },
+        { "type": "classic", "question": "« quoique » ou « quoi que » ?", "answer": "Quoique = bien que (« quoiqu'il soit tard »). Quoi que = quelle que soit la chose que (« quoi que tu fasses »)." },
+        { "type": "classic", "question": "« quelques » ou « quels que » dans : « … soient tes doutes » ?", "answer": "« Quels que soient tes doutes » : devant le verbe être au subjonctif, on écrit quel(s)/quelle(s) que, accordé avec le sujet." },
+        { "type": "classic", "question": "« davantage » ou « d'avantages » ?", "answer": "Davantage = plus (« travaille davantage »). D'avantages = des bénéfices (« ce poste offre beaucoup d'avantages »)." },
+        { "type": "classic", "question": "Écris en lettres : 80, puis 83. Et 200, puis 203 ?", "answer": "Quatre-vingts (avec s) mais quatre-vingt-trois (sans s) ; deux cents mais deux cent trois. Vingt et cent prennent un s seulement s'ils terminent le nombre." },
+        { "type": "classic", "question": "« Une heure et demie » ou « et demi » ? « La mi-temps » ?", "answer": "Une heure et demie (demi s'accorde en genre après le nom) ; mais midi et demi. Mi- est toujours invariable (la mi-temps)." },
+        { "type": "classic", "question": "« malgré » prend-il un s ? Et « parmi » ?", "answer": "Jamais : malgré et parmi sont invariables et sans s final. (De même : toujours, cependant, néanmoins… s'écrivent d'un bloc.)" },
+        { "type": "classic", "question": "« c'en », « s'en » ou « sans » dans : « … est trop ! » ?", "answer": "« C'en est trop » (= cela en est trop). S'en : il s'en souvient. Sans : sans effort." },
+        { "type": "classic", "question": "Le participe présent s'accorde-t-il ?", "answer": "Jamais : « les élèves travaillant sérieusement réussiront ». Seul l'adjectif verbal s'accorde : « des élèves travailleurs »… enfin, « travaillants » n'existe pas — d'où l'importance de distinguer !" },
+        { "type": "classic", "question": "« -é », « -er » ou « -ez » : quelle méthode infaillible ?", "answer": "Remplacer par « prendre/pris » : infinitif → -er ; participe → -é. Et -ez = terminaison de « vous » (vous chantez)." },
+        { "type": "classic", "question": "« près de » ou « prêt à » ?", "answer": "Près de = sur le point de / proche (invariable) : « elle est près de réussir ». Prêt à = préparé à (s'accorde) : « elle est prête à partir »." }
+      ]
+    },
+    {
+      "name": "Français 3e · Vocabulaire, figures et argumentation",
+      "description": "Figures de style avancées, ironie, implicite et vocabulaire de l'argumentation — l'attirail du brevet.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'une métonymie ? Donne deux exemples.", "answer": "Désigner une chose par une autre qui lui est liée : « boire un verre » (le contenant), « lire un Zola » (l'auteur pour l'œuvre), « les voiles s'éloignent » (la partie pour le tout)." },
+        { "type": "classic", "question": "Qu'est-ce que l'ironie et l'antiphrase ?", "answer": "Dire le contraire de ce qu'on pense pour se moquer : « Quel temps magnifique ! » sous une pluie battante. L'antiphrase est l'arme principale de l'ironie." },
+        { "type": "classic", "question": "Qu'est-ce qu'une allégorie ?", "answer": "La représentation concrète d'une idée abstraite, souvent personnifiée : la Mort et sa faux, la Justice et sa balance, Marianne pour la République." },
+        { "type": "classic", "question": "Qu'est-ce qu'un chiasme ?", "answer": "Une construction en miroir (AB/BA) : « Il faut manger pour vivre et non vivre pour manger. »" },
+        { "type": "classic", "question": "Quelle différence entre allitération et assonance ?", "answer": "Allitération : répétition de consonnes (« Pour qui sont ces serpents qui sifflent sur vos têtes ? »). Assonance : répétition de voyelles." },
+        { "type": "classic", "question": "Litote ou euphémisme : « Il n'est pas très malin » et « il nous a quittés » ?", "answer": "« Pas très malin » : litote (dire moins pour faire entendre plus). « Il nous a quittés » : euphémisme (adoucir une réalité pénible)." },
+        { "type": "classic", "question": "Définis : thèse, argument, exemple.", "answer": "Thèse : l'opinion défendue. Argument : la raison qui la soutient. Exemple : le fait concret qui illustre l'argument." },
+        { "type": "classic", "question": "Quelle différence entre convaincre et persuader ?", "answer": "Convaincre s'adresse à la raison (arguments logiques) ; persuader joue sur les sentiments (émotion, peur, pitié)." },
+        { "type": "classic", "question": "Donne des connecteurs pour : ajouter une idée, opposer, conclure.", "answer": "Ajouter : de plus, en outre. Opposer : cependant, néanmoins, en revanche. Conclure : ainsi, en définitive, par conséquent." },
+        { "type": "classic", "question": "Qu'est-ce qu'un terme mélioratif ? péjoratif ?", "answer": "Mélioratif : valorisant (une demeure, un parfum délicat). Péjoratif : dévalorisant (une bicoque, une odeur). Ils révèlent le jugement de l'auteur." },
+        { "type": "classic", "question": "Quelle différence entre l'explicite et l'implicite ?", "answer": "Explicite : dit clairement. Implicite : suggéré, à déduire (sous-entendu, présupposé). « Tu as encore oublié » présuppose que ce n'est pas la première fois." },
+        { "type": "classic", "question": "Caractérise les registres satirique, polémique et didactique.", "answer": "Satirique : se moquer pour critiquer. Polémique : attaquer violemment une opinion. Didactique : instruire, expliquer." },
+        { "type": "classic", "question": "« La Ville lumière », « le billet vert » : quelle figure ?", "answer": "Des périphrases (Paris, le dollar) : on remplace le mot par une expression descriptive." },
+        { "type": "classic", "question": "À quoi sert de repérer les champs lexicaux dans une analyse de texte ?", "answer": "Ils révèlent les thèmes et la tonalité : un champ lexical de l'ombre et du froid installe une atmosphère inquiétante — un bon réflexe pour le brevet." }
+      ]
+    }
+  ]
+}
