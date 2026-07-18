@@ -1,0 +1,30 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Thermodynamique",
+      "description": "Principes, grandeurs et transformations : les fondamentaux de la thermodynamique.",
+      "cards": [
+        { "type": "classic", "question": "Que dit le principe zéro de la thermodynamique ?", "answer": "Si deux systèmes sont chacun en équilibre thermique avec un troisième, ils sont en équilibre thermique entre eux. C'est ce qui fonde la notion de température." },
+        { "type": "classic", "question": "Que dit le premier principe de la thermodynamique ?", "answer": "L'énergie se conserve : ΔU = W + Q (la variation d'énergie interne d'un système fermé est la somme du travail et de la chaleur reçus)." },
+        { "type": "classic", "question": "Que dit le deuxième principe de la thermodynamique ?", "answer": "L'entropie d'un système isolé ne peut qu'augmenter : les transformations réelles sont irréversibles et la chaleur ne passe pas spontanément du froid vers le chaud." },
+        { "type": "classic", "question": "Que dit le troisième principe (principe de Nernst) ?", "answer": "L'entropie d'un cristal parfait tend vers zéro quand la température tend vers le zéro absolu (0 K)." },
+        { "type": "classic", "question": "Qu'est-ce que l'entropie ?", "answer": "La grandeur S (en J/K) qui mesure le « désordre » d'un système, c'est-à-dire le nombre de configurations microscopiques compatibles avec son état macroscopique." },
+        { "type": "classic", "question": "Quelle différence entre un système ouvert, fermé et isolé ?", "answer": "Ouvert : échange matière et énergie avec l'extérieur. Fermé : échange seulement de l'énergie. Isolé : n'échange rien." },
+        { "type": "classic", "question": "Quelle est l'équation d'état du gaz parfait ?", "answer": "PV = nRT (pression × volume = quantité de matière × constante des gaz parfaits × température absolue)." },
+        { "type": "classic", "question": "Que vaut le zéro absolu en degrés Celsius ?", "answer": "−273,15 °C, soit 0 K : l'agitation thermique y est minimale." },
+        { "type": "classic", "question": "Qu'est-ce qu'une transformation isotherme ?", "answer": "Une transformation à température constante." },
+        { "type": "classic", "question": "Qu'est-ce qu'une transformation isobare ?", "answer": "Une transformation à pression constante." },
+        { "type": "classic", "question": "Qu'est-ce qu'une transformation isochore ?", "answer": "Une transformation à volume constant." },
+        { "type": "classic", "question": "Qu'est-ce qu'une transformation adiabatique ?", "answer": "Une transformation sans échange de chaleur avec l'extérieur (Q = 0)." },
+        { "type": "classic", "question": "Qu'est-ce que l'enthalpie ?", "answer": "H = U + PV. Sa variation correspond à la chaleur échangée lors d'une transformation à pression constante — très utile en chimie." },
+        { "type": "classic", "question": "Qu'est-ce que la capacité thermique massique ? (avec la valeur pour l'eau)", "answer": "L'énergie nécessaire pour élever de 1 K la température de 1 kg d'une substance. Pour l'eau liquide : environ 4 186 J·kg⁻¹·K⁻¹." },
+        { "type": "classic", "question": "Qu'est-ce que la chaleur latente ?", "answer": "L'énergie échangée lors d'un changement d'état (fusion, vaporisation…) qui se produit à température constante." },
+        { "type": "classic", "question": "Qu'est-ce que le cycle de Carnot et pourquoi est-il célèbre ?", "answer": "Un cycle théorique réversible (deux isothermes + deux adiabatiques). Il donne le rendement maximal possible d'une machine thermique entre deux sources : η = 1 − T_froide/T_chaude." },
+        { "type": "classic", "question": "Comment définit-on le rendement d'une machine thermique, et pourquoi est-il toujours inférieur à 1 ?", "answer": "η = travail utile / chaleur reçue de la source chaude. Le deuxième principe impose de céder de la chaleur à la source froide, donc η < 1." },
+        { "type": "classic", "question": "Quelle est la différence entre chaleur et température ?", "answer": "La température mesure l'agitation moyenne des particules (grandeur d'état) ; la chaleur est un transfert d'énergie thermique entre systèmes (grandeur d'échange)." }
+      ]
+    }
+  ]
+}

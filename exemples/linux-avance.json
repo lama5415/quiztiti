@@ -1,0 +1,36 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Linux — Avancé",
+      "description": "Processus, permissions, réseau, redirections : l'artillerie du quotidien en ligne de commande.",
+      "cards": [
+        { "type": "classic", "question": "Chercher « erreur » dans tous les fichiers d'un dossier, récursivement", "answer": "grep -r \"erreur\" dossier/ (ajouter -n pour les numéros de ligne, -i pour ignorer la casse)" },
+        { "type": "classic", "question": "Trouver tous les .log modifiés dans les dernières 24 heures", "answer": "find . -name \"*.log\" -mtime -1" },
+        { "type": "classic", "question": "Rendre un script exécutable", "answer": "chmod +x script.sh" },
+        { "type": "classic", "question": "Que signifie chmod 754 ?", "answer": "Propriétaire : rwx (7), groupe : r-x (5), autres : r-- (4). Chaque chiffre = r(4) + w(2) + x(1)." },
+        { "type": "classic", "question": "Changer le propriétaire et le groupe d'un fichier", "answer": "chown utilisateur:groupe fichier" },
+        { "type": "classic", "question": "Lister tous les processus en cours", "answer": "ps aux (ou top / htop pour une vue dynamique)" },
+        { "type": "classic", "question": "Arrêter le processus 1234, d'abord proprement, puis de force", "answer": "kill 1234 (SIGTERM), puis kill -9 1234 (SIGKILL) en dernier recours" },
+        { "type": "classic", "question": "Voir l'espace disque restant sur les partitions", "answer": "df -h" },
+        { "type": "classic", "question": "Connaître la taille totale d'un dossier", "answer": "du -sh dossier/" },
+        { "type": "classic", "question": "Créer une archive compressée d'un dossier, puis l'extraire", "answer": "tar czf archive.tar.gz dossier/ — extraction : tar xzf archive.tar.gz" },
+        { "type": "classic", "question": "Se connecter en ligne de commande à une machine distante", "answer": "ssh utilisateur@machine" },
+        { "type": "classic", "question": "Copier un fichier vers une machine distante (2 outils)", "answer": "scp fichier user@machine:/chemin/ — ou rsync -av fichier user@machine:/chemin/ (reprise et synchronisation)" },
+        { "type": "classic", "question": "Créer un lien symbolique", "answer": "ln -s cible nom_du_lien" },
+        { "type": "classic", "question": "Rediriger la sortie standard ET les erreurs d'une commande vers un fichier", "answer": "commande > fichier 2>&1 (ou commande &> fichier en bash)" },
+        { "type": "classic", "question": "N'exécuter la deuxième commande que si la première a réussi", "answer": "commande1 && commande2 (|| pour « en cas d'échec »)" },
+        { "type": "classic", "question": "Retrouver et relancer une commande déjà tapée", "answer": "Ctrl+R puis taper un morceau de la commande (ou history, puis !numéro)" },
+        { "type": "classic", "question": "Lancer une commande qui continue après la fermeture du terminal", "answer": "nohup commande & — ou mieux : la lancer dans tmux ou screen" },
+        { "type": "classic", "question": "Lister les processus qui écoutent sur des ports réseau", "answer": "ss -tlnp (ou l'ancêtre netstat -tlnp)" },
+        { "type": "classic", "question": "Voir quels fichiers un processus a ouverts", "answer": "lsof -p PID (lsof -i :80 pour savoir qui occupe le port 80)" },
+        { "type": "classic", "question": "Programmer une commande tous les jours à 6 h 30", "answer": "crontab -e puis la ligne : 30 6 * * * commande" },
+        { "type": "classic", "question": "Suivre un fichier de log en temps réel", "answer": "tail -f fichier.log (tail -n 100 pour les 100 dernières lignes)" },
+        { "type": "classic", "question": "Remplacer du texte directement dans un fichier", "answer": "sed -i 's/ancien/nouveau/g' fichier" },
+        { "type": "classic", "question": "Compter les lignes d'un fichier (ou d'un résultat de commande)", "answer": "wc -l fichier — ou commande | wc -l" },
+        { "type": "classic", "question": "Appliquer une commande à chaque résultat d'une autre commande", "answer": "commande1 | xargs commande2 (ex. : find . -name \"*.tmp\" | xargs rm)" }
+      ]
+    }
+  ]
+}

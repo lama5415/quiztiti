@@ -1,0 +1,30 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Linux — Débutant",
+      "description": "Les premières commandes du terminal, expliquées simplement. Parfait pour débuter !",
+      "cards": [
+        { "type": "classic", "question": "Quelle commande affiche dans quel dossier tu te trouves ?", "answer": "pwd (print working directory : « affiche le dossier de travail »)" },
+        { "type": "classic", "question": "Quelle commande liste les fichiers et dossiers autour de toi ?", "answer": "ls (et ls -l pour avoir plus de détails)" },
+        { "type": "classic", "question": "Comment entrer dans le dossier « photos » ?", "answer": "cd photos" },
+        { "type": "classic", "question": "Comment remonter d'un dossier (revenir au dossier parent) ?", "answer": "cd .." },
+        { "type": "classic", "question": "Comment revenir directement dans ta « maison » (ton répertoire personnel) ?", "answer": "cd tout court (ou cd ~)" },
+        { "type": "classic", "question": "Comment créer un dossier « jeux » ?", "answer": "mkdir jeux" },
+        { "type": "classic", "question": "Comment créer un fichier vide « note.txt » ?", "answer": "touch note.txt" },
+        { "type": "classic", "question": "Comment afficher le contenu d'un fichier texte ?", "answer": "cat note.txt" },
+        { "type": "classic", "question": "Comment copier un fichier ?", "answer": "cp original.txt copie.txt" },
+        { "type": "classic", "question": "Comment déplacer ou renommer un fichier ?", "answer": "mv (mv note.txt dossier/ pour déplacer, mv ancien.txt nouveau.txt pour renommer)" },
+        { "type": "classic", "question": "Comment supprimer un fichier ? (attention, il n'y a pas de corbeille !)", "answer": "rm fichier.txt — c'est définitif, réfléchis avant d'appuyer sur Entrée !" },
+        { "type": "classic", "question": "Comment nettoyer l'écran du terminal quand il est plein ?", "answer": "clear (ou le raccourci Ctrl+L)" },
+        { "type": "classic", "question": "Comment faire afficher un message au terminal, par exemple « coucou » ?", "answer": "echo coucou" },
+        { "type": "classic", "question": "Quelle commande te dit avec quel nom d'utilisateur tu es connecté ?", "answer": "whoami (« qui suis-je ? »)" },
+        { "type": "classic", "question": "Quelle commande affiche la date et l'heure ?", "answer": "date" },
+        { "type": "classic", "question": "Comment lire le mode d'emploi d'une commande, par exemple de ls ?", "answer": "man ls (et on quitte avec la touche q)" },
+        { "type": "classic", "question": "Quelle touche magique complète toute seule les noms de fichiers et de commandes ?", "answer": "Tab (la touche tabulation, à gauche du A)" },
+        { "type": "classic", "question": "Comment arrêter un programme qui tourne dans le terminal et ne veut plus s'arrêter ?", "answer": "Ctrl+C" }
+      ]
+    }
+  ]
+}

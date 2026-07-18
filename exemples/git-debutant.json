@@ -1,0 +1,28 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Git — Débutant",
+      "description": "Le cycle de base : cloner, modifier, commiter, pousser. Les commandes à connaître pour démarrer.",
+      "cards": [
+        { "type": "classic", "question": "Créer un nouveau dépôt Git dans le dossier courant", "answer": "git init" },
+        { "type": "classic", "question": "Récupérer un dépôt existant depuis une URL", "answer": "git clone https://…" },
+        { "type": "classic", "question": "Voir l'état des fichiers (modifiés, indexés, non suivis)", "answer": "git status" },
+        { "type": "classic", "question": "Ajouter un fichier à l'index (le préparer pour le prochain commit)", "answer": "git add fichier (git add . pour tout ajouter)" },
+        { "type": "classic", "question": "Enregistrer les modifications indexées avec un message", "answer": "git commit -m \"mon message\"" },
+        { "type": "classic", "question": "Envoyer ses commits vers le dépôt distant", "answer": "git push" },
+        { "type": "classic", "question": "Récupérer et intégrer les modifications du dépôt distant", "answer": "git pull" },
+        { "type": "classic", "question": "Afficher l'historique des commits (et sa version compacte)", "answer": "git log — version compacte : git log --oneline" },
+        { "type": "classic", "question": "Voir les modifications pas encore indexées", "answer": "git diff" },
+        { "type": "classic", "question": "Créer une branche et basculer dessus en une seule commande", "answer": "git switch -c ma-branche (ou git checkout -b ma-branche)" },
+        { "type": "classic", "question": "Changer de branche", "answer": "git switch ma-branche (ou git checkout ma-branche)" },
+        { "type": "classic", "question": "Fusionner la branche « feature » dans la branche courante", "answer": "git merge feature" },
+        { "type": "classic", "question": "À quoi sert le fichier .gitignore ?", "answer": "À lister les fichiers et dossiers que Git ne doit pas suivre (fichiers générés, secrets, dépendances…)." },
+        { "type": "classic", "question": "Voir les dépôts distants configurés", "answer": "git remote -v" },
+        { "type": "classic", "question": "Annuler les modifications non commitées d'un fichier (revenir à la dernière version commitée)", "answer": "git restore fichier" },
+        { "type": "classic", "question": "Retirer un fichier de l'index sans perdre ses modifications", "answer": "git restore --staged fichier" }
+      ]
+    }
+  ]
+}

@@ -22,5 +22,41 @@
     "name": "English Riddles — Fluent",
     "description": "Mots subtils et idiomatiques pour niveau avancé.",
     "badge": "15 énigmes"
+  },
+  {
+    "file": "thermodynamique.json",
+    "name": "Thermodynamique",
+    "description": "Principes, grandeurs et transformations fondamentales.",
+    "badge": "18 fiches"
+  },
+  {
+    "file": "vi-cheatsheet.json",
+    "name": "Vi / Vim — Cheatsheet complète",
+    "description": "Modes, déplacements, édition, recherche, macros…",
+    "badge": "58 fiches"
+  },
+  {
+    "file": "linux-debutant.json",
+    "name": "Linux — Débutant",
+    "description": "Les premières commandes du terminal, pour bien démarrer.",
+    "badge": "18 fiches"
+  },
+  {
+    "file": "linux-avance.json",
+    "name": "Linux — Avancé",
+    "description": "Processus, permissions, réseau, redirections.",
+    "badge": "24 fiches"
+  },
+  {
+    "file": "git-debutant.json",
+    "name": "Git — Débutant",
+    "description": "Cloner, commiter, pousser : le cycle de base.",
+    "badge": "16 fiches"
+  },
+  {
+    "file": "git-confirme.json",
+    "name": "Git — Confirmé",
+    "description": "Rebase, reflog, bisect, worktree et autres armes secrètes.",
+    "badge": "22 fiches"
   }
 ]

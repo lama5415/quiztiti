@@ -1,0 +1,34 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Git — Confirmé",
+      "description": "Rebase, reflog, bisect, worktree… Les commandes qui sauvent (ou qui impressionnent).",
+      "cards": [
+        { "type": "classic", "question": "Rejouer les commits de sa branche par-dessus une autre branche", "answer": "git rebase autre-branche" },
+        { "type": "classic", "question": "Réordonner, fusionner (squash) ou réécrire ses 3 derniers commits", "answer": "git rebase -i HEAD~3" },
+        { "type": "classic", "question": "Appliquer un commit précis d'une autre branche sur la branche courante", "answer": "git cherry-pick <sha>" },
+        { "type": "classic", "question": "Mettre de côté ses modifications en cours, puis les récupérer", "answer": "git stash — puis git stash pop (git stash list pour voir la pile)" },
+        { "type": "classic", "question": "Modifier le dernier commit (message ou contenu)", "answer": "git commit --amend" },
+        { "type": "classic", "question": "Quelle différence entre git reset --soft, --mixed et --hard ?", "answer": "--soft : recule HEAD en gardant index et fichiers ; --mixed (défaut) : désindexe mais garde les fichiers ; --hard : écrase tout, y compris les fichiers." },
+        { "type": "classic", "question": "Annuler un commit déjà poussé sans réécrire l'historique", "answer": "git revert <sha> (crée un commit inverse)" },
+        { "type": "classic", "question": "Retrouver un commit « perdu » après un reset malheureux", "answer": "git reflog : il liste tous les états passés de HEAD, on peut ensuite faire git reset --hard <sha>" },
+        { "type": "classic", "question": "Trouver par dichotomie le commit qui a introduit un bug", "answer": "git bisect start, puis git bisect bad / git bisect good <sha> jusqu'au coupable (git bisect reset pour finir)" },
+        { "type": "classic", "question": "Quelle différence entre git fetch et git pull ?", "answer": "fetch télécharge les nouveautés sans toucher à la branche locale ; pull = fetch + merge (ou rebase avec pull --rebase)." },
+        { "type": "classic", "question": "Poser un tag annoté sur le commit courant", "answer": "git tag -a v1.0 -m \"version 1.0\" (puis git push --tags)" },
+        { "type": "classic", "question": "Pousser en force sans risquer d'écraser le travail poussé par quelqu'un d'autre", "answer": "git push --force-with-lease" },
+        { "type": "classic", "question": "Savoir qui a modifié chaque ligne d'un fichier, et quand", "answer": "git blame fichier" },
+        { "type": "classic", "question": "Afficher l'historique de toutes les branches sous forme de graphe compact", "answer": "git log --oneline --graph --all" },
+        { "type": "classic", "question": "Supprimer les fichiers non suivis (et comment simuler d'abord)", "answer": "git clean -fd — simulation : git clean -nd" },
+        { "type": "classic", "question": "Quelle différence entre HEAD~2 et HEAD^2 ?", "answer": "HEAD~2 : le grand-parent (2 générations en arrière) ; HEAD^2 : le deuxième parent d'un commit de merge." },
+        { "type": "classic", "question": "Voir le diff de ce qui est indexé (prêt à être commité)", "answer": "git diff --staged (ou --cached)" },
+        { "type": "classic", "question": "Travailler sur deux branches en parallèle dans deux dossiers, sans double clone", "answer": "git worktree add ../autre-dossier ma-branche" },
+        { "type": "classic", "question": "Ramener le contenu d'une branche en un seul commit, sans commit de merge", "answer": "git merge --squash branche, puis git commit" },
+        { "type": "classic", "question": "Inclure un dépôt Git dans un autre", "answer": "git submodule add <url> chemin/ (puis git submodule update --init)" },
+        { "type": "classic", "question": "Renommer une branche locale", "answer": "git branch -m ancien-nom nouveau-nom" },
+        { "type": "classic", "question": "Supprimer une branche distante", "answer": "git push origin --delete branche" }
+      ]
+    }
+  ]
+}
