@@ -1,0 +1,84 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Maths 3e · Arithmétique et racines",
+      "description": "Nombres premiers, décomposition, fractions irréductibles, racines carrées et puissances.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un nombre premier ? Cite tous ceux inférieurs à 20.", "answer": "Un entier qui a exactement deux diviseurs : 1 et lui-même. Liste : 2, 3, 5, 7, 11, 13, 17, 19." },
+        { "type": "classic", "question": "1 est-il un nombre premier ? Et 2 ?", "answer": "1 non (un seul diviseur). 2 oui — c'est le seul nombre premier pair." },
+        { "type": "classic", "question": "Décompose 60 en produit de facteurs premiers.", "answer": "60 = 2 × 2 × 3 × 5 = 2² × 3 × 5." },
+        { "type": "classic", "question": "Qu'est-ce qu'une fraction irréductible ?", "answer": "Une fraction qu'on ne peut plus simplifier : numérateur et dénominateur n'ont aucun diviseur commun autre que 1." },
+        { "type": "classic", "question": "Rends 84/126 irréductible.", "answer": "84 = 2²×3×7 et 126 = 2×3²×7 → on simplifie par 2×3×7 = 42 : 84/126 = 2/3." },
+        { "type": "classic", "question": "On veut partager exactement 24 croissants et 36 pains au chocolat en paniers identiques. Combien de paniers au maximum ?", "answer": "12 paniers (le plus grand diviseur commun de 24 et 36), avec 2 croissants et 3 pains au chocolat chacun." },
+        { "type": "classic", "question": "Qu'est-ce que la racine carrée d'un nombre positif a ?", "answer": "Le nombre positif dont le carré vaut a : √a × √a = a." },
+        { "type": "classic", "question": "Que valent √49, √100 et √1 ?", "answer": "7, 10 et 1." },
+        { "type": "classic", "question": "√2 est-il un nombre décimal ?", "answer": "Non : √2 ≈ 1,414… avec une infinité de décimales sans période. C'est un nombre irrationnel." },
+        { "type": "classic", "question": "Cite les carrés parfaits jusqu'à 144.", "answer": "1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144. (Les connaître accélère Pythagore !)" },
+        { "type": "classic", "question": "Simplifie 2³ × 2⁴.", "answer": "2⁷ = 128 (même base : on additionne les exposants)." },
+        { "type": "classic", "question": "Écris 0,000 052 en notation scientifique.", "answer": "5,2 × 10⁻⁵." },
+        { "type": "classic", "question": "Combien y a-t-il de nanosecondes (10⁻⁹ s) dans une milliseconde (10⁻³ s) ?", "answer": "10⁻³ ÷ 10⁻⁹ = 10⁶ : un million." }
+      ]
+    },
+    {
+      "name": "Maths 3e · Calcul littéral, équations et fonctions",
+      "description": "Double distributivité, factorisation, équations produit, fonctions linéaires et affines.",
+      "cards": [
+        { "type": "classic", "question": "Développe : (x + 2)(x + 3)", "answer": "x² + 3x + 2x + 6 = x² + 5x + 6. (Chaque terme de la 1re parenthèse multiplie chaque terme de la 2e.)" },
+        { "type": "classic", "question": "Développe : (2x + 1)(x − 4)", "answer": "2x² − 8x + x − 4 = 2x² − 7x − 4." },
+        { "type": "classic", "question": "Factorise : 5x² + 10x", "answer": "5x(x + 2) — on repère le facteur commun 5x." },
+        { "type": "classic", "question": "Développe (a + b)² avec l'identité remarquable.", "answer": "a² + 2ab + b². (Et (a − b)² = a² − 2ab + b² ; (a+b)(a−b) = a² − b².)" },
+        { "type": "classic", "question": "Résous l'équation produit : (x − 2)(x + 5) = 0", "answer": "Un produit est nul si l'un des facteurs est nul : x = 2 ou x = −5." },
+        { "type": "classic", "question": "Résous : 4x − 7 = 2x + 9", "answer": "4x − 2x = 9 + 7 → 2x = 16 → x = 8." },
+        { "type": "classic", "question": "Qu'est-ce que l'image et l'antécédent pour une fonction ?", "answer": "Si f(2) = 7 : 7 est l'image de 2, et 2 est un antécédent de 7. (Une image unique, mais parfois plusieurs antécédents.)" },
+        { "type": "classic", "question": "Soit f(x) = 2x + 3. Calcule f(5).", "answer": "f(5) = 2 × 5 + 3 = 13." },
+        { "type": "classic", "question": "Soit f(x) = 2x + 3. Quel est l'antécédent de 11 ?", "answer": "On résout 2x + 3 = 11 → x = 4." },
+        { "type": "classic", "question": "Qu'est-ce qu'une fonction linéaire, et que représente-t-elle graphiquement ?", "answer": "f(x) = ax : elle traduit une proportionnalité et sa représentation est une droite passant par l'origine." },
+        { "type": "classic", "question": "Qu'est-ce qu'une fonction affine ? Rôles de a et b dans f(x) = ax + b ?", "answer": "Une droite quelconque : a est le coefficient directeur (la pente), b l'ordonnée à l'origine (là où la droite coupe l'axe vertical)." },
+        { "type": "classic", "question": "La droite de f monte de gauche à droite : que dire du coefficient directeur ?", "answer": "Il est positif (a > 0). Elle descend si a < 0, horizontale si a = 0." },
+        { "type": "classic", "question": "Comment lit-on f(2) sur un graphique ?", "answer": "On part de 2 sur l'axe des abscisses, on monte jusqu'à la courbe, on lit la valeur sur l'axe des ordonnées." },
+        { "type": "classic", "question": "Traduis « augmenter de 5 % » et « diminuer de 12 % » en multiplications.", "answer": "× 1,05 et × 0,88." }
+      ]
+    },
+    {
+      "name": "Maths 3e · Géométrie : Thalès et trigonométrie",
+      "description": "Thalès et sa réciproque, sinus/cosinus/tangente, homothéties, agrandissements et boule.",
+      "cards": [
+        { "type": "classic", "question": "Énonce le théorème de Thalès (configuration classique).", "answer": "Si (MN) // (BC) avec M sur [AB] et N sur [AC], alors AM/AB = AN/AC = MN/BC : les longueurs sont proportionnelles." },
+        { "type": "classic", "question": "AM = 3, AB = 5, BC = 10 et (MN) // (BC). Que vaut MN ?", "answer": "MN/BC = AM/AB → MN = 10 × 3/5 = 6." },
+        { "type": "classic", "question": "À quoi sert la réciproque du théorème de Thalès ?", "answer": "À prouver que deux droites sont parallèles : si AM/AB = AN/AC (points alignés dans le même ordre), alors (MN) // (BC)." },
+        { "type": "classic", "question": "Dans un triangle rectangle, définis sinus, cosinus et tangente d'un angle aigu.", "answer": "sin = opposé/hypoténuse ; cos = adjacent/hypoténuse ; tan = opposé/adjacent. Moyen mnémotechnique : SOH-CAH-TOA." },
+        { "type": "classic", "question": "tan(α) = 3/4. Comment trouver la mesure de l'angle α ?", "answer": "Avec la fonction inverse de la calculatrice : α = tan⁻¹(0,75) ≈ 36,9°." },
+        { "type": "classic", "question": "Hypoténuse de 10 cm, angle de 60°. Que vaut le côté adjacent à cet angle ?", "answer": "adjacent = 10 × cos(60°) = 10 × 0,5 = 5 cm." },
+        { "type": "classic", "question": "Qu'est-ce qu'une homothétie ?", "answer": "Une transformation de centre O et de rapport k qui agrandit (|k| > 1) ou réduit (|k| < 1) les figures ; si k est négatif, l'image est de l'autre côté du centre." },
+        { "type": "classic", "question": "Dans un agrandissement de rapport k, comment évoluent les longueurs, les aires et les volumes ?", "answer": "Longueurs × k, aires × k², volumes × k³. (Rapport 2 : aires × 4, volumes × 8 !)" },
+        { "type": "classic", "question": "Qu'est-ce que deux triangles semblables ?", "answer": "Des triangles qui ont les mêmes angles ; leurs côtés sont alors proportionnels." },
+        { "type": "classic", "question": "Formule du volume d'une boule ?", "answer": "V = (4/3) × π × r³." },
+        { "type": "classic", "question": "Rappel Pythagore : côtés 5 et 12 autour de l'angle droit, hypoténuse ?", "answer": "√(25 + 144) = √169 = 13." },
+        { "type": "classic", "question": "Quelle est la section d'une boule par un plan ? d'un cylindre par un plan parallèle à son axe ?", "answer": "Boule : un disque. Cylindre coupé parallèlement à l'axe : un rectangle." },
+        { "type": "classic", "question": "Peut-on utiliser le cosinus dans un triangle qui n'est pas rectangle ?", "answer": "Pas au collège : sin, cos et tan ne s'utilisent QUE dans un triangle rectangle (repérer d'abord l'angle droit !)." },
+        { "type": "classic", "question": "Une tour projette une ombre de 12 m quand un bâton de 1 m projette une ombre de 40 cm. Hauteur de la tour ?", "answer": "Proportionnalité (Thalès avec les rayons du soleil) : 12 ÷ 0,4 = 30 m." }
+      ]
+    },
+    {
+      "name": "Maths 3e · Stats, probabilités et évolutions",
+      "description": "Médiane et étendue, arbres de probabilité, pourcentages d'évolution — l'essentiel du brevet.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que l'étendue d'une série statistique ?", "answer": "La différence entre la plus grande et la plus petite valeur. Elle mesure la dispersion." },
+        { "type": "classic", "question": "Comment trouver la médiane d'une série ?", "answer": "On ordonne les valeurs ; la médiane partage la série en deux moitiés d'effectifs égaux. (Effectif pair : moyenne des deux valeurs centrales.)" },
+        { "type": "classic", "question": "Trouve la médiane de : 5 ; 8 ; 9 ; 12 ; 20.", "answer": "9 (deux valeurs avant, deux après)." },
+        { "type": "classic", "question": "Notes : 8 (coef 2), 14 (coef 3). Moyenne pondérée ?", "answer": "(8×2 + 14×3) ÷ 5 = 58 ÷ 5 = 11,6." },
+        { "type": "classic", "question": "Pourquoi le salaire médian est-il souvent plus parlant que le salaire moyen ?", "answer": "La moyenne est tirée vers le haut par quelques très hauts salaires ; la médiane indique ce que gagne la « personne du milieu »." },
+        { "type": "classic", "question": "On lance deux fois une pièce. Comment calculer la probabilité de deux « face » avec un arbre ?", "answer": "On multiplie le long des branches : 1/2 × 1/2 = 1/4." },
+        { "type": "classic", "question": "Un sac : 3 rouges, 2 vertes. On tire SANS remise deux boules. P(rouge) au 2e tirage si la 1re était rouge ?", "answer": "2/4 = 1/2 : il reste 2 rouges sur 4 boules. Sans remise, les probabilités changent à chaque tirage." },
+        { "type": "classic", "question": "P(A) = 0,35. Que vaut la probabilité de l'événement contraire ?", "answer": "1 − 0,35 = 0,65." },
+        { "type": "classic", "question": "Un prix passe de 50 € à 58 €. Quel est le pourcentage d'augmentation ?", "answer": "(58 − 50)/50 = 8/50 = 16 %." },
+        { "type": "classic", "question": "Un prix augmente de 10 % puis baisse de 10 %. Revient-on au prix de départ ?", "answer": "Non ! ×1,1 puis ×0,9 = ×0,99 : on perd 1 %. Les pourcentages successifs ne s'additionnent pas." },
+        { "type": "classic", "question": "À quel coefficient multiplicateur correspond une baisse de 30 % ?", "answer": "× 0,70." },
+        { "type": "classic", "question": "Pourquoi deux sondages sur le même sujet donnent-ils des résultats un peu différents ?", "answer": "C'est la fluctuation d'échantillonnage : d'un échantillon à l'autre, les fréquences varient ; elles se stabilisent quand l'échantillon grandit." },
+        { "type": "classic", "question": "Une voiture parcourt 45 km en 36 minutes. Vitesse moyenne en km/h ?", "answer": "36 min = 0,6 h ; v = 45 ÷ 0,6 = 75 km/h." }
+      ]
+    }
+  ]
+}

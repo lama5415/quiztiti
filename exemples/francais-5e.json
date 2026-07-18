@@ -1,0 +1,83 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Français 5e · Grammaire",
+      "description": "Expansions du nom, degrés de l'adjectif, pronoms relatifs et phrase complexe.",
+      "cards": [
+        { "type": "classic", "question": "Quelles sont les trois expansions du nom ?", "answer": "L'adjectif épithète (« un château fort »), le complément du nom (« le château du roi ») et la proposition subordonnée relative (« le château que je visite »)." },
+        { "type": "classic", "question": "Qu'est-ce que le comparatif ? Donne ses trois degrés.", "answer": "Il compare : supériorité (plus grand que), égalité (aussi grand que), infériorité (moins grand que)." },
+        { "type": "classic", "question": "Qu'est-ce que le superlatif ?", "answer": "Le plus haut (ou le plus bas) degré : « le plus rapide », « la moins chère », « très beau » (superlatif absolu)." },
+        { "type": "classic", "question": "Quel est le comparatif de supériorité de « bon » ? Et de « mauvais » ?", "answer": "Meilleur (on ne dit pas « plus bon » !) ; pire ou plus mauvais." },
+        { "type": "classic", "question": "Dans « le film qui passe ce soir » et « le film que je regarde », quelles sont les fonctions de « qui » et « que » ?", "answer": "« Qui » est sujet du verbe de la relative ; « que » est COD. Les deux remplacent l'antécédent « le film »." },
+        { "type": "classic", "question": "Qu'est-ce que le complément du nom ?", "answer": "Un mot (souvent un nom) relié à un autre nom par une préposition : « le vélo de Paul », « une tasse à café »." },
+        { "type": "classic", "question": "Comment compte-t-on les propositions d'une phrase complexe ?", "answer": "En comptant les verbes conjugués : autant de verbes conjugués, autant de propositions." },
+        { "type": "classic", "question": "Quelle différence entre propositions juxtaposées et coordonnées ?", "answer": "Juxtaposées : séparées par une virgule ou un point-virgule. Coordonnées : reliées par mais, ou, et, donc, or, ni, car." },
+        { "type": "classic", "question": "Cite les compléments circonstanciels que tu connais.", "answer": "Temps (quand ?), lieu (où ?), manière (comment ?), cause (pourquoi ?), moyen (avec quoi ?), but (dans quel but ?)." },
+        { "type": "classic", "question": "Comment forme-t-on un adverbe en -ment à partir d'un adjectif ?", "answer": "En général sur le féminin : lente → lentement. Adjectifs en -ent/-ant : -emment/-amment (prudemment, brillamment)." },
+        { "type": "classic", "question": "Quels sont les déterminants possessifs ? démonstratifs ?", "answer": "Possessifs : mon, ton, son, notre, votre, leur… Démonstratifs : ce, cet, cette, ces." },
+        { "type": "classic", "question": "Dans « Je le lui donne », quelles sont les fonctions de « le » et « lui » ?", "answer": "« Le » est COD, « lui » est COI : deux pronoms personnels compléments." },
+        { "type": "classic", "question": "Quels sont les mots de la négation ? Cite plusieurs paires.", "answer": "Ne… pas, ne… plus, ne… jamais, ne… rien, ne… personne, ne… aucun. La négation encadre le verbe." },
+        { "type": "classic", "question": "Dans « Vient-il demain ? », où est le sujet ?", "answer": "Après le verbe : c'est un sujet inversé, typique des questions." }
+      ]
+    },
+    {
+      "name": "Français 5e · Conjugaison",
+      "description": "Passé simple de tous les groupes, plus-que-parfait, conditionnel et participes.",
+      "cards": [
+        { "type": "classic", "question": "Conjugue « chanter » au passé simple, toutes personnes.", "answer": "Je chantai, tu chantas, il chanta, nous chantâmes, vous chantâtes, ils chantèrent." },
+        { "type": "classic", "question": "Passé simple de « finir » et « voir » à la 3e personne (singulier et pluriel) ?", "answer": "Il finit / ils finirent ; il vit / ils virent." },
+        { "type": "classic", "question": "Passé simple de « courir », « vouloir » et « venir » à la 3e personne du singulier ?", "answer": "Il courut, il voulut, il vint. (Trois familles de terminaisons : -it, -ut, -int.)" },
+        { "type": "classic", "question": "Dans un récit au passé, quand emploie-t-on l'imparfait et quand le passé simple ?", "answer": "Imparfait : descriptions, habitudes, arrière-plan. Passé simple : actions soudaines et successives du premier plan." },
+        { "type": "classic", "question": "Comment forme-t-on le plus-que-parfait, et qu'exprime-t-il ?", "answer": "Auxiliaire à l'imparfait + participe passé : « il avait mangé ». Il exprime une action antérieure à une autre action passée." },
+        { "type": "classic", "question": "Futur de « appeler » et « jeter » à la 1re personne ?", "answer": "J'appellerai, je jetterai (doublement de la consonne)." },
+        { "type": "classic", "question": "Comment forme-t-on le conditionnel présent ?", "answer": "Radical du futur + terminaisons de l'imparfait : « je voudrais », « nous aimerions »." },
+        { "type": "classic", "question": "Où se place le pronom avec un impératif affirmatif ? négatif ?", "answer": "Après le verbe avec un trait d'union : « Prends-le ! » ; avant à la forme négative : « Ne le prends pas ! »" },
+        { "type": "classic", "question": "Quelle différence entre participe présent et participe passé ?", "answer": "Présent : forme en -ant, invariable (« en chantant »). Passé : sert aux temps composés et peut s'accorder (« chanté, chantée »)." },
+        { "type": "classic", "question": "Associe chaque temps composé à son temps simple : passé composé, plus-que-parfait, futur antérieur.", "answer": "Présent → passé composé ; imparfait → plus-que-parfait ; futur → futur antérieur. (Auxiliaire au temps simple + participe passé.)" },
+        { "type": "classic", "question": "Conjugue « aller » et « faire » au présent (je, nous, ils).", "answer": "Aller : je vais, nous allons, ils vont. Faire : je fais, nous faisons, ils font." },
+        { "type": "classic", "question": "« Ils croient » ou « ils croivent » ?", "answer": "Ils croient ! (Croire et voir : ils croient, ils voient — jamais de -vent.)" },
+        { "type": "classic", "question": "Quel est le participe passé de : vivre, naître, courir, offrir ?", "answer": "Vécu, né, couru, offert." }
+      ]
+    },
+    {
+      "name": "Français 5e · Orthographe",
+      "description": "Nouveaux homophones, premiers accords du participe passé et pièges d'écriture.",
+      "cards": [
+        { "type": "classic", "question": "« la », « là », « l'a » ou « l'as » ?", "answer": "La = article ou pronom (je la vois). Là = lieu (viens là). L'a / l'as = le + avoir (il l'a vu, tu l'as vu)." },
+        { "type": "classic", "question": "« ni » ou « n'y » ?", "answer": "Ni = négation double (ni lui ni moi). N'y = ne + y (je n'y vais pas — on peut dire « je ne vais pas là-bas »)." },
+        { "type": "classic", "question": "« sans », « s'en » ou « sent » ?", "answer": "Sans = privation (sans sucre). S'en = se + en (il s'en va). Sent = verbe sentir (ça sent bon)." },
+        { "type": "classic", "question": "« quel(s) », « quelle(s) » ou « qu'elle(s) » ?", "answer": "Quel/quelle s'accordent avec un nom (quelle heure ?). Qu'elle = que + elle : on peut remplacer par « qu'il » (je crois qu'elle dort → qu'il dort)." },
+        { "type": "classic", "question": "« c'est », « s'est », « ces » ou « ses » ?", "answer": "C'est = cela est. S'est = se + être (il s'est levé). Ses = les siens. Ces = ceux-là. « C'est vrai qu'il s'est trompé dans ses calculs. »" },
+        { "type": "classic", "question": "« mais », « mes », « met » ou « mets » ?", "answer": "Mais = pourtant. Mes = les miens. Met/mets = verbe mettre (il met, je mets/tu mets)." },
+        { "type": "classic", "question": "« près » ou « prêt » ?", "answer": "Près = proche (près de la gare). Prêt = préparé, s'accorde (elle est prête). Astuce : « prête » existe, « prèse » non !" },
+        { "type": "classic", "question": "Comment s'accorde le participe passé avec l'auxiliaire être ?", "answer": "Avec le sujet : « Elles sont arrivées en avance. »" },
+        { "type": "classic", "question": "Avec l'auxiliaire avoir, le participe passé s'accorde-t-il avec le sujet ?", "answer": "Jamais : « Elles ont mangé. » (Il ne s'accorde qu'avec un COD placé avant le verbe — on approfondit en 4e.)" },
+        { "type": "classic", "question": "Les adjectifs de couleur s'accordent-ils toujours ?", "answer": "Non : marron et orange sont invariables (des chaussures marron), et les couleurs composées aussi (des yeux bleu clair)." },
+        { "type": "classic", "question": "Un adverbe peut-il s'accorder ?", "answer": "Jamais, il est invariable : « elles parlent doucement », « ils sont très contents »." },
+        { "type": "classic", "question": "« On a » ou « on n'a » dans : « … rien vu » ?", "answer": "« On n'a rien vu » : avec une négation (rien, pas, jamais), il faut le n'. Astuce : remplacer on par il → « il n'a rien vu »." },
+        { "type": "classic", "question": "Écrit-on « la dictée » ou « la dicté » ? Et « l'amitié » ?", "answer": "La dictée (avec -ée)… mais l'amitié (sans e !). Les noms féminins en -té ou -tié ne prennent pas de e, sauf exceptions comme dictée, jetée, montée, pâtée." }
+      ]
+    },
+    {
+      "name": "Français 5e · Vocabulaire",
+      "description": "Étymologie, racines latines et grecques, polysémie et premières figures de style.",
+      "cards": [
+        { "type": "classic", "question": "De quelles langues vient l'essentiel du vocabulaire français ?", "answer": "Du latin surtout, et du grec ancien — d'où l'intérêt de l'étymologie pour deviner le sens et l'orthographe des mots." },
+        { "type": "classic", "question": "Que signifient les racines grecques -phone, -graphe et -logie ?", "answer": "-phone : le son/la voix (téléphone) ; -graphe : écrire (orthographe) ; -logie : l'étude, la science (biologie)." },
+        { "type": "classic", "question": "Que signifient les racines latines aqua-, terra- et -vore ?", "answer": "Aqua- : l'eau (aquarium) ; terra- : la terre (terrestre) ; -vore : qui mange (herbivore, carnivore)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un mot polysémique ? Donne un exemple.", "answer": "Un mot qui a plusieurs sens : une « souris » (animal ou d'ordinateur), un « bureau » (meuble ou pièce)." },
+        { "type": "classic", "question": "Quelle différence entre homonymes et paronymes ?", "answer": "Homonymes : même prononciation, sens différents (verre/vert/ver). Paronymes : presque semblables (éruption/irruption, attention à ne pas confondre !)." },
+        { "type": "classic", "question": "Explique la différence entre « éruption » et « irruption ».", "answer": "Éruption : jaillissement (volcan, boutons). Irruption : entrée soudaine (il fait irruption dans la salle)." },
+        { "type": "classic", "question": "Comparaison ou métaphore : « Cet homme est un lion. »", "answer": "Métaphore : l'image est directe, sans mot outil. (« Il se bat comme un lion » serait une comparaison.)" },
+        { "type": "classic", "question": "Qu'est-ce qu'une personnification ? Invente un exemple.", "answer": "Prêter un comportement humain à une chose : « les vagues murmuraient », « la vieille maison nous observait »." },
+        { "type": "classic", "question": "Comment forme-t-on des antonymes avec des préfixes ?", "answer": "Avec in-/im-/il-/ir-, dé-, mal- : possible/impossible, lisible/illisible, faire/défaire, adroit/maladroit." },
+        { "type": "classic", "question": "Classe du plus faible au plus fort : euphorie, satisfaction, joie.", "answer": "Satisfaction < joie < euphorie. Jouer sur l'intensité des mots enrichit une rédaction." },
+        { "type": "classic", "question": "Donne les trois niveaux de langue du verbe « travailler ».", "answer": "Familier : bosser. Courant : travailler. Soutenu : œuvrer, besogner." },
+        { "type": "classic", "question": "Cite des mots français empruntés à d'autres langues.", "answer": "Week-end (anglais), pizza (italien), kimono (japonais), sofa (arabe), robot (tchèque)…" },
+        { "type": "classic", "question": "Dans un article de dictionnaire, où trouve-t-on l'étymologie ?", "answer": "Souvent entre crochets ou en fin d'article : elle indique la langue et le mot d'origine." }
+      ]
+    }
+  ]
+}

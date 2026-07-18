@@ -1,0 +1,85 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Maths 5e · Nombres relatifs et calculs",
+      "description": "Découverte des relatifs, priorités de calcul, fractions.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un nombre relatif ? Donne deux exemples de la vie courante.", "answer": "Un nombre avec un signe + ou −. Ex. : une température de −5 °C, un sous-sol au niveau −2." },
+        { "type": "classic", "question": "Compare −3 et −5.", "answer": "−3 > −5 : entre deux négatifs, le plus grand est celui qui est le plus proche de zéro." },
+        { "type": "classic", "question": "Calcule : (−4) + (−6)", "answer": "−10. Deux nombres de même signe : on additionne les distances à zéro et on garde le signe." },
+        { "type": "classic", "question": "Calcule : (−7) + 3", "answer": "−4. Signes différents : on soustrait les distances à zéro et on prend le signe du plus « fort »." },
+        { "type": "classic", "question": "Calcule : 5 − 8", "answer": "−3. Soustraire, c'est ajouter l'opposé : 5 + (−8)." },
+        { "type": "classic", "question": "Quel est l'opposé de −7 ? de 4,5 ?", "answer": "7 et −4,5. Un nombre et son opposé ont une somme égale à zéro." },
+        { "type": "classic", "question": "Comment s'appellent les deux coordonnées d'un point dans un repère ?", "answer": "L'abscisse (axe horizontal) puis l'ordonnée (axe vertical) : A(3 ; −2)." },
+        { "type": "classic", "question": "Calcule : 20 − (5 + 3) × 2", "answer": "20 − 8 × 2 = 20 − 16 = 4. (Parenthèses d'abord, puis multiplication, puis soustraction.)" },
+        { "type": "classic", "question": "Calcule astucieusement 7 × 102 avec la distributivité.", "answer": "7 × (100 + 2) = 700 + 14 = 714." },
+        { "type": "classic", "question": "L'expression 3 + 4 × 5 est-elle une somme ou un produit ?", "answer": "Une somme : le dernier calcul effectué est l'addition (3 + 20)." },
+        { "type": "classic", "question": "Simplifie la fraction 12/18.", "answer": "2/3 (on divise le numérateur et le dénominateur par 6)." },
+        { "type": "classic", "question": "Calcule : 1/3 + 5/6", "answer": "2/6 + 5/6 = 7/6. (On met d'abord au même dénominateur : 6 est un multiple de 3.)" },
+        { "type": "classic", "question": "Comment savoir si une fraction est plus grande ou plus petite que 1 ?", "answer": "Numérateur > dénominateur : plus grande que 1 (7/6 > 1). Numérateur < dénominateur : plus petite (5/6 < 1)." },
+        { "type": "classic", "question": "Que vaut la fraction 3/4 sous forme décimale, et pourquoi ?", "answer": "0,75, car une fraction est un quotient : 3/4 = 3 ÷ 4." }
+      ]
+    },
+    {
+      "name": "Maths 5e · Proportionnalité et pourcentages",
+      "description": "Tableaux, coefficient, pourcentages, échelles et ratios.",
+      "cards": [
+        { "type": "classic", "question": "Comment reconnaître un tableau de proportionnalité ?", "answer": "On passe de la première ligne à la seconde en multipliant toujours par le même nombre : le coefficient de proportionnalité." },
+        { "type": "classic", "question": "2 kg de pommes coûtent 5 €. Quel est le coefficient de proportionnalité (prix au kg) ?", "answer": "5 ÷ 2 = 2,50 € par kg." },
+        { "type": "classic", "question": "Calcule 20 % de 80.", "answer": "80 × 20/100 = 16. (Appliquer p %, c'est multiplier par p/100.)" },
+        { "type": "classic", "question": "Dans une classe de 25 élèves, 15 sont des filles. Quel pourcentage ?", "answer": "15/25 = 60/100 = 60 %." },
+        { "type": "classic", "question": "Écris 3/4 en pourcentage.", "answer": "75 % (3/4 = 75/100)." },
+        { "type": "classic", "question": "Sur une carte à l'échelle 1/50 000, que représentent 2 cm ?", "answer": "2 × 50 000 = 100 000 cm = 1 km." },
+        { "type": "classic", "question": "Une recette pour 6 personnes utilise 300 g de riz. Combien pour 9 personnes ?", "answer": "450 g. (Pour 3 personnes : 150 g ; 9 = 6 + 3 → 300 + 150. C'est l'additivité de la proportionnalité.)" },
+        { "type": "classic", "question": "Comment reconnaît-on graphiquement une situation de proportionnalité ?", "answer": "Les points sont alignés avec l'origine du repère (sur une droite qui passe par zéro)." },
+        { "type": "classic", "question": "Que signifie « mélanger sirop et eau dans le ratio 1 : 4 » ?", "answer": "1 volume de sirop pour 4 volumes d'eau : le sirop représente 1/5 du mélange." },
+        { "type": "classic", "question": "Un article à 40 € est soldé à −25 %. Quel est le nouveau prix ?", "answer": "25 % de 40 = 10, donc 40 − 10 = 30 €." },
+        { "type": "classic", "question": "60 km parcourus en 1 h 30 à allure régulière : combien en 30 min ?", "answer": "20 km (30 min = le tiers de 1 h 30)." },
+        { "type": "classic", "question": "Le périmètre d'un carré est-il proportionnel à son côté ? Et son aire ?", "answer": "Le périmètre oui (P = 4c). L'aire non : quand le côté double, l'aire est multipliée par 4." },
+        { "type": "classic", "question": "Complète : passer de 8 à 2, c'est multiplier par… ?", "answer": "1/4 (ou 0,25) : diviser par 4, c'est multiplier par un quart." }
+      ]
+    },
+    {
+      "name": "Maths 5e · Géométrie",
+      "description": "Triangles, symétrie centrale, parallélogrammes et angles.",
+      "cards": [
+        { "type": "classic", "question": "Peut-on construire un triangle de côtés 3 cm, 4 cm et 8 cm ?", "answer": "Non : 3 + 4 = 7 < 8. Inégalité triangulaire : chaque côté doit être plus petit que la somme des deux autres." },
+        { "type": "classic", "question": "Que vaut la somme des angles d'un triangle ?", "answer": "180°. (Valable pour TOUS les triangles.)" },
+        { "type": "classic", "question": "Deux angles d'un triangle mesurent 50° et 60°. Que vaut le troisième ?", "answer": "180 − (50 + 60) = 70°." },
+        { "type": "classic", "question": "Que sait-on des angles d'un triangle isocèle ? équilatéral ?", "answer": "Isocèle : les deux angles à la base sont égaux. Équilatéral : trois angles de 60°." },
+        { "type": "classic", "question": "Qu'est-ce que la symétrie centrale de centre O ?", "answer": "Un demi-tour autour du point O : chaque point A a une image A' telle que O est le milieu de [AA']." },
+        { "type": "classic", "question": "Que conserve la symétrie centrale ?", "answer": "Longueurs, angles, aires, alignements — comme la symétrie axiale, mais la figure fait un demi-tour au lieu de se refléter." },
+        { "type": "classic", "question": "Quelle est l'image d'une droite par une symétrie centrale ?", "answer": "Une droite parallèle à la droite de départ." },
+        { "type": "classic", "question": "Qu'est-ce qu'un parallélogramme ?", "answer": "Un quadrilatère dont les côtés opposés sont parallèles deux à deux." },
+        { "type": "classic", "question": "Cite les propriétés du parallélogramme.", "answer": "Côtés opposés égaux et parallèles, angles opposés égaux, et ses diagonales se coupent en leur milieu (centre de symétrie)." },
+        { "type": "classic", "question": "Quels parallélogrammes particuliers connais-tu, et qu'ont-ils en plus ?", "answer": "Rectangle : angles droits, diagonales égales. Losange : côtés égaux, diagonales perpendiculaires. Carré : les deux à la fois !" },
+        { "type": "classic", "question": "Que dire de deux angles opposés par le sommet ?", "answer": "Ils sont égaux (formés par deux droites qui se coupent)." },
+        { "type": "classic", "question": "Qu'est-ce que des angles alternes-internes ? Quand sont-ils égaux ?", "answer": "Deux angles situés de part et d'autre d'une sécante, entre deux droites. Ils sont égaux quand les deux droites sont parallèles." },
+        { "type": "classic", "question": "Qu'est-ce que la hauteur d'un triangle ? Combien y en a-t-il ?", "answer": "La droite passant par un sommet, perpendiculaire au côté opposé. Il y en a trois (une par sommet)." },
+        { "type": "classic", "question": "Un rectangle a-t-il un centre de symétrie ? Et un triangle ?", "answer": "Le rectangle oui : le point d'intersection de ses diagonales. Un triangle n'en a jamais." }
+      ]
+    },
+    {
+      "name": "Maths 5e · Aires, volumes, stats et probas",
+      "description": "Aire du disque, prismes et cylindres, fréquences et premières probabilités.",
+      "cards": [
+        { "type": "classic", "question": "Formule de l'aire d'un disque ? Calcule pour un rayon de 5 cm.", "answer": "A = π × r². Ici : 25π ≈ 78,5 cm²." },
+        { "type": "classic", "question": "Périmètre du cercle et aire du disque : comment ne pas les confondre ?", "answer": "Périmètre (le tour) : 2πr, en cm. Aire (la surface) : πr², en cm². Le carré de l'unité rappelle le carré du rayon !" },
+        { "type": "classic", "question": "Formule de l'aire d'un parallélogramme ?", "answer": "A = base × hauteur (la hauteur est perpendiculaire à la base, ce n'est pas le côté penché !)." },
+        { "type": "classic", "question": "Formule de l'aire d'un triangle quelconque ?", "answer": "A = (base × hauteur) ÷ 2." },
+        { "type": "classic", "question": "Comment calcule-t-on le volume d'un prisme droit ?", "answer": "V = aire de la base × hauteur." },
+        { "type": "classic", "question": "Comment calcule-t-on le volume d'un cylindre ?", "answer": "V = π × r² × h (aire du disque de base × hauteur)." },
+        { "type": "classic", "question": "1 m³ = combien de litres ?", "answer": "1 000 L (et 1 L = 1 dm³)." },
+        { "type": "classic", "question": "Quelle différence entre effectif et fréquence ?", "answer": "Effectif : le nombre brut (12 élèves). Fréquence : la proportion (12/24 = 0,5 = 50 %)." },
+        { "type": "classic", "question": "Sur un diagramme circulaire, quel angle représente 25 % ?", "answer": "90° (25 % de 360°)." },
+        { "type": "classic", "question": "Calcule la moyenne de la série : 8 ; 12 ; 13 ; 15.", "answer": "(8 + 12 + 13 + 15) ÷ 4 = 48 ÷ 4 = 12." },
+        { "type": "classic", "question": "Qu'est-ce qu'une expérience aléatoire ? une issue ?", "answer": "Une expérience dont on ne peut pas prévoir le résultat (lancer un dé). Une issue est un résultat possible (obtenir 3)." },
+        { "type": "classic", "question": "Un sac contient 3 boules rouges et 2 bleues. Probabilité de tirer une rouge ?", "answer": "3/5 (3 issues favorables sur 5 issues équiprobables)." },
+        { "type": "classic", "question": "Que vaut la somme des probabilités de toutes les issues d'une expérience ?", "answer": "Toujours 1." },
+        { "type": "classic", "question": "La probabilité d'un événement peut-elle valoir 1,2 ? Et 0 ?", "answer": "Jamais 1,2 : une probabilité est entre 0 et 1. Elle vaut 0 si l'événement est impossible (obtenir 7 avec un dé)." }
+      ]
+    }
+  ]
+}
