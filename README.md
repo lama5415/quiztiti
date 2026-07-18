@@ -1,4 +1,4 @@
-# 🦉 QuizTiti
+# <img src="img/mascotte.svg" width="36" alt="QuizTiti le ouistiti"> QuizTiti
 
 Une petite application web pour apprendre à partir de fiches question/réponse (dans l'esprit d'Anki, sans la gestion des fréquences de révision) et de **jeux d'énigmes à indices progressifs**.
 

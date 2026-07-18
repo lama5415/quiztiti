@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- QuizTiti, le ouistiti mascotte -->
+  <!-- touffes d'oreilles blanches -->
+  <g fill="#ded0b2">
+    <circle cx="18" cy="46" r="9.5"/>
+    <circle cx="12" cy="56" r="8.5"/>
+    <circle cx="16" cy="67" r="8.5"/>
+    <circle cx="24" cy="71" r="7"/>
+    <circle cx="24" cy="54" r="10"/>
+    <circle cx="102" cy="46" r="9.5"/>
+    <circle cx="108" cy="56" r="8.5"/>
+    <circle cx="104" cy="67" r="8.5"/>
+    <circle cx="96" cy="71" r="7"/>
+    <circle cx="96" cy="54" r="10"/>
+  </g>
+  <g fill="#f7f0df">
+    <circle cx="20" cy="49" r="7"/>
+    <circle cx="16" cy="58" r="6.5"/>
+    <circle cx="20" cy="66" r="6"/>
+    <circle cx="25" cy="56" r="7.5"/>
+    <circle cx="100" cy="49" r="7"/>
+    <circle cx="104" cy="58" r="6.5"/>
+    <circle cx="100" cy="66" r="6"/>
+    <circle cx="95" cy="56" r="7.5"/>
+  </g>
+  <!-- houppette -->
+  <g fill="#6b4f38">
+    <ellipse cx="52" cy="24" rx="7" ry="10" transform="rotate(-18 52 24)"/>
+    <ellipse cx="60" cy="21" rx="7" ry="12"/>
+    <ellipse cx="68" cy="24" rx="7" ry="10" transform="rotate(18 68 24)"/>
+  </g>
+  <!-- tête -->
+  <ellipse cx="60" cy="62" rx="37" ry="34" fill="#7d5b41"/>
+  <!-- face claire -->
+  <path d="M60 40 C 79 40 89 54 87 70 C 85 86 74 94 60 94 C 46 94 35 86 33 70 C 31 54 41 40 60 40 Z" fill="#d9b98c"/>
+  <!-- tache blanche du front -->
+  <ellipse cx="60" cy="46" rx="6" ry="8" fill="#f7f2e8"/>
+  <!-- museau -->
+  <ellipse cx="60" cy="78" rx="13" ry="10" fill="#efe0c6"/>
+  <!-- yeux -->
+  <circle cx="48" cy="63" r="7" fill="#2d2115"/>
+  <circle cx="72" cy="63" r="7" fill="#2d2115"/>
+  <circle cx="50.5" cy="60.5" r="2.4" fill="#ffffff"/>
+  <circle cx="74.5" cy="60.5" r="2.4" fill="#ffffff"/>
+  <!-- joues -->
+  <circle cx="41" cy="74" r="4.5" fill="#e8a17e" opacity="0.55"/>
+  <circle cx="79" cy="74" r="4.5" fill="#e8a17e" opacity="0.55"/>
+  <!-- nez -->
+  <ellipse cx="60" cy="74.5" rx="3.4" ry="2.4" fill="#4a352a"/>
+  <!-- bouche -->
+  <path d="M60 77 L60 80 M54 81 Q60 86 66 81" fill="none" stroke="#4a352a" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

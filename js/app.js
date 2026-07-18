@@ -256,7 +256,7 @@
       '</div></div>';
 
     if (!decks.length) {
-      html += '<div class="empty"><div class="big">🦉</div>' +
+      html += '<div class="empty"><div class="big"><img src="img/mascotte.svg" alt="" class="mascot-big"></div>' +
         '<p>Aucun paquet pour le moment.<br>Créez-en un ou importez un fichier JSON.</p></div>';
     } else {
       html += '<div class="deck-grid">';
