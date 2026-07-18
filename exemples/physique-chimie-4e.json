@@ -1,0 +1,77 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Physique-Chimie 4e · Atomes, molécules et transformations",
+      "description": "Constitution de la matière et transformations chimiques.",
+      "cards": [
+        { "type": "classic", "question": "De quoi toute la matière est-elle constituée ?", "answer": "D'atomes, des particules extrêmement petites qui peuvent s'assembler en molécules." },
+        { "type": "classic", "question": "Qu'est-ce qu'une molécule ?", "answer": "Un assemblage d'atomes liés entre eux (ex. : la molécule d'eau H₂O contient 2 atomes d'hydrogène et 1 d'oxygène)." },
+        { "type": "classic", "question": "Que représente la formule chimique H₂O ?", "answer": "L'eau : 2 atomes d'hydrogène (H) et 1 atome d'oxygène (O)." },
+        { "type": "classic", "question": "Quels sont les symboles des atomes hydrogène, oxygène, carbone et azote ?", "answer": "H, O, C et N." },
+        { "type": "classic", "question": "Quelle différence entre un corps pur et un mélange ?", "answer": "Un corps pur est constitué d'une seule sorte d'entité (molécules ou atomes identiques) ; un mélange en contient plusieurs." },
+        { "type": "classic", "question": "Qu'est-ce qu'une transformation chimique ?", "answer": "Une transformation où des espèces chimiques (les réactifs) disparaissent et de nouvelles (les produits) apparaissent." },
+        { "type": "classic", "question": "Quelle différence entre réactifs et produits ?", "answer": "Les réactifs sont consommés au départ ; les produits sont formés à l'arrivée." },
+        { "type": "classic", "question": "Que se conserve-t-il lors d'une transformation chimique ?", "answer": "La masse totale : la masse des réactifs consommés est égale à la masse des produits formés (loi de Lavoisier)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une combustion ? Que faut-il pour qu'elle ait lieu ?", "answer": "Une transformation chimique qui dégage de la chaleur ; il faut un combustible, du dioxygène (comburant) et une source de chaleur." },
+        { "type": "classic", "question": "Comment teste-t-on la présence de dioxyde de carbone (CO₂) ?", "answer": "Avec de l'eau de chaux : elle se trouble (devient blanchâtre) en présence de CO₂." },
+        { "type": "classic", "question": "Quels produits se forment lors de la combustion complète du carbone ?", "answer": "Du dioxyde de carbone (CO₂)." },
+        { "type": "classic", "question": "Pourquoi une combustion incomplète est-elle dangereuse ?", "answer": "Elle produit du monoxyde de carbone (CO), un gaz toxique, inodore et mortel." },
+        { "type": "classic", "question": "Qu'est-ce que la masse volumique ?", "answer": "La masse d'un litre (ou d'un cm³) d'un matériau : ρ = masse ÷ volume. Elle explique pourquoi un objet flotte ou coule." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 4e · Mouvements et forces",
+      "description": "Vitesse, mouvements et notion de force.",
+      "cards": [
+        { "type": "classic", "question": "Comment décrit-on le mouvement d'un objet ?", "answer": "Par sa trajectoire (le chemin suivi) et sa vitesse. Le mouvement dépend du référentiel (par rapport à quoi on l'observe)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un référentiel ?", "answer": "L'objet par rapport auquel on étudie le mouvement (ex. : le sol, un train). Un passager assis est immobile par rapport au train mais en mouvement par rapport au sol." },
+        { "type": "classic", "question": "Formule de la vitesse moyenne ?", "answer": "v = distance ÷ durée (d ÷ t)." },
+        { "type": "classic", "question": "Une voiture parcourt 120 km en 2 h. Quelle est sa vitesse moyenne ?", "answer": "120 ÷ 2 = 60 km/h." },
+        { "type": "classic", "question": "Qu'est-ce qu'un mouvement uniforme ?", "answer": "Un mouvement à vitesse constante (elle ne change pas)." },
+        { "type": "classic", "question": "Que signifie « mouvement accéléré » et « mouvement ralenti » ?", "answer": "Accéléré : la vitesse augmente. Ralenti (décéléré) : la vitesse diminue." },
+        { "type": "classic", "question": "Qu'est-ce qu'une force ? Quels effets peut-elle avoir ?", "answer": "Une action capable de mettre en mouvement, d'arrêter, de dévier ou de déformer un objet." },
+        { "type": "classic", "question": "Quelle différence entre le poids et la masse ?", "answer": "La masse (en kg) est la quantité de matière, identique partout. Le poids (en newtons) est la force d'attraction de la Terre, qui varie selon le lieu." },
+        { "type": "classic", "question": "Quelle est l'unité de force et avec quoi la mesure-t-on ?", "answer": "Le newton (N), mesuré avec un dynamomètre." },
+        { "type": "classic", "question": "Le poids d'un objet est-il le même sur la Terre et sur la Lune ?", "answer": "Non : sur la Lune, le poids est environ six fois plus faible, car la Lune attire moins. Mais la masse, elle, ne change pas." },
+        { "type": "classic", "question": "Quelles sont les caractéristiques d'une force (pour la représenter par une flèche) ?", "answer": "Son point d'application, sa direction, son sens et sa valeur (intensité en newtons)." },
+        { "type": "classic", "question": "Pourquoi un objet lâché tombe-t-il vers le sol ?", "answer": "À cause de son poids : la Terre exerce sur lui une force d'attraction dirigée vers le bas." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 4e · Électricité : intensité et tension",
+      "description": "Grandeurs électriques, mesures et lois des circuits.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que l'intensité du courant ? Quelle est son unité ?", "answer": "La grandeur qui indique le débit du courant électrique. Elle se mesure en ampères (A)." },
+        { "type": "classic", "question": "Avec quel appareil et comment mesure-t-on l'intensité ?", "answer": "Avec un ampèremètre, branché en série dans le circuit." },
+        { "type": "classic", "question": "Qu'est-ce que la tension électrique ? Quelle est son unité ?", "answer": "La grandeur qui existe entre deux points d'un circuit (comme une « pression » électrique). Elle se mesure en volts (V)." },
+        { "type": "classic", "question": "Avec quel appareil et comment mesure-t-on la tension ?", "answer": "Avec un voltmètre, branché en dérivation aux bornes du dipôle." },
+        { "type": "classic", "question": "Dans un circuit en série, que peut-on dire de l'intensité en tout point ?", "answer": "Elle est la même partout (loi d'unicité de l'intensité en série)." },
+        { "type": "classic", "question": "Dans un circuit en série, comment se répartissent les tensions ?", "answer": "La tension du générateur est égale à la somme des tensions des autres dipôles (loi d'additivité des tensions)." },
+        { "type": "classic", "question": "Dans un circuit en dérivation, que peut-on dire des tensions aux bornes des branches ?", "answer": "Elles sont égales entre elles et égales à celle du générateur." },
+        { "type": "classic", "question": "Dans un circuit en dérivation, comment se répartit l'intensité ?", "answer": "L'intensité principale est égale à la somme des intensités dans les branches (loi des nœuds)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un court-circuit et pourquoi est-il dangereux ?", "answer": "Un chemin de très faible résistance qui laisse passer une intensité énorme : le fil chauffe et peut provoquer un incendie." },
+        { "type": "classic", "question": "À quoi sert un fusible ou un disjoncteur ?", "answer": "À couper le courant si l'intensité devient trop forte, pour protéger l'installation et éviter les incendies." },
+        { "type": "classic", "question": "Dans quel sens conventionnel circule le courant à l'extérieur du générateur ?", "answer": "De la borne + vers la borne − du générateur (sens conventionnel du courant)." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 4e · Lumière et couleurs",
+      "description": "Lumières colorées, spectres et vision des couleurs.",
+      "cards": [
+        { "type": "classic", "question": "Qu'obtient-on en décomposant la lumière blanche avec un prisme ?", "answer": "Un spectre : toutes les couleurs de l'arc-en-ciel (du rouge au violet)." },
+        { "type": "classic", "question": "La lumière blanche est-elle une lumière pure ?", "answer": "Non : c'est un mélange de toutes les lumières colorées." },
+        { "type": "classic", "question": "Quelles sont les trois lumières colorées primaires ?", "answer": "Le rouge, le vert et le bleu (synthèse additive)." },
+        { "type": "classic", "question": "Que donne la superposition des trois lumières primaires ?", "answer": "De la lumière blanche." },
+        { "type": "classic", "question": "Pourquoi une feuille de papier paraît-elle rouge sous la lumière blanche ?", "answer": "Parce qu'elle diffuse la lumière rouge et absorbe les autres couleurs." },
+        { "type": "classic", "question": "De quelle couleur paraît un objet blanc éclairé en lumière rouge ?", "answer": "Rouge : un objet blanc diffuse toute la lumière qu'il reçoit." },
+        { "type": "classic", "question": "De quelle couleur paraît un objet rouge éclairé en lumière bleue ?", "answer": "Noir : il ne peut diffuser que le rouge, or il n'y a pas de rouge dans la lumière bleue." },
+        { "type": "classic", "question": "Qu'est-ce qu'un filtre coloré ?", "answer": "Un objet qui ne laisse passer que certaines couleurs (un filtre rouge ne laisse passer que le rouge)." },
+        { "type": "classic", "question": "Comment l'œil perçoit-il les couleurs ?", "answer": "Grâce à la rétine, qui contient trois types de récepteurs sensibles au rouge, au vert et au bleu." },
+        { "type": "classic", "question": "Comment un écran (télé, téléphone) crée-t-il toutes les couleurs ?", "answer": "En combinant de minuscules pixels rouges, verts et bleus dans des proportions variables." },
+        { "type": "classic", "question": "Qu'est-ce que la synthèse additive ?", "answer": "L'obtention de couleurs en additionnant des lumières colorées (rouge + vert + bleu = blanc)." }
+      ]
+    }
+  ]
+}

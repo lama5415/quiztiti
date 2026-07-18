@@ -1,0 +1,77 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Histoire-Géo 6e · Préhistoire et premiers États",
+      "description": "De l'apparition de l'humanité aux premières civilisations et écritures.",
+      "cards": [
+        { "type": "classic", "question": "Quelle est la différence entre la Préhistoire et l'Histoire ?", "answer": "La Préhistoire précède l'invention de l'écriture ; l'Histoire commence avec les premières écritures, vers 3300 av. J.-C." },
+        { "type": "classic", "question": "Qu'est-ce que le Paléolithique ?", "answer": "La période de la pierre taillée : les humains sont nomades, chasseurs-cueilleurs, et maîtrisent le feu." },
+        { "type": "classic", "question": "Quelle grande transformation marque le Néolithique ?", "answer": "La « révolution néolithique » : l'agriculture et l'élevage apparaissent, les humains se sédentarisent et fondent les premiers villages." },
+        { "type": "classic", "question": "Où sont nées les premières civilisations, et pourquoi près des fleuves ?", "answer": "En Mésopotamie (Tigre et Euphrate) et en Égypte (Nil) : les fleuves rendaient les terres fertiles et permettaient l'irrigation." },
+        { "type": "classic", "question": "Quelle est la première forme d'écriture, et où est-elle apparue ?", "answer": "L'écriture cunéiforme, en Mésopotamie (Sumer), tracée sur des tablettes d'argile vers 3300 av. J.-C." },
+        { "type": "classic", "question": "Comment s'appelle l'écriture des anciens Égyptiens ?", "answer": "Les hiéroglyphes." },
+        { "type": "classic", "question": "Qui dirigeait l'Égypte ancienne et quel était son rôle ?", "answer": "Le pharaon, à la fois roi et considéré comme un dieu vivant." },
+        { "type": "classic", "question": "À quoi servaient les pyramides d'Égypte ?", "answer": "Ce sont des tombeaux monumentaux destinés aux pharaons." },
+        { "type": "classic", "question": "Comment appelle-t-on une religion qui croit en plusieurs dieux ? en un seul ?", "answer": "Polythéiste (plusieurs dieux) ; monothéiste (un seul dieu)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une cité-État en Mésopotamie ?", "answer": "Une ville et le territoire qui l'entoure, formant un État indépendant dirigé par un roi (ex. : Ur, Uruk)." },
+        { "type": "classic", "question": "Comment s'appelle un scientifique qui fouille et étudie les traces du passé ?", "answer": "Un archéologue." },
+        { "type": "classic", "question": "Qu'appelle-t-on le « Croissant fertile » ?", "answer": "La région en arc de cercle allant de la Mésopotamie à l'Égypte, où sont nées l'agriculture et les premières civilisations." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 6e · La Grèce et Rome antiques",
+      "description": "Le monde grec, la naissance de la démocratie, et la Rome antique.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qui unissait les Grecs de l'Antiquité malgré leurs cités rivales ?", "answer": "Une même langue, les mêmes dieux, les mêmes récits (l'Iliade et l'Odyssée) et des concours communs comme les Jeux olympiques." },
+        { "type": "classic", "question": "Dans quelle cité est née la démocratie, et que signifie ce mot ?", "answer": "À Athènes. « Démocratie » vient du grec : le pouvoir (kratos) au peuple (dêmos)." },
+        { "type": "classic", "question": "Qui pouvait participer à la démocratie athénienne ?", "answer": "Seulement les citoyens : hommes, libres, nés de parents athéniens. Femmes, esclaves et étrangers (métèques) en étaient exclus." },
+        { "type": "classic", "question": "Qui était Homère ?", "answer": "Le poète à qui l'on attribue l'Iliade et l'Odyssée, deux récits fondateurs de la culture grecque." },
+        { "type": "classic", "question": "Selon la légende, qui a fondé Rome et en quelle année ?", "answer": "Romulus, en 753 av. J.-C. (la légende raconte que Romulus et Rémus furent élevés par une louve)." },
+        { "type": "classic", "question": "Quelles sont les trois grandes périodes politiques de la Rome antique ?", "answer": "La Royauté, la République, puis l'Empire." },
+        { "type": "classic", "question": "Qui fut le premier empereur romain ?", "answer": "Auguste (Octave), à partir de 27 av. J.-C." },
+        { "type": "classic", "question": "Qu'est-ce que la « paix romaine » (Pax Romana) ?", "answer": "Une longue période de paix et de prospérité dans l'Empire, qui a permis le commerce et la construction de nombreuses villes et routes." },
+        { "type": "classic", "question": "Cite trois monuments typiques d'une ville romaine.", "answer": "Le forum, l'amphithéâtre (comme le Colisée), les thermes, l'aqueduc, le théâtre… (plusieurs réponses possibles)." },
+        { "type": "classic", "question": "À quoi servaient les aqueducs romains ?", "answer": "À amener l'eau depuis des sources lointaines jusqu'aux villes (ex. : le pont du Gard)." },
+        { "type": "classic", "question": "Comment appelle-t-on la langue des Romains, ancêtre du français ?", "answer": "Le latin." },
+        { "type": "classic", "question": "Qu'est-ce que la romanisation ?", "answer": "La diffusion du mode de vie romain (langue, villes, lois, dieux) dans les territoires conquis, comme la Gaule." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 6e · Judaïsme, christianisme et empires lointains",
+      "description": "Naissance des monothéismes et premiers grands empires d'Asie.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que le judaïsme ?", "answer": "La première grande religion monothéiste, celle du peuple hébreu, qui croit en un Dieu unique. Son livre sacré est la Bible hébraïque (la Torah)." },
+        { "type": "classic", "question": "Dans quel livre les Hébreux ont-ils rassemblé leurs textes et leur histoire ?", "answer": "La Bible (l'Ancien Testament pour les chrétiens)." },
+        { "type": "classic", "question": "Où et quand est né le christianisme ?", "answer": "Au Ier siècle, en Palestine (alors province romaine), à partir de la vie et de la prédication de Jésus de Nazareth." },
+        { "type": "classic", "question": "Quel est le livre sacré des chrétiens ?", "answer": "La Bible, composée de l'Ancien Testament et du Nouveau Testament (qui raconte la vie de Jésus dans les Évangiles)." },
+        { "type": "classic", "question": "Comment le christianisme est-il d'abord traité dans l'Empire romain, puis à la fin ?", "answer": "D'abord persécuté, il devient autorisé au IVe siècle, puis la religion officielle de l'Empire romain." },
+        { "type": "classic", "question": "Qu'ont en commun le judaïsme et le christianisme ?", "answer": "Ce sont des religions monothéistes qui partagent des textes (l'Ancien Testament / la Bible hébraïque)." },
+        { "type": "classic", "question": "Quel empire de Chine a été unifié par le premier empereur Qin Shi Huang ?", "answer": "L'empire de Chine, au IIIe siècle av. J.-C. On lui doit le début de la Grande Muraille et la célèbre armée de soldats en terre cuite." },
+        { "type": "classic", "question": "Quelle route commerciale reliait la Chine à l'Occident ?", "answer": "La route de la soie, par laquelle circulaient la soie, les épices et de nombreuses idées." },
+        { "type": "classic", "question": "Quelle religion, née en Inde, prône la non-violence et la recherche de l'éveil ?", "answer": "Le bouddhisme, fondé à partir de l'enseignement de Bouddha." },
+        { "type": "classic", "question": "Qu'est-ce qu'un empire ?", "answer": "Un vaste territoire regroupant des peuples différents sous l'autorité d'un seul chef, l'empereur." },
+        { "type": "classic", "question": "Que signifie l'expression « av. J.-C. » et « apr. J.-C. » ?", "answer": "Avant et après Jésus-Christ : le point de départ (l'an 1) de notre calendrier. L'an 500 av. J.-C. est plus ancien que l'an 200 av. J.-C. !" }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 6e · Géographie : habiter la Terre",
+      "description": "Métropoles, campagnes, littoraux et répartition des hommes sur la planète.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'une métropole ?", "answer": "Une grande ville qui concentre des habitants, des activités et des fonctions de commandement (économiques, politiques, culturelles)." },
+        { "type": "classic", "question": "Que signifie le mot « urbanisation » ?", "answer": "L'augmentation de la part de la population qui vit dans les villes. Aujourd'hui, plus d'un humain sur deux est un citadin." },
+        { "type": "classic", "question": "Qu'est-ce qu'une densité de population ?", "answer": "Le nombre d'habitants par kilomètre carré (hab/km²). Elle mesure si un espace est peuplé ou non." },
+        { "type": "classic", "question": "Qu'appelle-t-on un espace de faible densité ?", "answer": "Un espace où vivent peu d'habitants (campagnes isolées, déserts, montagnes, forêts)." },
+        { "type": "classic", "question": "Cite deux contraintes qui rendent certains espaces difficiles à habiter.", "answer": "Le froid extrême (pôles), la chaleur et la sécheresse (déserts), l'altitude (hautes montagnes), la forêt dense (Amazonie)…" },
+        { "type": "classic", "question": "Pourquoi les littoraux attirent-ils de plus en plus d'habitants ?", "answer": "Pour le tourisme, la pêche, les ports et le commerce, les activités industrielles : on appelle cela la littoralisation." },
+        { "type": "classic", "question": "Cite les cinq continents.", "answer": "L'Afrique, l'Amérique, l'Asie, l'Europe et l'Océanie (l'Antarctique est parfois compté comme un sixième)." },
+        { "type": "classic", "question": "Cite les cinq océans.", "answer": "L'océan Pacifique, l'Atlantique, l'Indien, l'Arctique et l'Antarctique (Austral)." },
+        { "type": "classic", "question": "Quel est le continent le plus peuplé du monde ?", "answer": "L'Asie, qui rassemble plus de la moitié de la population mondiale (avec la Chine et l'Inde)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un foyer de peuplement ?", "answer": "Une région du monde où vivent énormément d'habitants (ex. : l'Asie du Sud et de l'Est, l'Europe)." },
+        { "type": "classic", "question": "À quoi servent la latitude et la longitude ?", "answer": "À repérer précisément un point sur le globe : la latitude par rapport à l'équateur, la longitude par rapport au méridien de Greenwich." },
+        { "type": "classic", "question": "Qu'est-ce qu'une planisphère ?", "answer": "Une carte qui représente toute la surface de la Terre à plat." }
+      ]
+    }
+  ]
+}

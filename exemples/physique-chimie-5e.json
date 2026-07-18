@@ -1,0 +1,76 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Physique-Chimie 5e · La matière et ses états",
+      "description": "États de la matière, changements d'état, masse et volume.",
+      "cards": [
+        { "type": "classic", "question": "Quels sont les trois états physiques de la matière ?", "answer": "L'état solide, l'état liquide et l'état gazeux." },
+        { "type": "classic", "question": "Comment reconnaît-on un solide, un liquide et un gaz à leur forme ?", "answer": "Le solide a une forme propre ; le liquide prend la forme de son récipient (surface plane) ; le gaz occupe tout l'espace disponible." },
+        { "type": "classic", "question": "Comment s'appelle le passage de l'état solide à l'état liquide ? Et l'inverse ?", "answer": "Fusion (solide → liquide) ; solidification (liquide → solide)." },
+        { "type": "classic", "question": "Comment s'appelle le passage de l'état liquide à l'état gazeux ? Et l'inverse ?", "answer": "Vaporisation (liquide → gaz) ; liquéfaction ou condensation (gaz → liquide)." },
+        { "type": "classic", "question": "À quelle température l'eau bout-elle et gèle-t-elle (sous pression normale) ?", "answer": "Elle gèle à 0 °C et bout à 100 °C." },
+        { "type": "classic", "question": "Pendant un changement d'état, la température varie-t-elle ?", "answer": "Non : elle reste constante tant que le changement d'état n'est pas terminé (ex. : l'eau reste à 0 °C pendant la fusion de la glace)." },
+        { "type": "classic", "question": "La masse d'un corps change-t-elle lors d'un changement d'état ?", "answer": "Non, la masse se conserve. En revanche, le volume peut changer (l'eau qui gèle prend plus de place)." },
+        { "type": "classic", "question": "Avec quel appareil mesure-t-on une masse ? En quelle unité principale ?", "answer": "Avec une balance, en kilogrammes (kg) ; on utilise souvent le gramme (g)." },
+        { "type": "classic", "question": "Avec quoi mesure-t-on le volume d'un liquide ? En quelles unités ?", "answer": "Avec une éprouvette graduée, en litres (L) ou millilitres (mL). En sciences on utilise aussi le cm³ (1 mL = 1 cm³)." },
+        { "type": "classic", "question": "De quoi est constitué l'air que nous respirons ?", "answer": "Principalement de diazote (environ 78 %) et de dioxygène (environ 21 %)." },
+        { "type": "classic", "question": "Un gaz a-t-il une masse ?", "answer": "Oui : même s'il est léger, un gaz (comme l'air) possède bien une masse." },
+        { "type": "classic", "question": "Qu'est-ce que la matière ?", "answer": "Tout ce qui possède une masse et occupe un volume." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 5e · L'eau et les mélanges",
+      "description": "Cycle de l'eau, mélanges, solutions et techniques de séparation.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un mélange homogène ? Donne un exemple.", "answer": "Un mélange dont on ne distingue pas les constituants à l'œil nu : l'eau salée, le sirop dilué, l'air." },
+        { "type": "classic", "question": "Qu'est-ce qu'un mélange hétérogène ? Donne un exemple.", "answer": "Un mélange dont on distingue les constituants : eau + sable, eau + huile, jus d'orange avec pulpe." },
+        { "type": "classic", "question": "Qu'est-ce qu'un corps soluble ? Donne un exemple.", "answer": "Un corps qui se dissout dans un liquide : le sel et le sucre sont solubles dans l'eau." },
+        { "type": "classic", "question": "Dans « eau salée », qui est le solvant et qui est le soluté ?", "answer": "L'eau est le solvant (ce qui dissout) ; le sel est le soluté (ce qui est dissous)." },
+        { "type": "classic", "question": "Quand un mélange devient-il saturé ?", "answer": "Quand le solvant ne peut plus dissoudre de soluté : le sel supplémentaire reste au fond sans se dissoudre." },
+        { "type": "classic", "question": "Quelle technique sépare un solide non dissous d'un liquide ?", "answer": "La filtration : le liquide (le filtrat) traverse le filtre, le solide y reste." },
+        { "type": "classic", "question": "Comment récupérer le sel dissous dans l'eau salée ?", "answer": "Par évaporation : en chauffant, l'eau s'évapore et le sel reste." },
+        { "type": "classic", "question": "Quelles sont les trois grandes étapes du cycle de l'eau ?", "answer": "L'évaporation (l'eau devient vapeur), la condensation (formation des nuages), les précipitations (pluie, neige)." },
+        { "type": "classic", "question": "Qu'est-ce que l'eau potable ?", "answer": "Une eau que l'on peut boire sans danger pour la santé." },
+        { "type": "classic", "question": "L'eau minérale est-elle un corps pur ?", "answer": "Non : c'est un mélange homogène d'eau et de sels minéraux dissous (visibles sur l'étiquette)." },
+        { "type": "classic", "question": "Comment obtenir de l'eau (presque) pure à partir d'eau salée ?", "answer": "Par distillation : on fait bouillir l'eau, puis on refroidit et récupère la vapeur d'eau condensée." },
+        { "type": "classic", "question": "Que devient le volume total quand on mélange deux liquides miscibles ?", "answer": "Le volume total peut être un peu différent de la somme des volumes, mais la masse totale, elle, se conserve toujours." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 5e · Électricité et circuits",
+      "description": "Circuits électriques, conducteurs et isolants, sécurité.",
+      "cards": [
+        { "type": "classic", "question": "De quoi a besoin une lampe pour briller dans un circuit simple ?", "answer": "D'un générateur (pile) relié par des fils formant une boucle fermée." },
+        { "type": "classic", "question": "Qu'est-ce qu'un circuit ouvert ? un circuit fermé ?", "answer": "Ouvert : la boucle est coupée, le courant ne passe pas. Fermé : la boucle est complète, le courant circule." },
+        { "type": "classic", "question": "À quoi sert un interrupteur ?", "answer": "À ouvrir ou fermer le circuit, donc à commander le passage du courant." },
+        { "type": "classic", "question": "Qu'est-ce qu'un dipôle ?", "answer": "Un composant électrique qui possède deux bornes (pile, lampe, interrupteur, moteur…)." },
+        { "type": "classic", "question": "Quelle différence entre un conducteur et un isolant ?", "answer": "Un conducteur laisse passer le courant (métaux) ; un isolant ne le laisse pas passer (plastique, verre, bois sec)." },
+        { "type": "classic", "question": "Cite deux matériaux conducteurs et deux isolants.", "answer": "Conducteurs : cuivre, fer, aluminium. Isolants : plastique, caoutchouc, verre, bois." },
+        { "type": "classic", "question": "Quelle différence entre un montage en série et un montage en dérivation ?", "answer": "En série : les composants sont sur une seule boucle. En dérivation : ils sont sur des branches différentes." },
+        { "type": "classic", "question": "Dans un circuit en série, que se passe-t-il si une lampe est dévissée ?", "answer": "Tout s'éteint : le circuit est ouvert, plus aucune lampe ne brille." },
+        { "type": "classic", "question": "Deux lampes brillent-elles plus en série ou en dérivation ?", "answer": "En dérivation, chaque lampe brille normalement ; en série, elles brillent plus faiblement." },
+        { "type": "classic", "question": "Pourquoi ne faut-il jamais relier directement les deux bornes d'une pile par un fil ?", "answer": "Cela crée un court-circuit : la pile chauffe, se vide très vite et peut être dangereuse." },
+        { "type": "classic", "question": "Pourquoi l'électricité peut-elle être dangereuse ?", "answer": "Le courant traversant le corps humain peut provoquer une électrocution ; il ne faut jamais toucher aux prises ou aux appareils avec les mains mouillées." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 5e · Lumière et sources",
+      "description": "Sources de lumière, propagation, ombres et vision.",
+      "cards": [
+        { "type": "classic", "question": "Quelle différence entre une source primaire et un objet diffusant ?", "answer": "Une source primaire produit sa propre lumière (Soleil, lampe, flamme) ; un objet diffusant renvoie la lumière qu'il reçoit (la Lune, un mur, un livre)." },
+        { "type": "classic", "question": "La Lune est-elle une source primaire de lumière ?", "answer": "Non : elle ne fait que renvoyer la lumière du Soleil, c'est un objet diffusant." },
+        { "type": "classic", "question": "Comment se propage la lumière dans un milieu transparent et homogène ?", "answer": "En ligne droite (propagation rectiligne)." },
+        { "type": "classic", "question": "Pour voir un objet, que faut-il ?", "answer": "Que de la lumière parte de l'objet (source ou diffusion) et entre dans notre œil." },
+        { "type": "classic", "question": "Pourquoi ne voit-on rien dans le noir complet ?", "answer": "Sans lumière, aucun rayon n'atteint notre œil : la vision est impossible." },
+        { "type": "classic", "question": "Comment se forme une ombre ?", "answer": "Quand un objet opaque bloque la lumière : il empêche les rayons de passer, créant une zone sombre derrière lui." },
+        { "type": "classic", "question": "Quelle différence entre un objet transparent, translucide et opaque ?", "answer": "Transparent : laisse passer la lumière et voir à travers (verre). Translucide : laisse passer la lumière mais on ne voit pas nettement (papier calque). Opaque : ne laisse pas passer la lumière (carton)." },
+        { "type": "classic", "question": "Qu'est-ce qui provoque l'alternance du jour et de la nuit ?", "answer": "La rotation de la Terre sur elle-même en 24 heures : la face éclairée par le Soleil vit le jour, l'autre la nuit." },
+        { "type": "classic", "question": "Combien de temps la Terre met-elle pour tourner autour du Soleil ?", "answer": "Environ un an (365,25 jours)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une éclipse de Soleil ?", "answer": "Le moment où la Lune passe entre le Soleil et la Terre et cache le Soleil." },
+        { "type": "classic", "question": "La lumière va-t-elle plus vite ou moins vite que le son ?", "answer": "Beaucoup plus vite : c'est pourquoi on voit l'éclair avant d'entendre le tonnerre." }
+      ]
+    }
+  ]
+}

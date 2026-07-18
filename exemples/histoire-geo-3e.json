@@ -1,0 +1,69 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Histoire-Géo 3e · Les deux guerres mondiales",
+      "description": "1914-1945 : deux conflits qui ont bouleversé le monde.",
+      "cards": [
+        { "type": "classic", "question": "Quelles sont les dates de la Première Guerre mondiale ?", "answer": "1914-1918." },
+        { "type": "classic", "question": "Qu'est-ce que la guerre de tranchées ?", "answer": "Une guerre de position où les soldats vivent et combattent dans des tranchées, dans des conditions épouvantables (ex. : Verdun, 1916)." },
+        { "type": "classic", "question": "Que signifie l'expression « guerre totale » ?", "answer": "Une guerre qui mobilise toutes les ressources d'un pays : soldats, mais aussi économie, usines, civils, femmes à l'arrière." },
+        { "type": "classic", "question": "Qu'est-ce que le génocide des Arméniens ?", "answer": "L'extermination des Arméniens par l'Empire ottoman en 1915, pendant la Première Guerre mondiale." },
+        { "type": "classic", "question": "Quel traité met fin à la Première Guerre mondiale, et en quelle année ?", "answer": "Le traité de Versailles, en 1919, qui impose de lourdes conditions à l'Allemagne." },
+        { "type": "classic", "question": "Quelles sont les dates de la Seconde Guerre mondiale ?", "answer": "1939-1945." },
+        { "type": "classic", "question": "Qui dirige l'Allemagne nazie ?", "answer": "Adolf Hitler, au pouvoir depuis 1933, chef d'un régime totalitaire, raciste et antisémite." },
+        { "type": "classic", "question": "Qu'est-ce que la Shoah ?", "answer": "Le génocide des Juifs d'Europe organisé par les nazis : environ six millions de Juifs assassinés, notamment dans les camps d'extermination." },
+        { "type": "classic", "question": "Que s'est-il passé le 6 juin 1944 ?", "answer": "Le débarquement allié en Normandie (D-Day), qui ouvre la libération de l'Europe de l'Ouest." },
+        { "type": "classic", "question": "Comment se termine la Seconde Guerre mondiale ?", "answer": "Par la capitulation de l'Allemagne (mai 1945) puis du Japon (septembre 1945), après les bombes atomiques d'Hiroshima et Nagasaki." },
+        { "type": "classic", "question": "Qu'est-ce que la Résistance ?", "answer": "L'ensemble de ceux qui, en France et en Europe, ont lutté contre l'occupation allemande et le nazisme (ex. : l'appel du 18 juin 1940 du général de Gaulle)." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 3e · Totalitarismes et guerre froide",
+      "description": "Les régimes totalitaires de l'entre-deux-guerres et le monde bipolaire.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un régime totalitaire ?", "answer": "Un régime où l'État contrôle toute la vie des habitants : parti unique, chef tout-puissant, propagande, police politique, terreur." },
+        { "type": "classic", "question": "Cite les grands régimes totalitaires de l'entre-deux-guerres.", "answer": "L'URSS de Staline (communiste), l'Italie de Mussolini (fasciste) et l'Allemagne de Hitler (nazie)." },
+        { "type": "classic", "question": "Qu'est-ce que la propagande ?", "answer": "L'ensemble des moyens (affiches, radio, presse, cinéma) utilisés par un régime pour imposer ses idées et manipuler l'opinion." },
+        { "type": "classic", "question": "Qu'est-ce que la guerre froide ?", "answer": "L'affrontement, sans guerre directe, entre les États-Unis et l'URSS de 1947 à 1991, entre deux modèles opposés (capitalisme et communisme)." },
+        { "type": "classic", "question": "Que symbolise le mur de Berlin ?", "answer": "La division de l'Allemagne et de l'Europe en deux blocs. Construit en 1961, il tombe en 1989." },
+        { "type": "classic", "question": "Que signifie « monde bipolaire » ?", "answer": "Un monde dominé par deux superpuissances rivales : les États-Unis et l'URSS, chacune avec ses alliés." },
+        { "type": "classic", "question": "Quel événement marque la fin de la guerre froide ?", "answer": "La chute du mur de Berlin (1989) puis la disparition de l'URSS (1991)." },
+        { "type": "classic", "question": "Qu'est-ce que la décolonisation ?", "answer": "Le processus par lequel les colonies obtiennent leur indépendance après 1945 (ex. : l'Inde en 1947, l'Algérie en 1962)." },
+        { "type": "classic", "question": "Qu'est-ce que la construction européenne ?", "answer": "Le rapprochement des pays d'Europe après 1945 pour garantir la paix et coopérer, à l'origine de l'actuelle Union européenne." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 3e · La France depuis 1945",
+      "description": "La Ve République, les institutions et les évolutions de la société française.",
+      "cards": [
+        { "type": "classic", "question": "Qui fonde la Ve République en 1958, et quelle en est encore la loi fondamentale aujourd'hui ?", "answer": "Le général de Gaulle ; la Constitution de 1958, toujours en vigueur." },
+        { "type": "classic", "question": "Qui est le chef de l'État sous la Ve République, et comment est-il élu ?", "answer": "Le président de la République, élu au suffrage universel direct (depuis 1962) pour cinq ans." },
+        { "type": "classic", "question": "Quels sont les trois pouvoirs dans une démocratie ?", "answer": "Le pouvoir exécutif (gouverner), le pouvoir législatif (faire les lois), le pouvoir judiciaire (rendre la justice)." },
+        { "type": "classic", "question": "Que sont l'Assemblée nationale et le Sénat ?", "answer": "Les deux chambres du Parlement, qui votent les lois. Les députés siègent à l'Assemblée nationale, les sénateurs au Sénat." },
+        { "type": "classic", "question": "En quelle année les femmes obtiennent-elles le droit de vote en France ?", "answer": "En 1944 (premier vote en 1945)." },
+        { "type": "classic", "question": "Qu'appelle-t-on les « Trente Glorieuses » ?", "answer": "Les trente années de forte croissance économique et de progrès social en France, de 1945 à 1975 environ." },
+        { "type": "classic", "question": "Que signifie la laïcité ?", "answer": "Le principe de séparation des religions et de l'État : l'État est neutre et garantit la liberté de croire ou de ne pas croire (loi de 1905)." },
+        { "type": "classic", "question": "Qu'est-ce que l'Union européenne, et quelle monnaie partagent de nombreux pays membres ?", "answer": "Une union de pays européens (27) qui coopèrent économiquement et politiquement. Beaucoup partagent l'euro." },
+        { "type": "classic", "question": "Que sont les symboles de la République française ?", "answer": "Le drapeau tricolore, La Marseillaise, Marianne, la devise « Liberté, Égalité, Fraternité », le 14 Juillet." }
+      ]
+    },
+    {
+      "name": "Histoire-Géo 3e · Géographie : la France et l'Europe",
+      "description": "Aménagement du territoire, métropoles françaises et place dans l'Union européenne.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que l'aménagement du territoire ?", "answer": "L'action de l'État et des collectivités pour organiser l'espace et réduire les inégalités entre les régions (transports, équipements, emplois)." },
+        { "type": "classic", "question": "Quelle est la plus grande aire urbaine de France ?", "answer": "Paris, une métropole de rayonnement mondial." },
+        { "type": "classic", "question": "Qu'est-ce qu'une aire urbaine ?", "answer": "Une ville-centre et l'ensemble des communes autour dont les habitants viennent y travailler (la couronne périurbaine)." },
+        { "type": "classic", "question": "Qu'appelle-t-on la métropolisation ?", "answer": "La concentration croissante des habitants, des activités et du pouvoir dans les grandes métropoles." },
+        { "type": "classic", "question": "Qu'est-ce qu'un espace de faible densité en France ? Cite un exemple.", "answer": "Un espace rural ou montagnard peu peuplé (la « diagonale des faibles densités », certaines zones de montagne)." },
+        { "type": "classic", "question": "Que sont les territoires ultramarins (DROM) ?", "answer": "Les territoires français situés outre-mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte…" },
+        { "type": "classic", "question": "Comment la France est-elle reliée au reste de l'Europe et du monde ?", "answer": "Par un réseau de transports (TGV, autoroutes, aéroports, grands ports) et par son appartenance à l'Union européenne." },
+        { "type": "classic", "question": "Quelle est la place de la France dans l'Union européenne ?", "answer": "C'est un membre fondateur et l'un des pays les plus influents, économiquement et politiquement." },
+        { "type": "classic", "question": "Qu'est-ce que l'espace Schengen ?", "answer": "Une zone regroupant de nombreux pays européens où l'on peut circuler librement, sans contrôle aux frontières intérieures." },
+        { "type": "classic", "question": "Qu'est-ce qu'une région, dans l'organisation administrative française ?", "answer": "Une grande collectivité territoriale qui gère notamment les lycées, les transports et le développement économique." }
+      ]
+    }
+  ]
+}

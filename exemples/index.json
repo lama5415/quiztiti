@@ -106,5 +106,47 @@
     "name": "Carnet Français 3e",
     "description": "4 paquets par thème : analyse, conjugaison, accords difficiles, figures et argumentation.",
     "badge": "4 paquets · 55 fiches"
+  },
+  {
+    "file": "histoire-geo-6e.json",
+    "name": "Carnet Histoire-Géo 6e",
+    "description": "4 paquets : Préhistoire et premiers États, Grèce et Rome, monothéismes et empires, habiter la Terre.",
+    "badge": "4 paquets · 47 fiches"
+  },
+  {
+    "file": "histoire-geo-5e.json",
+    "name": "Carnet Histoire-Géo 5e",
+    "description": "4 paquets : Islam médiéval, Occident féodal, Renaissance et découvertes, un monde à ménager.",
+    "badge": "4 paquets · 38 fiches"
+  },
+  {
+    "file": "histoire-geo-4e.json",
+    "name": "Carnet Histoire-Géo 4e",
+    "description": "4 paquets : Lumières et commerce, Révolution et Empire, XIXe industriel, urbanisation et mondialisation.",
+    "badge": "4 paquets · 39 fiches"
+  },
+  {
+    "file": "histoire-geo-3e.json",
+    "name": "Carnet Histoire-Géo 3e",
+    "description": "4 paquets : guerres mondiales, totalitarismes et guerre froide, la France depuis 1945, France et Europe.",
+    "badge": "4 paquets · 39 fiches"
+  },
+  {
+    "file": "physique-chimie-5e.json",
+    "name": "Carnet Physique-Chimie 5e",
+    "description": "4 paquets : états de la matière, eau et mélanges, électricité et circuits, lumière et sources.",
+    "badge": "4 paquets · 46 fiches"
+  },
+  {
+    "file": "physique-chimie-4e.json",
+    "name": "Carnet Physique-Chimie 4e",
+    "description": "4 paquets : atomes et transformations, mouvements et forces, intensité et tension, lumière et couleurs.",
+    "badge": "4 paquets · 47 fiches"
+  },
+  {
+    "file": "physique-chimie-3e.json",
+    "name": "Carnet Physique-Chimie 3e",
+    "description": "4 paquets : atomes, ions et pH, réactions et conservation, énergie et puissance, signaux et gravitation.",
+    "badge": "4 paquets · 44 fiches"
   }
 ]

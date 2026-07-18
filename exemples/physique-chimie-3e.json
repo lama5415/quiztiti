@@ -1,0 +1,74 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Physique-Chimie 3e · Atomes, ions et pH",
+      "description": "Structure de l'atome, ions, acides et bases, conductivité des solutions.",
+      "cards": [
+        { "type": "classic", "question": "De quoi est constitué un atome ?", "answer": "D'un noyau (protons chargés + et neutrons neutres) autour duquel se déplacent des électrons chargés −." },
+        { "type": "classic", "question": "Un atome est-il électriquement chargé ?", "answer": "Non, il est neutre : il possède autant de protons (+) que d'électrons (−)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un ion ?", "answer": "Un atome (ou groupe d'atomes) qui a gagné ou perdu un ou plusieurs électrons ; il devient alors chargé électriquement." },
+        { "type": "classic", "question": "Quelle différence entre un cation et un anion ?", "answer": "Un cation est chargé positivement (il a perdu des électrons) ; un anion est chargé négativement (il en a gagné)." },
+        { "type": "classic", "question": "Que représentent Na⁺ et Cl⁻ ?", "answer": "L'ion sodium (cation) et l'ion chlorure (anion), présents par exemple dans l'eau salée." },
+        { "type": "classic", "question": "Qu'indique le pH d'une solution ?", "answer": "Son acidité ou sa basicité, sur une échelle de 0 à 14." },
+        { "type": "classic", "question": "Quel pH pour une solution acide, neutre, basique ?", "answer": "Acide : pH < 7 ; neutre : pH = 7 ; basique : pH > 7." },
+        { "type": "classic", "question": "Comment mesure-t-on le pH ?", "answer": "Avec du papier pH ou un pH-mètre (ou un indicateur coloré)." },
+        { "type": "classic", "question": "Quels ions sont responsables de l'acidité d'une solution ?", "answer": "Les ions hydrogène H⁺ : plus ils sont nombreux, plus la solution est acide." },
+        { "type": "classic", "question": "Pourquoi l'eau salée conduit-elle le courant, mais pas l'eau distillée pure ?", "answer": "Parce que l'eau salée contient des ions (porteurs de charge) qui peuvent se déplacer ; l'eau pure en contient très peu." },
+        { "type": "classic", "question": "Que produit la réaction entre un acide et un métal comme le fer ?", "answer": "Du dihydrogène (un gaz) et des ions métalliques en solution." },
+        { "type": "classic", "question": "Comment teste-t-on le dihydrogène ?", "answer": "Il produit une petite détonation (« aboiement ») quand on approche une flamme." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 3e · Réactions et conservation",
+      "description": "Équations de réaction, conservation des atomes et de la masse.",
+      "cards": [
+        { "type": "classic", "question": "Que se conserve-t-il lors d'une réaction chimique, au niveau des atomes ?", "answer": "Les atomes : ils ne sont ni créés ni détruits, seulement réorganisés. Leur nombre de chaque sorte est le même avant et après." },
+        { "type": "classic", "question": "Qu'est-ce qu'équilibrer (ajuster) une équation de réaction ?", "answer": "Placer des nombres (coefficients) pour qu'il y ait le même nombre d'atomes de chaque élément à gauche et à droite." },
+        { "type": "classic", "question": "Que représente l'équation 2 H₂ + O₂ → 2 H₂O ?", "answer": "La formation d'eau : 2 molécules de dihydrogène réagissent avec 1 de dioxygène pour donner 2 molécules d'eau." },
+        { "type": "classic", "question": "Dans une équation, que signifie la flèche → ?", "answer": "« Donne » ou « se transforme en » : elle sépare les réactifs (à gauche) des produits (à droite)." },
+        { "type": "classic", "question": "Énonce la loi de conservation de la masse (Lavoisier).", "answer": "« Rien ne se perd, rien ne se crée, tout se transforme » : la masse totale se conserve lors d'une transformation chimique." },
+        { "type": "classic", "question": "Qu'est-ce que la combustion du méthane produit ?", "answer": "Du dioxyde de carbone (CO₂) et de l'eau (H₂O)." },
+        { "type": "classic", "question": "Pourquoi la combustion des énergies fossiles pose-t-elle un problème environnemental ?", "answer": "Elle rejette du CO₂, un gaz à effet de serre qui contribue au réchauffement climatique." },
+        { "type": "classic", "question": "Qu'est-ce qu'une espèce chimique ?", "answer": "Un ensemble d'entités identiques (atomes, molécules ou ions), caractérisé par une formule." },
+        { "type": "classic", "question": "Comment reconnaît-on qu'une transformation chimique a eu lieu ?", "answer": "Par des indices : changement de couleur, dégagement de gaz, formation d'un solide, variation de température." },
+        { "type": "classic", "question": "Qu'est-ce qu'un test de reconnaissance en chimie ? Donne un exemple.", "answer": "Une expérience qui révèle la présence d'une espèce : l'eau de chaux pour le CO₂, le sulfate de cuivre anhydre (qui bleuit) pour l'eau." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 3e · Énergie et puissance électrique",
+      "description": "Formes d'énergie, conversions, puissance et énergie électrique.",
+      "cards": [
+        { "type": "classic", "question": "Cite plusieurs formes d'énergie.", "answer": "Énergie cinétique (mouvement), de position (hauteur), thermique (chaleur), électrique, chimique, lumineuse, nucléaire…" },
+        { "type": "classic", "question": "Que dit le principe de conservation de l'énergie ?", "answer": "L'énergie ne se crée pas et ne disparaît pas : elle se transforme d'une forme à une autre (ou se transfère)." },
+        { "type": "classic", "question": "Quelle conversion d'énergie réalise une lampe ? un panneau solaire ?", "answer": "La lampe : électrique → lumineuse (et thermique). Le panneau solaire : lumineuse → électrique." },
+        { "type": "classic", "question": "Qu'est-ce que la puissance électrique ? Quelle est son unité ?", "answer": "L'énergie consommée ou fournie par seconde. Elle se mesure en watts (W)." },
+        { "type": "classic", "question": "Quelle relation lie puissance, tension et intensité ?", "answer": "P = U × I (puissance = tension × intensité), en watts, volts et ampères." },
+        { "type": "classic", "question": "Un appareil sous 230 V est traversé par 2 A. Quelle est sa puissance ?", "answer": "P = 230 × 2 = 460 W." },
+        { "type": "classic", "question": "Quelle relation lie l'énergie, la puissance et la durée ?", "answer": "E = P × t (énergie = puissance × temps)." },
+        { "type": "classic", "question": "Quelle unité d'énergie apparaît sur les factures d'électricité ?", "answer": "Le kilowattheure (kWh) : l'énergie d'un appareil de 1 kW pendant 1 heure." },
+        { "type": "classic", "question": "Quelle différence entre une énergie renouvelable et non renouvelable ?", "answer": "Renouvelable : se reconstitue rapidement (solaire, éolien, hydraulique). Non renouvelable : réserves limitées (pétrole, charbon, uranium)." },
+        { "type": "classic", "question": "Qu'est-ce que le rendement d'un appareil ?", "answer": "La part de l'énergie reçue réellement convertie en énergie utile ; le reste est perdu, souvent en chaleur." },
+        { "type": "classic", "question": "Quelle est la loi d'Ohm pour un conducteur ohmique (résistance) ?", "answer": "U = R × I (tension = résistance × intensité), avec R en ohms (Ω)." }
+      ]
+    },
+    {
+      "name": "Physique-Chimie 3e · Signaux, gravitation et Univers",
+      "description": "Sons, lumière, signaux de communication et gravitation universelle.",
+      "cards": [
+        { "type": "classic", "question": "Comment un son se propage-t-il ? Peut-il voyager dans le vide ?", "answer": "Le son se propage grâce à un milieu matériel (air, eau, solide). Il ne peut PAS se propager dans le vide." },
+        { "type": "classic", "question": "Qu'est-ce que la fréquence d'un son ? Quelle est son unité ?", "answer": "Le nombre de vibrations par seconde ; elle se mesure en hertz (Hz). Plus elle est élevée, plus le son est aigu." },
+        { "type": "classic", "question": "Qu'est-ce qui distingue un son grave d'un son aigu ? Un son fort d'un son faible ?", "answer": "La hauteur (grave/aigu) dépend de la fréquence ; l'intensité (fort/faible) dépend de l'amplitude." },
+        { "type": "classic", "question": "Pourquoi un son trop intense est-il dangereux pour l'oreille ?", "answer": "Au-delà d'un certain niveau (mesuré en décibels), il peut endommager l'audition de façon irréversible." },
+        { "type": "classic", "question": "Quelle est la vitesse de la lumière dans le vide ?", "answer": "Environ 300 000 km/s : rien ne va plus vite." },
+        { "type": "classic", "question": "Qu'est-ce qu'une année-lumière ?", "answer": "La distance parcourue par la lumière en un an : c'est une distance, pas une durée." },
+        { "type": "classic", "question": "Comment se transmettent les informations dans une fibre optique ?", "answer": "Par des signaux lumineux qui se propagent dans un fil de verre très fin, très rapidement et sur de longues distances." },
+        { "type": "classic", "question": "Qu'est-ce que la gravitation universelle ?", "answer": "L'attraction qui s'exerce entre tous les objets ayant une masse ; elle est d'autant plus forte que les masses sont grandes et proches." },
+        { "type": "classic", "question": "Qu'est-ce qui maintient les planètes en orbite autour du Soleil ?", "answer": "La force de gravitation exercée par le Soleil, dont la masse est énorme." },
+        { "type": "classic", "question": "Pourquoi pèse-t-on moins sur la Lune que sur la Terre ?", "answer": "Parce que la Lune, moins massive, exerce une attraction (gravitation) plus faible : environ six fois moindre." },
+        { "type": "classic", "question": "Qu'est-ce que le système solaire ?", "answer": "Le Soleil et tous les objets qui gravitent autour : les huit planètes, leurs satellites, les astéroïdes et les comètes." }
+      ]
+    }
+  ]
+}
