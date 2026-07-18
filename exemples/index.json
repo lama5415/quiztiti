@@ -148,5 +148,29 @@
     "name": "Carnet Physique-Chimie 3e",
     "description": "4 paquets : atomes, ions et pH, réactions et conservation, énergie et puissance, signaux et gravitation.",
     "badge": "4 paquets · 44 fiches"
+  },
+  {
+    "file": "svt-6e.json",
+    "name": "Carnet SVT 6e",
+    "description": "4 paquets : classification du vivant, besoins des êtres vivants, corps humain et santé, la Terre.",
+    "badge": "4 paquets · 39 fiches"
+  },
+  {
+    "file": "svt-5e.json",
+    "name": "Carnet SVT 5e",
+    "description": "4 paquets : digestion et nutrition, respiration et circulation, reproduction et puberté, géologie.",
+    "badge": "4 paquets · 36 fiches"
+  },
+  {
+    "file": "svt-4e.json",
+    "name": "Carnet SVT 4e",
+    "description": "4 paquets : reproduction et transmission, tectonique des plaques, séismes et volcans, système nerveux.",
+    "badge": "4 paquets · 38 fiches"
+  },
+  {
+    "file": "svt-3e.json",
+    "name": "Carnet SVT 3e",
+    "description": "4 paquets : génétique et hérédité, évolution, système immunitaire, hormones et procréation.",
+    "badge": "4 paquets · 40 fiches"
   }
 ]

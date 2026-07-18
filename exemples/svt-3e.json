@@ -1,0 +1,70 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "SVT 3e · Génétique et hérédité",
+      "description": "ADN, chromosomes, gènes et transmission des caractères.",
+      "cards": [
+        { "type": "classic", "question": "Où se trouve l'information génétique dans une cellule ?", "answer": "Dans le noyau, porté par les chromosomes." },
+        { "type": "classic", "question": "De quoi sont faits les chromosomes ?", "answer": "D'ADN (acide désoxyribonucléique), la molécule qui porte l'information génétique." },
+        { "type": "classic", "question": "Qu'est-ce qu'un gène ?", "answer": "Un morceau d'ADN qui contient l'information pour un caractère héréditaire (ex. : la couleur des yeux)." },
+        { "type": "classic", "question": "Combien de chromosomes possède une cellule humaine ?", "answer": "46 chromosomes, soit 23 paires." },
+        { "type": "classic", "question": "D'où viennent les chromosomes d'un enfant ?", "answer": "La moitié vient du père (par le spermatozoïde), l'autre moitié de la mère (par l'ovule)." },
+        { "type": "classic", "question": "Combien de chromosomes contiennent les cellules reproductrices ?", "answer": "23 chromosomes chacune (la moitié) ; à la fécondation, on retrouve les 46." },
+        { "type": "classic", "question": "Qu'est-ce qu'un allèle ?", "answer": "Une version d'un gène. Pour un même gène (ex. : groupe sanguin), il existe plusieurs allèles possibles." },
+        { "type": "classic", "question": "Pourquoi les enfants d'une même famille ne sont-ils pas identiques ?", "answer": "Parce que chacun reçoit une combinaison unique d'allèles de ses deux parents (sauf les vrais jumeaux)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une mutation ?", "answer": "Une modification de l'ADN. Elle peut être sans effet, nuisible ou parfois utile, et être transmise à la descendance." },
+        { "type": "classic", "question": "Quelle est la différence entre un caractère héréditaire et un caractère acquis ?", "answer": "Héréditaire : transmis par les gènes (couleur des yeux). Acquis : dû à l'environnement ou au mode de vie (bronzage, cicatrice)." }
+      ]
+    },
+    {
+      "name": "SVT 3e · L'évolution des êtres vivants",
+      "description": "Sélection naturelle, biodiversité et histoire de la vie.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que l'évolution des espèces ?", "answer": "La transformation des espèces au cours du temps, sur de très longues durées, à partir d'ancêtres communs." },
+        { "type": "classic", "question": "Qui a proposé la théorie de la sélection naturelle ?", "answer": "Charles Darwin, au XIXe siècle." },
+        { "type": "classic", "question": "Qu'est-ce que la sélection naturelle ?", "answer": "Le processus par lequel les individus les mieux adaptés à leur milieu survivent et se reproduisent davantage, transmettant leurs caractères." },
+        { "type": "classic", "question": "Que nous apprennent les fossiles sur l'évolution ?", "answer": "Ils montrent que des espèces ont existé puis disparu, et permettent de reconstituer l'histoire de la vie." },
+        { "type": "classic", "question": "Qu'est-ce qu'un ancêtre commun ?", "answer": "Une espèce du passé dont descendent plusieurs espèces actuelles (ex. : l'humain et le chimpanzé ont un ancêtre commun)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une crise biologique ?", "answer": "Une période où de nombreuses espèces disparaissent rapidement (ex. : la disparition des dinosaures)." },
+        { "type": "classic", "question": "Pourquoi certaines espèces disparaissent-elles ?", "answer": "Parce qu'elles ne sont plus adaptées à un environnement qui change (climat, prédateurs, ressources)." },
+        { "type": "classic", "question": "Qu'est-ce que la biodiversité, et comment évolue-t-elle ?", "answer": "L'ensemble des espèces vivantes ; elle change au cours du temps (apparitions, disparitions) et est aujourd'hui menacée par l'humain." },
+        { "type": "classic", "question": "L'être humain agit-il sur l'évolution ?", "answer": "Oui : par la sélection des animaux et plantes (élevage, agriculture) et en modifiant les milieux de vie." },
+        { "type": "classic", "question": "Pourquoi deux espèces proches se ressemblent-elles ?", "answer": "Parce qu'elles partagent un ancêtre commun récent, dont elles ont hérité de nombreux caractères." }
+      ]
+    },
+    {
+      "name": "SVT 3e · Le système immunitaire",
+      "description": "Défenses de l'organisme, vaccination et santé.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un micro-organisme pathogène ?", "answer": "Un microbe (bactérie, virus…) capable de provoquer une maladie." },
+        { "type": "classic", "question": "Quelle différence entre une bactérie et un virus ?", "answer": "Une bactérie est une cellule vivante ; un virus est plus petit, non cellulaire, et se multiplie en parasitant nos cellules." },
+        { "type": "classic", "question": "Comment les micro-organismes entrent-ils dans le corps ?", "answer": "Par une plaie, les voies respiratoires, l'appareil digestif ou les muqueuses." },
+        { "type": "classic", "question": "Quelle est la première barrière de défense du corps ?", "answer": "La peau et les muqueuses, qui empêchent l'entrée des micro-organismes." },
+        { "type": "classic", "question": "Quelles cellules défendent l'organisme ?", "answer": "Les cellules du système immunitaire, notamment les globules blancs (leucocytes)." },
+        { "type": "classic", "question": "Comment certains globules blancs éliminent-ils les microbes ?", "answer": "Par phagocytose : ils entourent et digèrent les micro-organismes." },
+        { "type": "classic", "question": "Qu'est-ce qu'un anticorps ?", "answer": "Une molécule produite par certains globules blancs, qui reconnaît et neutralise un micro-organisme précis." },
+        { "type": "classic", "question": "Comment fonctionne la vaccination ?", "answer": "On introduit une forme inoffensive du microbe ; le corps apprend à le reconnaître et garde une mémoire, prêt à réagir vite plus tard." },
+        { "type": "classic", "question": "Quelle différence entre un vaccin et un antibiotique ?", "answer": "Le vaccin protège à l'avance (prévention) ; l'antibiotique soigne une infection bactérienne déjà déclarée (il est inefficace contre les virus)." },
+        { "type": "classic", "question": "Pourquoi ne faut-il pas abuser des antibiotiques ?", "answer": "Un usage excessif favorise l'apparition de bactéries résistantes, contre lesquelles les antibiotiques ne fonctionnent plus." }
+      ]
+    },
+    {
+      "name": "SVT 3e · Corps humain, hormones et procréation",
+      "description": "Commande hormonale, procréation et maîtrise de la reproduction.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'une hormone ?", "answer": "Un message chimique fabriqué par un organe, transporté par le sang, qui agit à distance sur d'autres organes." },
+        { "type": "classic", "question": "Quel rôle jouent les hormones à la puberté ?", "answer": "Elles déclenchent les transformations du corps et le fonctionnement des appareils reproducteurs." },
+        { "type": "classic", "question": "Qu'est-ce qui déclenche les règles chez la femme ?", "answer": "Les variations d'hormones au cours du cycle menstruel, qui modifient la paroi de l'utérus." },
+        { "type": "classic", "question": "Qu'est-ce que la contraception ?", "answer": "L'ensemble des moyens permettant d'éviter une grossesse (pilule, préservatif, stérilet…)." },
+        { "type": "classic", "question": "Quel moyen protège à la fois d'une grossesse et des IST ?", "answer": "Le préservatif." },
+        { "type": "classic", "question": "Que signifie IST ?", "answer": "Infection sexuellement transmissible : une maladie qui se transmet lors de rapports sexuels (ex. : le VIH/sida)." },
+        { "type": "classic", "question": "Qu'est-ce que la procréation médicalement assistée (PMA) ?", "answer": "Un ensemble de techniques médicales qui aident à avoir un enfant lorsque la conception naturelle est difficile." },
+        { "type": "classic", "question": "Quel organe commande la production des hormones sexuelles depuis le cerveau ?", "answer": "Une glande située à la base du cerveau (l'hypophyse), reliée au cerveau." },
+        { "type": "classic", "question": "Pourquoi parle-t-on de « régulation » hormonale ?", "answer": "Parce que le corps ajuste en permanence la quantité d'hormones pour maintenir son bon fonctionnement." },
+        { "type": "classic", "question": "Qu'est-ce que la fécondation, en rappel de la 3e ?", "answer": "La fusion d'un spermatozoïde et d'un ovule ; chacun apporte 23 chromosomes, formant une cellule-œuf à 46 chromosomes." }
+      ]
+    }
+  ]
+}

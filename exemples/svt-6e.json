@@ -1,0 +1,69 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "SVT 6e · Le monde vivant et sa classification",
+      "description": "Reconnaître, classer et comparer les êtres vivants.",
+      "cards": [
+        { "type": "classic", "question": "Comment distingue-t-on un être vivant d'un objet non vivant ?", "answer": "Un être vivant naît, se nourrit, grandit, se reproduit et meurt." },
+        { "type": "classic", "question": "Qu'est-ce qu'une cellule ?", "answer": "La plus petite unité qui constitue tous les êtres vivants ; on l'observe au microscope." },
+        { "type": "classic", "question": "Quels sont les trois éléments que l'on retrouve dans toute cellule ?", "answer": "Une membrane, du cytoplasme et (le plus souvent) un noyau." },
+        { "type": "classic", "question": "Sur quoi se base-t-on pour classer les êtres vivants ?", "answer": "Sur les caractères (attributs) qu'ils possèdent en commun (squelette, poils, plumes, etc.), pas sur leur lieu de vie ni leur couleur." },
+        { "type": "classic", "question": "Qu'est-ce qu'un vertébré ?", "answer": "Un animal qui possède un squelette interne avec une colonne vertébrale (poissons, amphibiens, reptiles, oiseaux, mammifères)." },
+        { "type": "classic", "question": "Qu'ont en commun tous les mammifères ?", "answer": "Ils ont des poils et leurs petits sont nourris par le lait de la mère (allaitement)." },
+        { "type": "classic", "question": "Quelle est la différence entre une espèce et un groupe ?", "answer": "Une espèce regroupe des individus qui se ressemblent et peuvent se reproduire entre eux ; un groupe rassemble plusieurs espèces partageant un caractère commun." },
+        { "type": "classic", "question": "À quoi sert le microscope, et la loupe binoculaire ?", "answer": "Le microscope grossit beaucoup pour voir les cellules ; la loupe binoculaire grossit moins, pour observer des petits objets en relief." },
+        { "type": "classic", "question": "Qu'est-ce que la biodiversité ?", "answer": "La diversité de tous les êtres vivants (espèces et milieux). Elle est aujourd'hui menacée par les activités humaines." },
+        { "type": "classic", "question": "Qu'est-ce qu'un micro-organisme ?", "answer": "Un être vivant invisible à l'œil nu (bactérie, levure…), visible seulement au microscope." }
+      ]
+    },
+    {
+      "name": "SVT 6e · Les besoins des êtres vivants",
+      "description": "Nutrition des plantes et des animaux, chaînes alimentaires.",
+      "cards": [
+        { "type": "classic", "question": "De quoi une plante verte a-t-elle besoin pour fabriquer sa matière ?", "answer": "D'eau, de sels minéraux (puisés par les racines), de dioxyde de carbone et de lumière." },
+        { "type": "classic", "question": "Comment appelle-t-on la fabrication de matière par les plantes grâce à la lumière ?", "answer": "La photosynthèse : les plantes produisent leur matière à partir de lumière, d'eau et de CO₂." },
+        { "type": "classic", "question": "Pourquoi dit-on que les plantes vertes sont des producteurs ?", "answer": "Parce qu'elles fabriquent leur propre matière organique ; les animaux, eux, doivent manger d'autres êtres vivants." },
+        { "type": "classic", "question": "Qu'est-ce qu'un régime alimentaire ? Cite trois exemples.", "answer": "Ce que mange un animal : herbivore (végétaux), carnivore (autres animaux), omnivore (les deux)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une chaîne alimentaire ?", "answer": "Une suite d'êtres vivants où chacun mange le précédent : plante → herbivore → carnivore." },
+        { "type": "classic", "question": "Que signifie la flèche « → » dans une chaîne alimentaire ?", "answer": "« Est mangé par ». Ex. : herbe → lapin → renard." },
+        { "type": "classic", "question": "Qu'est-ce qu'un décomposeur ? Donne un exemple.", "answer": "Un être vivant qui transforme la matière morte en matière minérale (vers de terre, champignons, bactéries)." },
+        { "type": "classic", "question": "Comment la matière est-elle recyclée dans la nature ?", "answer": "Les décomposeurs transforment les déchets et êtres morts en matière minérale, réutilisée ensuite par les plantes." },
+        { "type": "classic", "question": "Pourquoi les êtres vivants d'un milieu dépendent-ils les uns des autres ?", "answer": "Parce qu'ils sont reliés par l'alimentation et l'environnement : la disparition d'une espèce affecte tout l'écosystème." },
+        { "type": "classic", "question": "Que se passe-t-il pour les êtres vivants quand les conditions changent (saisons) ?", "answer": "Ils s'adaptent : migration, hibernation, chute des feuilles, formes de résistance (graines, œufs)." }
+      ]
+    },
+    {
+      "name": "SVT 6e · Le corps humain et la santé",
+      "description": "Alimentation, activité physique et hygiène de vie.",
+      "cards": [
+        { "type": "classic", "question": "Pourquoi faut-il manger de façon variée et équilibrée ?", "answer": "Pour apporter au corps tous les éléments dont il a besoin : énergie, croissance, bon fonctionnement." },
+        { "type": "classic", "question": "Cite trois grandes familles d'aliments et leur rôle.", "answer": "Les aliments énergétiques (sucres, matières grasses), bâtisseurs (protéines : viande, poisson, œuf) et protecteurs (fruits et légumes : vitamines)." },
+        { "type": "classic", "question": "Que se passe-t-il dans le corps quand on fait un effort physique ?", "answer": "Les muscles consomment plus d'énergie : la respiration et les battements du cœur s'accélèrent." },
+        { "type": "classic", "question": "Pourquoi le corps a-t-il besoin de dioxygène ?", "answer": "Pour libérer l'énergie contenue dans les aliments, au niveau des organes." },
+        { "type": "classic", "question": "Pourquoi le sommeil est-il important ?", "answer": "Il permet au corps et au cerveau de récupérer, de grandir et de bien fonctionner." },
+        { "type": "classic", "question": "Comment se propagent certaines maladies, et comment s'en protéger ?", "answer": "Par des micro-organismes (microbes) ; l'hygiène (se laver les mains) et la vaccination aident à s'en protéger." },
+        { "type": "classic", "question": "Qu'est-ce qu'un micro-organisme utile ? Donne un exemple.", "answer": "Un micro-organisme qui rend service : les levures font lever le pain, les bactéries fabriquent le yaourt et le fromage." },
+        { "type": "classic", "question": "Pourquoi l'activité physique régulière est-elle bonne pour la santé ?", "answer": "Elle renforce le cœur, les muscles et les os, et aide à rester en bonne santé." },
+        { "type": "classic", "question": "Qu'est-ce qu'une hygiène de vie saine ?", "answer": "Une alimentation équilibrée, du sommeil suffisant, de l'activité physique et une bonne hygiène corporelle." }
+      ]
+    },
+    {
+      "name": "SVT 6e · La Terre et son environnement",
+      "description": "Roches, sols, météo, saisons et place de la Terre.",
+      "cards": [
+        { "type": "classic", "question": "De quoi est constitué le sol sous nos pieds ?", "answer": "D'un mélange de matière minérale (roches, sable, argile) et de matière organique (débris de végétaux et d'animaux, êtres vivants)." },
+        { "type": "classic", "question": "Quelle différence entre la météo et le climat ?", "answer": "La météo, c'est le temps qu'il fait à un moment donné ; le climat, ce sont les conditions moyennes sur une longue période." },
+        { "type": "classic", "question": "Qu'est-ce qui provoque l'alternance du jour et de la nuit ?", "answer": "La rotation de la Terre sur elle-même en 24 heures." },
+        { "type": "classic", "question": "Qu'est-ce qui provoque les saisons ?", "answer": "L'inclinaison de l'axe de la Terre et sa révolution autour du Soleil en un an." },
+        { "type": "classic", "question": "Quelle est la seule planète connue abritant la vie, et pourquoi ?", "answer": "La Terre : elle possède de l'eau liquide, une atmosphère respirable et une température ni trop chaude ni trop froide." },
+        { "type": "classic", "question": "Qu'est-ce que l'érosion ?", "answer": "L'usure des roches et des paysages par l'eau, le vent, le gel et le transport de débris." },
+        { "type": "classic", "question": "Qu'est-ce qu'un être vivant fossile ?", "answer": "La trace ou le reste conservé d'un être vivant du passé, dans les roches." },
+        { "type": "classic", "question": "Pourquoi faut-il protéger l'environnement ?", "answer": "Parce que les activités humaines (pollution, déchets, destruction des milieux) menacent les êtres vivants et les ressources." },
+        { "type": "classic", "question": "Qu'est-ce qu'un écosystème ?", "answer": "Un ensemble formé par un milieu de vie et tous les êtres vivants qui y habitent et interagissent (ex. : une forêt, une mare)." },
+        { "type": "classic", "question": "Cite un geste simple pour préserver la planète.", "answer": "Trier ses déchets, économiser l'eau et l'électricité, éviter le gaspillage… (plusieurs réponses possibles)." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "SVT 4e · Reproduction et transmission de la vie",
+      "description": "Reproduction sexuée, asexuée et peuplement des milieux.",
+      "cards": [
+        { "type": "classic", "question": "Quelle différence entre reproduction sexuée et asexuée ?", "answer": "Sexuée : deux parents et deux cellules reproductrices (descendants variés). Asexuée : un seul parent, descendants identiques à lui (clones)." },
+        { "type": "classic", "question": "Donne un exemple de reproduction asexuée.", "answer": "Le bouturage d'une plante, la division d'une bactérie, le bourgeonnement… (un seul parent)." },
+        { "type": "classic", "question": "Qu'est-ce que la fécondation ?", "answer": "La fusion d'une cellule reproductrice mâle et d'une femelle, qui forme une cellule-œuf à l'origine d'un nouvel individu." },
+        { "type": "classic", "question": "Quelle différence entre fécondation externe et interne ?", "answer": "Externe : dans le milieu, souvent l'eau (poissons, grenouilles). Interne : dans le corps de la femelle (mammifères, oiseaux)." },
+        { "type": "classic", "question": "Pourquoi la reproduction sexuée favorise-t-elle la diversité ?", "answer": "Parce que les descendants combinent des caractères des deux parents : ils sont tous différents." },
+        { "type": "classic", "question": "Qu'est-ce qui influence le peuplement d'un milieu au fil des saisons ?", "answer": "Les conditions du milieu (température, lumière) et les comportements : migration, hibernation, formes de résistance (graines, œufs)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une forme de résistance ?", "answer": "Une forme qui permet de survivre à une saison difficile : graine, spore, œuf, bulbe." },
+        { "type": "classic", "question": "Comment les plantes à fleurs se reproduisent-elles ?", "answer": "Par pollinisation : le pollen féconde l'ovule, formant une graine, souvent avec l'aide des insectes ou du vent." },
+        { "type": "classic", "question": "Quel rôle jouent les abeilles dans la reproduction des plantes ?", "answer": "Elles transportent le pollen de fleur en fleur (pollinisation), indispensable à la formation des fruits et graines." },
+        { "type": "classic", "question": "En quoi l'être humain influence-t-il le peuplement des milieux ?", "answer": "Par ses aménagements, la pollution, l'introduction d'espèces : il peut favoriser ou faire disparaître des espèces." }
+      ]
+    },
+    {
+      "name": "SVT 4e · La tectonique des plaques",
+      "description": "Structure de la Terre et mouvements des plaques.",
+      "cards": [
+        { "type": "classic", "question": "Quelles sont les grandes couches de la Terre, de l'extérieur vers l'intérieur ?", "answer": "La croûte, le manteau, puis le noyau (externe liquide et interne solide)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une plaque tectonique ?", "answer": "Un vaste morceau rigide de la surface de la Terre (croûte + haut du manteau) qui se déplace lentement." },
+        { "type": "classic", "question": "Les plaques bougent-elles vite ?", "answer": "Non, très lentement : quelques centimètres par an, environ la vitesse à laquelle poussent les ongles." },
+        { "type": "classic", "question": "Que se passe-t-il quand deux plaques s'écartent ?", "answer": "Du magma remonte et forme de la nouvelle croûte : c'est le cas au niveau des dorsales océaniques." },
+        { "type": "classic", "question": "Que se passe-t-il quand deux plaques se rapprochent ?", "answer": "Elles entrent en collision : formation de montagnes, ou plongée d'une plaque sous l'autre (subduction)." },
+        { "type": "classic", "question": "Comment se sont formées les grandes chaînes de montagnes comme l'Himalaya ?", "answer": "Par la collision de deux plaques qui se rapprochent et plissent les roches." },
+        { "type": "classic", "question": "Qu'est-ce que la dérive des continents ?", "answer": "L'idée, proposée par Wegener, que les continents se déplacent au cours du temps (autrefois réunis en un seul bloc, la Pangée)." },
+        { "type": "classic", "question": "Où l'activité volcanique et sismique est-elle la plus intense ?", "answer": "Aux frontières des plaques tectoniques (ex. : la « ceinture de feu » du Pacifique)." },
+        { "type": "classic", "question": "Quelle est la principale source de chaleur qui fait bouger les plaques ?", "answer": "La chaleur interne de la Terre, qui met en mouvement le manteau (mouvements de convection)." }
+      ]
+    },
+    {
+      "name": "SVT 4e · Séismes, volcans et risques",
+      "description": "Origine des séismes et des éruptions, et prévention des risques.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un séisme ?", "answer": "Une secousse du sol due à une libération brutale d'énergie en profondeur (rupture de roches le long d'une faille)." },
+        { "type": "classic", "question": "Qu'est-ce que le foyer et l'épicentre d'un séisme ?", "answer": "Le foyer est le lieu de la rupture en profondeur ; l'épicentre est le point situé juste au-dessus, à la surface." },
+        { "type": "classic", "question": "Comment se propage l'énergie d'un séisme ?", "answer": "Sous forme d'ondes sismiques qui se diffusent dans toutes les directions et font trembler le sol." },
+        { "type": "classic", "question": "Avec quel appareil enregistre-t-on les séismes ?", "answer": "Un sismographe (ou sismomètre)." },
+        { "type": "classic", "question": "Quelle est la différence entre magnitude et intensité d'un séisme ?", "answer": "La magnitude mesure l'énergie libérée (échelle de Richter) ; l'intensité décrit les dégâts observés." },
+        { "type": "classic", "question": "Qu'est-ce que le magma et la lave ?", "answer": "Le magma est la roche fondue en profondeur ; quand il sort à la surface, on l'appelle la lave." },
+        { "type": "classic", "question": "Quelle différence entre une éruption effusive et explosive ?", "answer": "Effusive : la lave coule tranquillement (volcans rouges). Explosive : projections violentes de gaz et de cendres (volcans gris)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un aléa et un risque ?", "answer": "L'aléa est le phénomène naturel dangereux (séisme, éruption) ; le risque naît quand cet aléa menace des populations ou des biens." },
+        { "type": "classic", "question": "Comment se protéger des séismes et éruptions ?", "answer": "Par la surveillance, les constructions parasismiques, l'information, les plans d'évacuation et l'éloignement des zones dangereuses." },
+        { "type": "classic", "question": "Pourquoi les scientifiques surveillent-ils les volcans ?", "answer": "Pour repérer les signes annonciateurs d'une éruption (séismes, gonflement du sol, gaz) et prévenir les populations." }
+      ]
+    },
+    {
+      "name": "SVT 4e · Le corps : communication et santé",
+      "description": "Système nerveux, comportements et prévention.",
+      "cards": [
+        { "type": "classic", "question": "À quoi sert le système nerveux ?", "answer": "À recevoir des informations, à les traiter et à commander les réponses du corps (mouvements, réactions)." },
+        { "type": "classic", "question": "Quel organe est le centre de commande du système nerveux ?", "answer": "Le cerveau (avec la moelle épinière : ensemble, ils forment le système nerveux central)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un nerf ?", "answer": "Un « câble » qui transporte les messages nerveux entre les organes des sens, le cerveau et les muscles." },
+        { "type": "classic", "question": "Cite les cinq sens et un organe associé.", "answer": "La vue (œil), l'ouïe (oreille), l'odorat (nez), le goût (langue), le toucher (peau)." },
+        { "type": "classic", "question": "Comment un message nerveux circule-t-il jusqu'au muscle ?", "answer": "L'organe sensoriel capte l'information → le nerf la transmet au cerveau → le cerveau commande → le nerf transmet l'ordre au muscle." },
+        { "type": "classic", "question": "Pourquoi le sommeil est-il essentiel au cerveau ?", "answer": "Il permet de récupérer, de mémoriser et de rester concentré ; le manque de sommeil nuit à l'apprentissage." },
+        { "type": "classic", "question": "Quels effets ont l'alcool et les drogues sur le système nerveux ?", "answer": "Ils perturbent son fonctionnement : ils ralentissent les réflexes, altèrent le jugement et peuvent créer une dépendance." },
+        { "type": "classic", "question": "Pourquoi un temps de réaction augmente-t-il le danger au volant ?", "answer": "Le message nerveux prend un peu de temps ; s'il est allongé (fatigue, alcool), la distance de freinage augmente." },
+        { "type": "classic", "question": "Qu'est-ce qu'un réflexe ?", "answer": "Une réponse automatique et rapide à un stimulus, sans passer par la réflexion (retirer sa main d'un objet brûlant)." }
+      ]
+    }
+  ]
+}

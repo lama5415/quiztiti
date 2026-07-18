@@ -1,0 +1,66 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "SVT 5e · Digestion et nutrition",
+      "description": "Comment les aliments sont transformés et distribués au corps.",
+      "cards": [
+        { "type": "classic", "question": "À quoi sert la digestion ?", "answer": "À transformer les aliments en nutriments assez petits pour passer dans le sang." },
+        { "type": "classic", "question": "Qu'est-ce qu'un nutriment ?", "answer": "Une petite molécule issue de la digestion des aliments (glucose, acides aminés…) qui passe dans le sang." },
+        { "type": "classic", "question": "Cite dans l'ordre les principaux organes du tube digestif.", "answer": "Bouche, œsophage, estomac, intestin grêle, gros intestin, puis anus." },
+        { "type": "classic", "question": "Qu'est-ce que les sucs digestifs et les enzymes ?", "answer": "Des liquides (salive, sucs gastriques…) contenant des enzymes qui découpent les aliments en nutriments." },
+        { "type": "classic", "question": "Où et comment les nutriments passent-ils dans le sang ?", "answer": "Au niveau de l'intestin grêle, à travers sa paroi très fine et très irriguée : c'est l'absorption intestinale." },
+        { "type": "classic", "question": "Que deviennent les parties non digérées des aliments ?", "answer": "Elles forment les excréments, éliminés par l'anus." },
+        { "type": "classic", "question": "Pourquoi les organes ont-ils besoin de nutriments ET de dioxygène ?", "answer": "Pour produire l'énergie nécessaire à leur fonctionnement (la respiration cellulaire)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une alimentation équilibrée ?", "answer": "Une alimentation variée qui apporte, en quantités adaptées, tous les groupes d'aliments dont le corps a besoin." },
+        { "type": "classic", "question": "Quel rôle jouent les bactéries de l'intestin (microbiote) ?", "answer": "Elles aident à la digestion et participent à notre santé : c'est une flore intestinale utile." }
+      ]
+    },
+    {
+      "name": "SVT 5e · Respiration et circulation",
+      "description": "Approvisionnement des organes en dioxygène et rôle du sang.",
+      "cards": [
+        { "type": "classic", "question": "Où se produit l'échange entre l'air et le sang dans les poumons ?", "answer": "Dans les alvéoles pulmonaires : le dioxygène passe dans le sang, le dioxyde de carbone en ressort." },
+        { "type": "classic", "question": "Qu'inspire-t-on et qu'expire-t-on ?", "answer": "On inspire de l'air riche en dioxygène ; on expire de l'air enrichi en dioxyde de carbone." },
+        { "type": "classic", "question": "Quel organe fait circuler le sang dans tout le corps ?", "answer": "Le cœur, un muscle qui joue le rôle de pompe." },
+        { "type": "classic", "question": "Quels sont les trois types de vaisseaux sanguins ?", "answer": "Les artères (partent du cœur), les veines (reviennent au cœur) et les capillaires (minuscules, dans les organes)." },
+        { "type": "classic", "question": "Que transporte le sang aux organes ?", "answer": "Du dioxygène et des nutriments ; il emporte aussi les déchets (comme le CO₂)." },
+        { "type": "classic", "question": "Pourquoi le rythme cardiaque et la respiration s'accélèrent-ils pendant un effort ?", "answer": "Parce que les muscles ont besoin de plus de dioxygène et de nutriments, donc d'un sang qui circule plus vite." },
+        { "type": "classic", "question": "Qu'est-ce que la respiration cellulaire ?", "answer": "La réaction dans les organes qui utilise dioxygène et nutriments pour libérer l'énergie, en produisant du CO₂ et de l'eau." },
+        { "type": "classic", "question": "Pourquoi le tabac est-il dangereux pour la respiration ?", "answer": "Il abîme les poumons, réduit les échanges de dioxygène et favorise de graves maladies (cancers, bronchites)." },
+        { "type": "classic", "question": "Qu'est-ce que le rythme cardiaque, et comment le mesure-t-on ?", "answer": "Le nombre de battements du cœur par minute ; on le mesure en prenant le pouls." }
+      ]
+    },
+    {
+      "name": "SVT 5e · Reproduction et puberté",
+      "description": "Transformations du corps et transmission de la vie chez l'humain.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que la puberté ?", "answer": "La période de transformation du corps qui rend l'être humain capable de se reproduire (adolescence)." },
+        { "type": "classic", "question": "Quelles cellules reproductrices produisent l'homme et la femme ?", "answer": "L'homme produit des spermatozoïdes ; la femme des ovules." },
+        { "type": "classic", "question": "Qu'est-ce que la fécondation ?", "answer": "La rencontre et la fusion d'un spermatozoïde et d'un ovule, qui forme une cellule-œuf." },
+        { "type": "classic", "question": "Où se développe le futur bébé pendant la grossesse ?", "answer": "Dans l'utérus de la mère." },
+        { "type": "classic", "question": "Combien de temps dure environ une grossesse humaine ?", "answer": "Environ neuf mois." },
+        { "type": "classic", "question": "Comment le fœtus est-il nourri pendant la grossesse ?", "answer": "Par le placenta et le cordon ombilical, qui apportent nutriments et dioxygène depuis le sang de la mère." },
+        { "type": "classic", "question": "Qu'est-ce que le cycle menstruel ?", "answer": "Le fonctionnement régulier (environ 28 jours) de l'appareil reproducteur féminin, marqué par les règles." },
+        { "type": "classic", "question": "Qu'est-ce qu'une reproduction sexuée ?", "answer": "Une reproduction qui nécessite deux parents et la rencontre de deux cellules reproductrices." },
+        { "type": "classic", "question": "Les caractères sexuels secondaires, c'est quoi ?", "answer": "Les transformations visibles à la puberté (pilosité, mue de la voix, développement des seins…) sous l'action des hormones." }
+      ]
+    },
+    {
+      "name": "SVT 5e · Géologie : roches, eau et paysages",
+      "description": "Formation des roches, érosion et action de l'eau sur les paysages.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce que l'érosion ?", "answer": "L'usure et la destruction des roches par l'eau, le vent, le gel et les variations de température." },
+        { "type": "classic", "question": "Comment l'eau transforme-t-elle les paysages ?", "answer": "Elle arrache des débris (érosion), les transporte, puis les dépose ailleurs (sédimentation)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une roche sédimentaire ? Donne un exemple.", "answer": "Une roche formée par l'accumulation et le tassement de sédiments (calcaire, grès, argile)." },
+        { "type": "classic", "question": "Comment se forme une roche sédimentaire à partir de sédiments ?", "answer": "Les sédiments s'accumulent en couches (strates), se tassent et se cimentent au fil du temps." },
+        { "type": "classic", "question": "Qu'est-ce qu'un fossile, et que nous apprend-il ?", "answer": "Le reste ou l'empreinte d'un être vivant du passé, conservé dans la roche ; il renseigne sur la vie et les milieux anciens." },
+        { "type": "classic", "question": "Qu'est-ce qu'une roche perméable ? imperméable ?", "answer": "Perméable : laisse passer l'eau (sable, calcaire fissuré). Imperméable : ne la laisse pas passer (argile)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une nappe phréatique ?", "answer": "Une réserve d'eau souterraine contenue dans les roches perméables, source d'eau potable." },
+        { "type": "classic", "question": "Comment l'être humain exploite-t-il les ressources du sous-sol ?", "answer": "Par des carrières et des mines (roches, minerais) et des forages (eau, pétrole, gaz) — des ressources parfois limitées." },
+        { "type": "classic", "question": "Pourquoi certaines ressources géologiques sont-elles à préserver ?", "answer": "Parce que leur formation prend des millions d'années : elles ne se renouvellent pas à l'échelle humaine." }
+      ]
+    }
+  ]
+}
