@@ -172,5 +172,11 @@
     "name": "Carnet SVT 3e",
     "description": "4 paquets : génétique et hérédité, évolution, système immunitaire, hormones et procréation.",
     "badge": "4 paquets · 40 fiches"
+  },
+  {
+    "file": "informatique-debutant.json",
+    "name": "Carnet Débuter en informatique",
+    "description": "4 paquets : matériel de l'ordinateur, fichiers et logiciels, Internet et le web, débuter la programmation.",
+    "badge": "4 paquets · 42 fiches"
   }
 ]

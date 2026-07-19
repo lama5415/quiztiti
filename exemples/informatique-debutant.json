@@ -1,0 +1,72 @@
+{
+  "format": "quiztiti-deck",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Informatique · L'ordinateur et son matériel",
+      "description": "Comprendre les composants d'un ordinateur et le vocabulaire de base.",
+      "cards": [
+        { "type": "classic", "question": "Quelle différence entre le matériel (hardware) et le logiciel (software) ?", "answer": "Le matériel, ce sont les parties physiques qu'on peut toucher (écran, clavier) ; le logiciel, ce sont les programmes (applications, système)." },
+        { "type": "classic", "question": "À quoi sert le processeur (CPU) ?", "answer": "C'est le « cerveau » de l'ordinateur : il exécute les calculs et les instructions des programmes." },
+        { "type": "classic", "question": "À quoi sert la mémoire vive (RAM) ?", "answer": "À stocker temporairement les données des programmes en cours d'utilisation. Elle s'efface quand on éteint l'ordinateur." },
+        { "type": "classic", "question": "Quelle différence entre la mémoire vive (RAM) et le disque dur (stockage) ?", "answer": "La RAM est rapide mais temporaire ; le disque dur (ou SSD) conserve les fichiers durablement, même éteint." },
+        { "type": "classic", "question": "Qu'est-ce qu'un système d'exploitation ? Donne des exemples.", "answer": "Le logiciel principal qui fait fonctionner l'ordinateur : Windows, macOS, Linux (Android, iOS sur téléphone)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un périphérique d'entrée ? de sortie ?", "answer": "Entrée : envoie des informations à l'ordinateur (clavier, souris, micro). Sortie : reçoit les informations (écran, imprimante, enceintes)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un octet, et que représentent Ko, Mo, Go ?", "answer": "L'octet est l'unité de mesure des données. 1 Ko ≈ 1 000 octets, 1 Mo ≈ 1 000 Ko, 1 Go ≈ 1 000 Mo." },
+        { "type": "classic", "question": "Pourquoi l'ordinateur utilise-t-il le système binaire ?", "answer": "Parce qu'il ne comprend que deux états : 0 et 1 (courant qui passe ou non). Tout y est codé en suites de 0 et de 1." },
+        { "type": "classic", "question": "Qu'est-ce qu'un bit ?", "answer": "La plus petite information en informatique : un 0 ou un 1. Huit bits forment un octet." },
+        { "type": "classic", "question": "Qu'est-ce qu'une carte graphique (GPU) ?", "answer": "Le composant chargé d'afficher l'image, utile surtout pour les jeux, la vidéo et le graphisme." }
+      ]
+    },
+    {
+      "name": "Informatique · Fichiers, dossiers et logiciels",
+      "description": "Organiser ses données et utiliser les logiciels du quotidien.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un fichier ?", "answer": "Un ensemble de données enregistré sous un nom (un texte, une photo, une musique, un programme…)." },
+        { "type": "classic", "question": "À quoi sert un dossier (répertoire) ?", "answer": "À ranger et organiser les fichiers, comme des classeurs. Un dossier peut contenir d'autres dossiers." },
+        { "type": "classic", "question": "Que signifie l'extension d'un fichier ? Donne des exemples.", "answer": "Ce qui suit le point dans le nom, qui indique le type : .txt (texte), .jpg (image), .mp3 (son), .pdf (document)." },
+        { "type": "classic", "question": "Quelle différence entre « Enregistrer » et « Enregistrer sous » ?", "answer": "« Enregistrer » écrase le fichier actuel ; « Enregistrer sous » crée une nouvelle copie sous un autre nom ou emplacement." },
+        { "type": "classic", "question": "Que sont copier-coller et couper-coller ?", "answer": "Copier-coller duplique un élément ; couper-coller le déplace (l'original disparaît de son emplacement de départ)." },
+        { "type": "classic", "question": "Quels sont les raccourcis clavier pour copier, coller et annuler ?", "answer": "Ctrl+C (copier), Ctrl+V (coller), Ctrl+Z (annuler). Sur Mac, on utilise Cmd à la place de Ctrl." },
+        { "type": "classic", "question": "Qu'est-ce qu'un logiciel de traitement de texte ? Donne un exemple.", "answer": "Un logiciel pour écrire et mettre en forme des documents : Word, LibreOffice Writer, Google Docs." },
+        { "type": "classic", "question": "Qu'est-ce qu'un tableur, et à quoi sert-il ?", "answer": "Un logiciel de tableaux et de calculs automatiques : Excel, LibreOffice Calc, Google Sheets." },
+        { "type": "classic", "question": "Pourquoi est-il important de faire des sauvegardes ?", "answer": "Pour ne pas perdre ses fichiers en cas de panne, de virus ou d'erreur : on garde une copie ailleurs (disque externe, cloud)." },
+        { "type": "classic", "question": "Qu'est-ce que le « cloud » (l'informatique en nuage) ?", "answer": "Le stockage de fichiers sur des serveurs distants, accessibles par Internet depuis n'importe quel appareil." }
+      ]
+    },
+    {
+      "name": "Informatique · Internet et le web",
+      "description": "Comprendre le réseau, naviguer et rester prudent en ligne.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'Internet ?", "answer": "Un réseau mondial qui relie des millions d'ordinateurs entre eux pour échanger des données." },
+        { "type": "classic", "question": "Quelle différence entre Internet et le Web ?", "answer": "Internet est le réseau (les « tuyaux ») ; le Web (les sites et pages) est l'un des services qui circulent dessus, avec l'e-mail, la messagerie…" },
+        { "type": "classic", "question": "Qu'est-ce qu'un navigateur ? Donne des exemples.", "answer": "Le logiciel pour consulter les sites web : Firefox, Chrome, Safari, Edge." },
+        { "type": "classic", "question": "Qu'est-ce qu'une URL ?", "answer": "L'adresse d'une page web (ex. : https://www.exemple.fr), qu'on tape dans la barre du navigateur." },
+        { "type": "classic", "question": "À quoi sert un moteur de recherche ? Donne un exemple.", "answer": "À trouver des pages web à partir de mots-clés : Google, Bing, Qwant, DuckDuckGo." },
+        { "type": "classic", "question": "Que signifie le cadenas (https) dans la barre d'adresse ?", "answer": "Que la connexion au site est chiffrée (sécurisée) : les données échangées sont protégées." },
+        { "type": "classic", "question": "Qu'est-ce qu'un mot de passe solide ?", "answer": "Un mot de passe long, mêlant majuscules, minuscules, chiffres et symboles, différent pour chaque site, et gardé secret." },
+        { "type": "classic", "question": "Qu'est-ce que l'hameçonnage (phishing) ?", "answer": "Une arnaque où un faux message imite un organisme de confiance pour voler tes identifiants ou ton argent. Il ne faut jamais cliquer sur les liens suspects." },
+        { "type": "classic", "question": "Qu'est-ce qu'un virus informatique ? Comment s'en protéger ?", "answer": "Un programme malveillant qui abîme l'ordinateur ou vole des données. On s'en protège avec un antivirus, des mises à jour et de la prudence." },
+        { "type": "classic", "question": "Pourquoi faut-il faire attention à ce qu'on publie en ligne ?", "answer": "Parce que tout peut être copié, partagé et rester longtemps : c'est l'empreinte numérique. On protège sa vie privée et celle des autres." },
+        { "type": "classic", "question": "Qu'est-ce qu'une information fiable sur Internet ?", "answer": "Une information vérifiée, provenant d'une source sérieuse et recoupée par d'autres sources (attention aux fausses nouvelles)." }
+      ]
+    },
+    {
+      "name": "Informatique · Débuter la programmation",
+      "description": "Premiers pas en algorithmique et logique de programmation.",
+      "cards": [
+        { "type": "classic", "question": "Qu'est-ce qu'un algorithme ?", "answer": "Une suite d'instructions précises et ordonnées pour résoudre un problème (comme une recette de cuisine)." },
+        { "type": "classic", "question": "Qu'est-ce qu'un programme informatique ?", "answer": "Un algorithme écrit dans un langage que l'ordinateur peut comprendre et exécuter." },
+        { "type": "classic", "question": "Cite deux langages de programmation.", "answer": "Python, Scratch, JavaScript, Java, C… (plusieurs réponses possibles). Scratch et Python sont parfaits pour débuter." },
+        { "type": "classic", "question": "Qu'est-ce qu'une variable ?", "answer": "Une « boîte » nommée qui garde une valeur en mémoire (un nombre, un texte) et qu'on peut modifier pendant le programme." },
+        { "type": "classic", "question": "Qu'est-ce qu'une boucle ?", "answer": "Une instruction qui répète des actions plusieurs fois, sans les réécrire (ex. : « répéter 10 fois »)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une condition (test) ?", "answer": "Une instruction qui exécute des actions seulement si quelque chose est vrai : « si… alors… sinon… »." },
+        { "type": "classic", "question": "Que fait l'instruction « si score > 10 alors afficher Gagné » ?", "answer": "Elle affiche « Gagné » uniquement lorsque la variable score est supérieure à 10." },
+        { "type": "classic", "question": "Qu'est-ce qu'un bug ?", "answer": "Une erreur dans un programme qui l'empêche de fonctionner correctement. Le corriger s'appelle « déboguer » (debug)." },
+        { "type": "classic", "question": "Qu'est-ce qu'une fonction en programmation ?", "answer": "Un bloc d'instructions réutilisable, auquel on donne un nom, pour l'appeler quand on en a besoin sans le réécrire." },
+        { "type": "classic", "question": "Pourquoi l'ordre des instructions est-il important dans un programme ?", "answer": "Parce que l'ordinateur exécute les instructions dans l'ordre, une par une : inverser deux étapes peut tout changer." },
+        { "type": "classic", "question": "Qu'est-ce qu'un robot suit pour se déplacer ?", "answer": "Un programme : une suite d'instructions (avancer, tourner, s'arrêter) qu'on lui a données à l'avance." }
+      ]
+    }
+  ]
+}
