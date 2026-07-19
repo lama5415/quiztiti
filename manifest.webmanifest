@@ -1,0 +1,16 @@
+{
+  "name": "QuizTiti",
+  "short_name": "QuizTiti",
+  "description": "Fiches et énigmes pour apprendre, avec révision espacée (Leitner).",
+  "lang": "fr",
+  "start_url": ".",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

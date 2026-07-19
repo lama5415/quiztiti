@@ -126,6 +126,142 @@
     return n + " " + word + (n > 1 ? "s" : "");
   }
 
+  /* ---------------- Révision espacée (Leitner) ---------------- */
+
+  // Intervalle (en jours) associé à chaque boîte : une fiche réussie monte de
+  // boîte et réapparaît de moins en moins souvent ; une fiche ratée revient vite.
+  var LEITNER_DAYS = { 1: 1, 2: 2, 3: 4, 4: 8, 5: 16 };
+  var LEITNER_MAX_BOX = 5;
+
+  function dateStr(d) {
+    var m = String(d.getMonth() + 1), day = String(d.getDate());
+    return d.getFullYear() + "-" + (m.length < 2 ? "0" + m : m) + "-" + (day.length < 2 ? "0" + day : day);
+  }
+
+  function todayStr() {
+    var d = new Date(); d.setHours(0, 0, 0, 0);
+    return dateStr(d);
+  }
+
+  function addDays(str, n) {
+    var p = str.split("-");
+    var d = new Date(+p[0], +p[1] - 1, +p[2]);
+    d.setDate(d.getDate() + n);
+    return dateStr(d);
+  }
+
+  function daysBetween(fromStr, toStr) {
+    var a = fromStr.split("-"), b = toStr.split("-");
+    var da = new Date(+a[0], +a[1] - 1, +a[2]), db = new Date(+b[0], +b[1] - 1, +b[2]);
+    return Math.round((db - da) / 86400000);
+  }
+
+  function isLeitner(deck) {
+    return !!deck && deck.srsMode === "leitner";
+  }
+
+  // Dote chaque fiche classique d'un état Leitner (boîte 1, à réviser aujourd'hui).
+  function ensureSrs(deck) {
+    var today = todayStr();
+    deck.cards.forEach(function (c) {
+      if (c.type === "classic" && !c.srs) c.srs = { box: 1, due: today };
+    });
+  }
+
+  function dueCards(deck) {
+    if (!isLeitner(deck)) return [];
+    ensureSrs(deck);
+    var today = todayStr();
+    return deck.cards.filter(function (c) {
+      return c.type === "classic" && c.srs && c.srs.due <= today;
+    });
+  }
+
+  function dueCount(deck) {
+    return dueCards(deck).length;
+  }
+
+  function totalDue() {
+    return decks.reduce(function (n, d) { return n + (isLeitner(d) ? dueCount(d) : 0); }, 0);
+  }
+
+  // Applique le résultat d'une révision : réussite → boîte suivante ; échec → boîte 1.
+  function applyLeitner(card, known) {
+    if (!card.srs) card.srs = { box: 1, due: todayStr() };
+    card.srs.box = known ? Math.min(card.srs.box + 1, LEITNER_MAX_BOX) : 1;
+    card.srs.due = addDays(todayStr(), LEITNER_DAYS[card.srs.box]);
+  }
+
+  function boxDistribution(deck) {
+    var dist = [0, 0, 0, 0, 0]; // boîtes 1 à 5
+    deck.cards.forEach(function (c) {
+      if (c.type === "classic" && c.srs) dist[c.srs.box - 1]++;
+    });
+    return dist;
+  }
+
+  // Date d'échéance la plus proche parmi les fiches non encore dues (pour l'accueil).
+  function nextDueStr(deck) {
+    var today = todayStr(), best = null;
+    deck.cards.forEach(function (c) {
+      if (c.type === "classic" && c.srs && c.srs.due > today) {
+        if (!best || c.srs.due < best) best = c.srs.due;
+      }
+    });
+    return best;
+  }
+
+  function humanDelay(fromStr, toStr) {
+    var n = daysBetween(fromStr, toStr);
+    if (n <= 0) return "aujourd'hui";
+    if (n === 1) return "demain";
+    return "dans " + n + " jours";
+  }
+
+  /* ---------------- Rappels (notifications locales) ---------------- */
+
+  var REMINDER_KEY = "quiztiti.reminders";
+
+  function remindersOn() {
+    return localStorage.getItem(REMINDER_KEY) === "1" &&
+      ("Notification" in window) && Notification.permission === "granted";
+  }
+
+  function enableReminders() {
+    if (!("Notification" in window)) { toast("Ce navigateur ne gère pas les notifications."); return; }
+    Notification.requestPermission().then(function (p) {
+      if (p === "granted") {
+        localStorage.setItem(REMINDER_KEY, "1");
+        toast("Rappels activés 🔔");
+        maybeNotifyDue();
+      } else {
+        toast("Les rappels ont été refusés.");
+      }
+      if (view === "home") renderHome();
+    });
+  }
+
+  function disableReminders() {
+    localStorage.removeItem(REMINDER_KEY);
+    toast("Rappels désactivés.");
+    if (view === "home") renderHome();
+  }
+
+  // Notifie le nombre de fiches à réviser — au lancement de l'app si des rappels
+  // sont activés. (Le web statique ne permet pas de notifier appli fermée ;
+  // c'est un rappel « à l'ouverture », fiable partout, iPhone compris en mode PWA.)
+  function maybeNotifyDue() {
+    if (!remindersOn()) return;
+    var total = totalDue();
+    if (total <= 0) return;
+    try {
+      new Notification("QuizTiti 🦉", {
+        body: total + " fiche" + (total > 1 ? "s" : "") + " à réviser aujourd'hui !",
+        icon: "img/icon-192.png"
+      });
+    } catch (e) { /* ignore */ }
+  }
+
   /* ---------------- Export / Import ---------------- */
 
   function downloadJson(filename, data) {
@@ -230,7 +366,13 @@
       } else {
         if (typeof c.question === "string" && c.question.trim() &&
             typeof c.answer === "string" && c.answer.trim()) {
-          clean.push({ id: uid(), type: "classic", question: c.question.trim(), answer: c.answer.trim() });
+          var card = { id: uid(), type: "classic", question: c.question.trim(), answer: c.answer.trim() };
+          // Conserve la progression Leitner si le fichier importé en contient.
+          if (c.srs && typeof c.srs === "object" &&
+              typeof c.srs.box === "number" && typeof c.srs.due === "string") {
+            card.srs = { box: Math.min(Math.max(Math.round(c.srs.box), 1), LEITNER_MAX_BOX), due: c.srs.due };
+          }
+          clean.push(card);
         }
       }
     });
@@ -238,6 +380,7 @@
       id: uid(),
       name: raw.name.trim() || "Paquet importé",
       description: typeof raw.description === "string" ? raw.description.trim() : "",
+      srsMode: raw.srsMode === "leitner" ? "leitner" : "none",
       cards: clean
     };
   }
@@ -255,6 +398,22 @@
       '<button class="btn" onclick="App.exportAll()">📤 Tout exporter</button>' +
       '</div></div>';
 
+    // Bannière de révision : nombre total de fiches dues + gestion des rappels.
+    var total = totalDue();
+    var hasLeitner = decks.some(isLeitner);
+    if (hasLeitner || total > 0) {
+      html += '<div class="banner">' +
+        '<div class="banner-text">' +
+        (total > 0
+          ? '📌 <strong>' + plural(total, "fiche") + '</strong> à réviser aujourd\'hui.'
+          : '✅ Tout est à jour : rien à réviser aujourd\'hui, bravo !') +
+        '</div><div class="row">' +
+        (remindersOn()
+          ? '<button class="btn small ghost" onclick="App.disableReminders()">🔕 Rappels activés</button>'
+          : '<button class="btn small" onclick="App.enableReminders()">🔔 Activer les rappels</button>') +
+        '</div></div>';
+    }
+
     if (!decks.length) {
       html += '<div class="empty"><div class="big">🦉</div>' +
         '<p>Aucun paquet pour le moment.<br>Créez-en un ou importez un fichier JSON.</p></div>';
@@ -263,6 +422,7 @@
       decks.forEach(function (d) {
         var nClassic = cardsOfType(d, "classic").length;
         var nRiddle = cardsOfType(d, "riddle").length;
+        var due = isLeitner(d) ? dueCount(d) : 0;
         html += '<div class="deck-card" onclick="App.openDeck(\'' + d.id + '\')">' +
           '<h3>' + esc(d.name) + '</h3>' +
           '<p class="desc">' + esc(d.description) + '</p>' +
@@ -270,6 +430,12 @@
           (nClassic ? '<span class="badge classic">' + plural(nClassic, "fiche") + '</span>' : '') +
           (nRiddle ? '<span class="badge riddle">' + plural(nRiddle, "énigme") + '</span>' : '') +
           (!d.cards.length ? '<span class="badge classic">vide</span>' : '') +
+          (isLeitner(d)
+            ? (due > 0
+                ? '<span class="badge due">' + due + ' à réviser</span>'
+                : (nClassic ? '<span class="badge ok">à jour ✓</span>' : '')) +
+              '<span class="badge leitner">Leitner</span>'
+            : '') +
           '</div></div>';
       });
       html += '</div>';
@@ -309,6 +475,7 @@
   function renderDeckForm(deckId) {
     view = "deck-form";
     var deck = deckId ? findDeck(deckId) : null;
+    var mode = deck && deck.srsMode === "leitner" ? "leitner" : "none";
     appEl.innerHTML =
       '<h1>' + (deck ? "Modifier le paquet" : "Nouveau paquet") + '</h1>' +
       '<div class="card mt">' +
@@ -316,6 +483,12 @@
       '<input type="text" id="deck-name" value="' + esc(deck ? deck.name : "") + '" placeholder="Ex. : Histoire de France">' +
       '<label for="deck-desc">Description (facultatif)</label>' +
       '<input type="text" id="deck-desc" value="' + esc(deck ? deck.description : "") + '" placeholder="Ex. : Dates et personnages clés">' +
+      '<label for="deck-srs">Mode de révision</label>' +
+      '<select id="deck-srs">' +
+      '<option value="none"' + (mode === "none" ? " selected" : "") + '>Révision libre (pas d\'espacement)</option>' +
+      '<option value="leitner"' + (mode === "leitner" ? " selected" : "") + '>Révision espacée — méthode de Leitner</option>' +
+      '</select>' +
+      '<p class="hint">En mode Leitner, une fiche réussie réapparaît de plus en plus tard (1, 2, 4, 8 puis 16 jours) ; une fiche ratée revient dès le lendemain. L\'accueil indique alors les fiches « à réviser ».</p>' +
       '<div class="row mt">' +
       '<button class="btn primary" onclick="App.saveDeck(' + (deck ? "'" + deck.id + "'" : "null") + ')">💾 Enregistrer</button>' +
       '<button class="btn ghost" onclick="' + (deck ? "App.openDeck('" + deck.id + "')" : "App.goHome()") + '">Annuler</button>' +
@@ -326,15 +499,18 @@
   function saveDeck(deckId) {
     var name = document.getElementById("deck-name").value.trim();
     var desc = document.getElementById("deck-desc").value.trim();
+    var mode = document.getElementById("deck-srs").value === "leitner" ? "leitner" : "none";
     if (!name) { toast("Donnez un nom au paquet."); return; }
     if (deckId) {
       var deck = findDeck(deckId);
       deck.name = name;
       deck.description = desc;
+      deck.srsMode = mode;
+      if (mode === "leitner") ensureSrs(deck);
       save();
       renderDeck(deckId);
     } else {
-      var d = { id: uid(), name: name, description: desc, cards: [] };
+      var d = { id: uid(), name: name, description: desc, srsMode: mode, cards: [] };
       decks.push(d);
       save();
       renderDeck(d.id);
@@ -362,22 +538,49 @@
     var classics = cardsOfType(deck, "classic");
     var riddles = cardsOfType(deck, "riddle");
 
+    var leitner = isLeitner(deck);
+    var due = leitner ? dueCount(deck) : 0;
+
     var html =
       '<button class="btn ghost small" onclick="App.goHome()">← Mes paquets</button>' +
       '<div class="row spread mt">' +
       '<div><h1>' + esc(deck.name) + '</h1>' +
       (deck.description ? '<p class="subtitle">' + esc(deck.description) + '</p>' : '') + '</div>' +
       '<div class="row">' +
-      '<button class="btn small" onclick="App.editDeck(\'' + deck.id + '\')">✏️ Renommer</button>' +
+      '<button class="btn small" onclick="App.editDeck(\'' + deck.id + '\')">✏️ Modifier</button>' +
       '<button class="btn small" onclick="App.exportDeck(\'' + deck.id + '\')">📤 Exporter</button>' +
       '<button class="btn small danger" onclick="App.deleteDeck(\'' + deck.id + '\')">🗑️ Supprimer</button>' +
-      '</div></div>' +
+      '</div></div>';
 
-      '<div class="row mt">' +
-      '<button class="btn primary" onclick="App.startStudy(\'' + deck.id + '\')"' + (classics.length ? "" : " disabled") + '>🎓 Réviser (' + classics.length + ')</button>' +
-      '<button class="btn primary" onclick="App.startRiddles(\'' + deck.id + '\')"' + (riddles.length ? "" : " disabled") + '>🕵️ Énigmes (' + riddles.length + ')</button>' +
+    // Boutons de révision, adaptés au mode du paquet.
+    html += '<div class="row mt">';
+    if (leitner) {
+      html += '<button class="btn primary" onclick="App.startStudy(\'' + deck.id + '\')"' + (due ? "" : " disabled") + '>🎓 Réviser (' + due + ' due' + (due > 1 ? "s" : "") + ')</button>';
+      if (classics.length) {
+        html += '<button class="btn" onclick="App.studyAhead(\'' + deck.id + '\')">⏩ Réviser en avance</button>';
+      }
+    } else {
+      html += '<button class="btn primary" onclick="App.startStudy(\'' + deck.id + '\')"' + (classics.length ? "" : " disabled") + '>🎓 Réviser (' + classics.length + ')</button>';
+    }
+    html += '<button class="btn primary" onclick="App.startRiddles(\'' + deck.id + '\')"' + (riddles.length ? "" : " disabled") + '>🕵️ Énigmes (' + riddles.length + ')</button>' +
       '<button class="btn success" onclick="App.newCard(\'' + deck.id + '\')">➕ Ajouter une fiche</button>' +
       '</div>';
+
+    // Récapitulatif Leitner : répartition des fiches dans les boîtes.
+    if (leitner && classics.length) {
+      var dist = boxDistribution(deck);
+      var next = nextDueStr(deck);
+      html += '<div class="card mt srs-panel">' +
+        '<div class="row spread"><strong>📦 Révision espacée (Leitner)</strong>' +
+        (due ? '<span class="badge due">' + due + ' à réviser</span>'
+             : '<span class="badge ok">à jour ✓' + (next ? ' — prochaine ' + humanDelay(todayStr(), next) : '') + '</span>') +
+        '</div><div class="boxes">';
+      for (var b = 0; b < 5; b++) {
+        html += '<div class="box"><span class="box-num">Boîte ' + (b + 1) + '</span>' +
+          '<span class="box-count">' + dist[b] + '</span></div>';
+      }
+      html += '</div><p class="hint">Boîte 1 = à revoir souvent · Boîte 5 = bien mémorisée (revue tous les 16 jours).</p></div>';
+    }
 
     if (!deck.cards.length) {
       html += '<div class="empty"><div class="big">📝</div><p>Ce paquet est vide. Ajoutez votre première fiche !</p></div>';
@@ -505,19 +708,42 @@
 
   /* ---------------- Mode révision (fiches classiques) ---------------- */
 
-  function startStudy(deckId, onlyCards) {
+  // Démarre une session : en mode Leitner, on ne révise que les fiches dues ;
+  // en mode libre, toutes les fiches classiques.
+  function startStudy(deckId) {
     var deck = findDeck(deckId);
     if (!deck) return;
-    var pool = onlyCards || cardsOfType(deck, "classic");
+    if (isLeitner(deck)) {
+      var due = dueCards(deck);
+      if (!due.length) { toast("Aucune fiche à réviser aujourd'hui 🎉"); renderDeck(deckId); return; }
+      beginStudy(deck, shuffle(due), true);
+    } else {
+      var pool = cardsOfType(deck, "classic");
+      if (!pool.length) return;
+      beginStudy(deck, shuffle(pool), false);
+    }
+  }
+
+  // Mode Leitner : réviser toutes les fiches maintenant, même celles pas encore dues.
+  function studyAhead(deckId) {
+    var deck = findDeck(deckId);
+    if (!deck || !isLeitner(deck)) return;
+    var pool = cardsOfType(deck, "classic");
     if (!pool.length) return;
+    ensureSrs(deck);
+    beginStudy(deck, shuffle(pool), true);
+  }
+
+  function beginStudy(deck, cards, srs) {
     session = {
       mode: "study",
-      deckId: deckId,
-      cards: shuffle(pool),
+      deckId: deck.id,
+      cards: cards,
       index: 0,
       revealed: false,
       known: [],
-      unknown: []
+      unknown: [],
+      srs: srs // met à jour les boîtes Leitner lors de la notation
     };
     renderStudy();
   }
@@ -529,11 +755,12 @@
     if (s.index >= s.cards.length) { renderStudySummary(); return; }
     var card = s.cards[s.index];
     var pct = Math.round((s.index / s.cards.length) * 100);
+    var boxTag = (s.srs && card.srs) ? '<span class="counter"> · boîte ' + card.srs.box + '/5</span>' : '';
 
     appEl.innerHTML =
       '<div class="row spread">' +
       '<button class="btn ghost small" onclick="App.openDeck(\'' + deck.id + '\')">✕ Quitter</button>' +
-      '<span class="counter">Fiche ' + (s.index + 1) + ' / ' + s.cards.length + '</span></div>' +
+      '<span class="counter">Fiche ' + (s.index + 1) + ' / ' + s.cards.length + boxTag + '</span></div>' +
       '<div class="progress-track"><div class="progress-fill" style="width:' + pct + '%"></div></div>' +
       '<div class="study-card">' +
       '<div class="question">' + esc(card.question) + '</div>' +
@@ -555,7 +782,12 @@
 
   function gradeCard(known) {
     var s = session;
-    (known ? s.known : s.unknown).push(s.cards[s.index]);
+    var card = s.cards[s.index];
+    (known ? s.known : s.unknown).push(card);
+    if (s.srs && card.type === "classic") {
+      applyLeitner(card, known);
+      save();
+    }
     s.index++;
     s.revealed = false;
     renderStudy();
@@ -572,12 +804,24 @@
       '<div class="card" style="text-align:center">' +
       '<h1>' + emoji + ' Session terminée !</h1>' +
       '<div class="score-big">' + s.known.length + ' / ' + total + '</div>' +
-      '<p class="subtitle">' + pct + ' % de bonnes réponses</p>' +
-      '<div class="study-actions">' +
+      '<p class="subtitle">' + pct + ' % de bonnes réponses</p>';
+
+    // Message Leitner : quand revoir ces fiches.
+    if (s.srs) {
+      var next = nextDueStr(deck);
+      var remaining = dueCount(deck);
+      html += '<p class="subtitle">' +
+        (remaining > 0
+          ? 'Encore ' + plural(remaining, "fiche") + ' à réviser aujourd\'hui.'
+          : (next ? 'Prochaine révision de ce paquet ' + humanDelay(todayStr(), next) + '.' : 'Paquet terminé pour aujourd\'hui !')) +
+        '</p>';
+    }
+
+    html += '<div class="study-actions">' +
       (s.unknown.length
-        ? '<button class="btn primary" onclick="App.retryUnknown()">🔁 Revoir les ' + plural(s.unknown.length, "fiche ratée").replace("fiche ratées", "fiches ratées") + '</button>'
+        ? '<button class="btn primary" onclick="App.retryUnknown()">🔁 Revoir les ' + s.unknown.length + ' ratée' + (s.unknown.length > 1 ? "s" : "") + '</button>'
         : '') +
-      '<button class="btn" onclick="App.restartStudy()">Recommencer tout</button>' +
+      '<button class="btn" onclick="App.restartStudy()">🔀 Révision libre</button>' +
       '<button class="btn ghost" onclick="App.openDeck(\'' + deck.id + '\')">Retour au paquet</button>' +
       '</div></div>';
 
@@ -592,12 +836,18 @@
     window.scrollTo(0, 0);
   }
 
+  // Rejouer les fiches ratées, sans toucher aux boîtes Leitner (pur entraînement).
   function retryUnknown() {
-    startStudy(session.deckId, session.unknown);
+    var deck = findDeck(session.deckId);
+    beginStudy(deck, shuffle(session.unknown.slice()), false);
   }
 
+  // Révision libre de toutes les fiches, sans mise à jour des boîtes.
   function restartStudy() {
-    startStudy(session.deckId);
+    var deck = findDeck(session.deckId);
+    var pool = cardsOfType(deck, "classic");
+    if (!pool.length) { renderDeck(deck.id); return; }
+    beginStudy(deck, shuffle(pool), false);
   }
 
   /* ---------------- Mode énigmes ---------------- */
@@ -787,6 +1037,7 @@
     askImport: askImport,
     importExample: importExample,
     startStudy: function (deckId) { startStudy(deckId); },
+    studyAhead: studyAhead,
     revealAnswer: revealAnswer,
     gradeCard: gradeCard,
     retryUnknown: retryUnknown,
@@ -795,10 +1046,22 @@
     submitGuess: submitGuess,
     nextClue: nextClue,
     giveUp: giveUp,
-    nextRiddle: nextRiddle
+    nextRiddle: nextRiddle,
+    enableReminders: enableReminders,
+    disableReminders: disableReminders
   };
 
   renderHome();
+
+  // Rappel « à l'ouverture » : notifie les fiches dues si les rappels sont activés.
+  maybeNotifyDue();
+
+  // Enregistre le service worker (PWA : installable + fonctionne hors-ligne).
+  if ("serviceWorker" in navigator && location.protocol !== "file:") {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("sw.js").catch(function () { /* pas grave */ });
+    });
+  }
 
   // Charge la liste des paquets d'exemple embarqués avec le site.
   // Nécessite un serveur HTTP (GitHub Pages, python -m http.server…) ;
